@@ -1,0 +1,355 @@
+﻿video_id,start,duration,text
+dDkynerzV-Q,0.0,4.4,In almost all Gen AI engineer job
+dDkynerzV-Q,2.4,4.4,"postings, you will find one common"
+dDkynerzV-Q,4.4,4.68,"skill, retrieval augmented generation,"
+dDkynerzV-Q,6.8,4.44,also known as rag. In my company at
+dDkynerzV-Q,9.08,5.36,"Lake, when we build AI projects for our"
+dDkynerzV-Q,11.24,5.24,"clients, more than 40% of these projects"
+dDkynerzV-Q,14.44,3.96,"have rag component in it. So, what"
+dDkynerzV-Q,16.48,4.12,exactly is rag? What are different
+dDkynerzV-Q,18.4,4.52,types? Is naive rag dead due to
+dDkynerzV-Q,20.6,4.84,vectorless rag? We are going to cover
+dDkynerzV-Q,22.92,4.72,all these rag basics in a very simple
+dDkynerzV-Q,25.44,4.84,and intuitive language. We will not just
+dDkynerzV-Q,27.64,5.24,talk theory. I will show you a rag
+dDkynerzV-Q,30.28,5.44,project which is a customer care chatbot
+dDkynerzV-Q,32.88,5.68,"in telecom domain. In the end, I will"
+dDkynerzV-Q,35.72,4.96,share some useful resources including
+dDkynerzV-Q,38.56,4.2,"rag interview questions. All right,"
+dDkynerzV-Q,40.68,4.12,let's get started. Let's understand rag
+dDkynerzV-Q,42.76,4.56,using a simple example. When you ask
+dDkynerzV-Q,44.8,4.84,ChatGPT a policy question for some
+dDkynerzV-Q,47.32,5.8,"private company, it won't be able to"
+dDkynerzV-Q,49.64,5.52,answer it because ChatGPT is trained on
+dDkynerzV-Q,53.12,5.52,general internet knowledge. It doesn't
+dDkynerzV-Q,55.16,7.0,know the HR policy details of any
+dDkynerzV-Q,58.64,5.919,"private company. But, if you give HR"
+dDkynerzV-Q,62.16,5.76,"policy document to this LLM, which acts"
+dDkynerzV-Q,64.559,5.361,"like a brain, it should be able to read"
+dDkynerzV-Q,67.92,5.2,a relevant section and provide you with
+dDkynerzV-Q,69.92,5.36,the answer. This is similar to having a
+dDkynerzV-Q,73.12,4.28,"very smart student Mira, who is a"
+dDkynerzV-Q,75.28,4.8,"computer science student, and you are"
+dDkynerzV-Q,77.4,5.16,asking her to appear in a microbiology
+dDkynerzV-Q,80.08,4.48,"exam, which is an open book exam. Now,"
+dDkynerzV-Q,82.56,4.04,Mira is generally good in terms of
+dDkynerzV-Q,84.56,4.32,"reading, writing, comprehension,"
+dDkynerzV-Q,86.6,4.28,"understanding, etc., but she doesn't"
+dDkynerzV-Q,88.88,4.84,"know anything about microbiology. But,"
+dDkynerzV-Q,90.88,4.8,"in this exam, she has been given a book"
+dDkynerzV-Q,93.72,4.0,on microbiology from which they are
+dDkynerzV-Q,95.68,4.4,"going to ask the questions. Now, Mira"
+dDkynerzV-Q,97.72,5.16,"can use her reading, writing,"
+dDkynerzV-Q,100.08,5.12,comprehension skills to uh look at the
+dDkynerzV-Q,102.88,5.4,book and she can write answers in the
+dDkynerzV-Q,105.2,4.64,"exam. So, here Mira's brain is like LLM,"
+dDkynerzV-Q,108.28,4.24,which has a good understanding of
+dDkynerzV-Q,109.84,4.68,"language, it has reasoning capabilities,"
+dDkynerzV-Q,112.52,4.0,and the book is like an HR policy
+dDkynerzV-Q,114.52,5.08,document. It is an external knowledge
+dDkynerzV-Q,116.52,5.08,where LLM can look into it and pull the
+dDkynerzV-Q,119.6,4.64,answers. Let's now understand the
+dDkynerzV-Q,121.6,5.32,two-step process of how rag works
+dDkynerzV-Q,124.24,4.6,"underneath. So, here I have HR policy"
+dDkynerzV-Q,126.92,5.44,"document from Atliq, which will have a"
+dDkynerzV-Q,128.84,6.08,"section on retirement benefits, okay?"
+dDkynerzV-Q,132.36,4.96,"So, now if I go to ChatGPT, and if I"
+dDkynerzV-Q,134.92,5.28,"copy this particular section, okay, and"
+dDkynerzV-Q,137.32,5.28,I ask my question related to
+dDkynerzV-Q,140.2,5.68,contribution to employees retirement
+dDkynerzV-Q,142.6,5.32,"fund, in that case, ChatGPT will be able"
+dDkynerzV-Q,145.88,5.12,to answer that question. Because here
+dDkynerzV-Q,147.92,5.68,you are asking question and providing uh
+dDkynerzV-Q,151.0,5.12,"knowledge as a reference in the context,"
+dDkynerzV-Q,153.6,5.16,"and it can pull the answer. But, what if"
+dDkynerzV-Q,156.12,5.32,"your HR policy document is 3,000 page"
+dDkynerzV-Q,158.76,5.44,"PDF, okay? What if that knowledge is"
+dDkynerzV-Q,161.44,5.48,very big? What's going to happen in that
+dDkynerzV-Q,164.2,4.6,case is you will run out of your context
+dDkynerzV-Q,166.92,3.8,window limit. And even if you have a
+dDkynerzV-Q,168.8,5.0,"huge context window,"
+dDkynerzV-Q,170.72,5.28,uh you should still not feed the entire
+dDkynerzV-Q,173.8,4.24,knowledge because it will be too many
+dDkynerzV-Q,176.0,5.24,"tokens, it will be costly. So, what"
+dDkynerzV-Q,178.04,4.8,people do is they will chunk this
+dDkynerzV-Q,181.24,4.84,"document. So, they will create, let's"
+dDkynerzV-Q,182.84,6.6,"say, basic strategy is fixed-size"
+dDkynerzV-Q,186.08,5.8,"chunks. And then, for a given question,"
+dDkynerzV-Q,189.44,4.52,"you can pull the relevant chunks. So,"
+dDkynerzV-Q,191.88,5.24,"for this particular question, let's say"
+dDkynerzV-Q,193.96,5.04,my first chunk is 70% uh probability
+dDkynerzV-Q,197.12,4.04,that it will it will contain the answer.
+dDkynerzV-Q,199.0,3.44,Second chunk is 60% match. And you can
+dDkynerzV-Q,201.16,3.76,"have, by the way, I'm showing just"
+dDkynerzV-Q,202.44,5.2,"three, but you can have 1,000 chunks,"
+dDkynerzV-Q,204.92,5.44,and some of the chunks might have 5% or
+dDkynerzV-Q,207.64,5.96,even 10% possibility that it may contain
+dDkynerzV-Q,210.36,6.12,the answer. Let's say the chunk contains
+dDkynerzV-Q,213.6,5.72,uh information on uh when Atliq was
+dDkynerzV-Q,216.48,4.92,"founded, culture, founders, etc., then"
+dDkynerzV-Q,219.32,3.96,that doesn't has anything to do with the
+dDkynerzV-Q,221.4,4.88,"retirement question that you are asking,"
+dDkynerzV-Q,223.28,5.6,"okay? So, the the relevance of that"
+dDkynerzV-Q,226.28,4.44,"chunk will be very, very low. Now, how"
+dDkynerzV-Q,228.88,4.84,do you exactly find this kind of
+dDkynerzV-Q,230.72,4.92,"similarity? So, there is this concept of"
+dDkynerzV-Q,233.72,6.0,"embeddings, okay? So, embedding is a"
+dDkynerzV-Q,235.64,6.88,process of converting text into a vector
+dDkynerzV-Q,239.72,4.44,"such that it can represent its meaning,"
+dDkynerzV-Q,242.52,5.52,"okay? So, all the chunks, you will"
+dDkynerzV-Q,244.16,6.16,"convert them into vector embeddings, and"
+dDkynerzV-Q,248.04,4.28,then you will store them into a vector
+dDkynerzV-Q,250.32,4.76,database. This is different than your
+dDkynerzV-Q,252.32,5.56,regular database. Your regular database
+dDkynerzV-Q,255.08,4.96,"can search using exact values, whereas"
+dDkynerzV-Q,257.88,4.96,vector database will be able to search
+dDkynerzV-Q,260.04,5.8,"using the meaning. So, when you search"
+dDkynerzV-Q,262.84,6.36,"for, let's say, uh a company that is a"
+dDkynerzV-Q,265.84,5.96,"leader in electric vehicle, it will"
+dDkynerzV-Q,269.2,4.64,"return Tesla uh from the database. So,"
+dDkynerzV-Q,271.8,4.48,"it is searching based on the meaning,"
+dDkynerzV-Q,273.84,4.44,not based on the exact word. To generate
+dDkynerzV-Q,276.28,4.0,"embedding, you can use variety of"
+dDkynerzV-Q,278.28,4.44,"models, sentence transformer, text"
+dDkynerzV-Q,280.28,4.4,"embedding three small, and so on. And"
+dDkynerzV-Q,282.72,3.48,there are many vector database choices
+dDkynerzV-Q,284.68,4.08,"that you have in market, Milvus,"
+dDkynerzV-Q,286.2,4.96,"Quadrant, Chroma DB, and so on. This"
+dDkynerzV-Q,288.76,6.0,step is called indexing. This is the
+dDkynerzV-Q,291.16,6.16,"first step in rag process, where you are"
+dDkynerzV-Q,294.76,4.96,indexing all these vectors of chunks
+dDkynerzV-Q,297.32,4.32,into a vector database. The second step
+dDkynerzV-Q,299.72,4.08,"is retrieval, where for a given"
+dDkynerzV-Q,301.64,4.24,"question, you will generate embedding"
+dDkynerzV-Q,303.8,4.64,"using the same embedding model. Then,"
+dDkynerzV-Q,305.88,5.0,you will try to find the relevant chunks
+dDkynerzV-Q,308.44,5.28,"in a vector database. So, here it is"
+dDkynerzV-Q,310.88,5.12,"doing the semantic search, giving you a"
+dDkynerzV-Q,313.72,4.68,relevant vectors. You can specify top K
+dDkynerzV-Q,316.0,4.56,"factor, let's say I need two chunks or"
+dDkynerzV-Q,318.4,4.28,"five chunks, and so on. And then, you"
+dDkynerzV-Q,320.56,5.2,will generate the
+dDkynerzV-Q,322.68,5.44,"actual text out of those chunks, and you"
+dDkynerzV-Q,325.76,4.28,will put it in your prompt along with
+dDkynerzV-Q,328.12,4.0,the question. And when the question is
+dDkynerzV-Q,330.04,5.08,"given to LLM, it will give you the"
+dDkynerzV-Q,332.12,5.16,"answer. So, here uh below the question,"
+dDkynerzV-Q,335.12,4.76,what you are doing is you are providing
+dDkynerzV-Q,337.28,5.32,"only the relevant chunks. So, this way"
+dDkynerzV-Q,339.88,5.48,"LLM will not hallucinate, and it will"
+dDkynerzV-Q,342.6,4.96,give you accurate answer. That takes us
+dDkynerzV-Q,345.36,5.4,"into our next segment, which is the two"
+dDkynerzV-Q,347.56,6.4,major benefits of rag. The first one is
+dDkynerzV-Q,350.76,5.44,the answers that you get will be highly
+dDkynerzV-Q,353.96,5.16,"accurate, and the chances of"
+dDkynerzV-Q,356.2,5.4,hallucination will reduce because you
+dDkynerzV-Q,359.12,4.64,are grounding your responses in the
+dDkynerzV-Q,361.6,4.2,"knowledge, in the source of truth."
+dDkynerzV-Q,363.76,4.16,"Second, it is very cost-effective"
+dDkynerzV-Q,365.8,4.48,"because if you pass the entire context,"
+dDkynerzV-Q,367.92,5.24,then you are sending too many tokens to
+dDkynerzV-Q,370.28,5.28,"LLM, and these LLM APIs, they charge you"
+dDkynerzV-Q,373.16,4.72,"per token. So, if you send less number"
+dDkynerzV-Q,375.56,4.4,"of tokens, only the relevant knowledge,"
+dDkynerzV-Q,377.88,4.32,then you will save money on your API
+dDkynerzV-Q,379.96,4.52,bill. Here is a hands-on customer care
+dDkynerzV-Q,382.2,4.2,assistant rag project. I have given the
+dDkynerzV-Q,384.48,3.2,code in the video description below. You
+dDkynerzV-Q,386.4,4.24,"can ask different questions, for"
+dDkynerzV-Q,387.68,5.88,"example, why is my mobile internet slow?"
+dDkynerzV-Q,390.64,5.08,And it will find the answer based on the
+dDkynerzV-Q,393.56,3.44,"knowledge that it has. So, the knowledge"
+dDkynerzV-Q,395.72,3.92,is stored in terms of the
+dDkynerzV-Q,397.0,5.04,"troubleshooting PDF file. So, here is"
+dDkynerzV-Q,399.64,4.96,"the PDF file, and let's say you have"
+dDkynerzV-Q,402.04,5.88,this question on how do you want to
+dDkynerzV-Q,404.6,6.36,"enable the LTE, then it is pulling that"
+dDkynerzV-Q,407.92,5.76,answer from this particular PDF file.
+dDkynerzV-Q,410.96,5.08,The other source is the CSV file
+dDkynerzV-Q,413.68,5.36,containing all the FAQs. And the third
+dDkynerzV-Q,416.04,5.08,source is a SQLite database containing
+dDkynerzV-Q,419.04,4.64,all the past ticket. Here we are using
+dDkynerzV-Q,421.12,6.28,"Chroma DB as vector database. So, we are"
+dDkynerzV-Q,423.68,6.32,"ingesting FAQs, then PDF, and tickets"
+dDkynerzV-Q,427.4,5.04,"into Chroma DB, okay? So, these are the"
+dDkynerzV-Q,430.0,4.52,three files which is ingesting into a
+dDkynerzV-Q,432.44,4.92,vector database. If you look at ingest
+dDkynerzV-Q,434.52,5.4,"PDF, here we are using the chunk size of"
+dDkynerzV-Q,437.36,4.92,"600, overlap of 100. We are using the"
+dDkynerzV-Q,439.92,4.28,recursive character text splitter
+dDkynerzV-Q,442.28,4.4,"strategy. And for embedding, we are"
+dDkynerzV-Q,444.2,4.36,using this particular embedding model
+dDkynerzV-Q,446.68,4.68,"from Hugging Face. As a framework, we"
+dDkynerzV-Q,448.56,6.08,"have used LangChain. Now, the retriever"
+dDkynerzV-Q,451.36,5.88,will try to find relevant chunks from
+dDkynerzV-Q,454.64,5.56,"FAQ, tickets, or guides. In terms of"
+dDkynerzV-Q,457.24,4.52,"LLM, we are using Quen from Chat Grok."
+dDkynerzV-Q,460.2,4.52,Please download the project on your
+dDkynerzV-Q,461.76,5.56,"computer, try to run it to enhance your"
+dDkynerzV-Q,464.72,5.0,understanding on rag concepts. Telecom
+dDkynerzV-Q,467.32,5.12,support chatbot that we just saw is an
+dDkynerzV-Q,469.72,5.4,example of enterprise QA chatbot. There
+dDkynerzV-Q,472.44,4.84,are many other industry use cases for
+dDkynerzV-Q,475.12,5.0,"rag. For example, you can build medical"
+dDkynerzV-Q,477.28,5.64,"knowledge assistant, which can look at"
+dDkynerzV-Q,480.12,5.44,the vast amount of medical knowledge and
+dDkynerzV-Q,482.92,4.92,pulls a relevant answer for your query.
+dDkynerzV-Q,485.56,4.04,The other one is legal and compliance
+dDkynerzV-Q,487.84,4.28,"tools. Once again, here the knowledge"
+dDkynerzV-Q,489.6,4.44,"will be your legal documents, and you"
+dDkynerzV-Q,492.12,4.32,want to pull the most relevant and
+dDkynerzV-Q,494.04,4.32,accurate answer. HR chatbot is another
+dDkynerzV-Q,496.44,4.04,example. Let's now look at rag
+dDkynerzV-Q,498.36,4.84,categories. The first one is a vector
+dDkynerzV-Q,500.48,6.52,"rag, and naive rag is the example that"
+dDkynerzV-Q,503.2,6.4,"we just saw, where you pull the top K"
+dDkynerzV-Q,507.0,5.159,relevant chunks from a vector database
+dDkynerzV-Q,509.6,5.879,and answer user's question. The second
+dDkynerzV-Q,512.159,6.721,"category is vectorless rag, in which you"
+dDkynerzV-Q,515.479,5.401,"can perform a keyword rag. So, here you"
+dDkynerzV-Q,518.88,4.039,are not generating any vector
+dDkynerzV-Q,520.88,4.44,embeddings. You don't have a vector
+dDkynerzV-Q,522.919,6.401,"database, but you are using keyword"
+dDkynerzV-Q,525.32,7.4,"match, uh techniques like BM25, TF-IDF,"
+dDkynerzV-Q,529.32,6.08,"etc., to uh query into the document"
+dDkynerzV-Q,532.72,5.68,using the exact keywords. This method
+dDkynerzV-Q,535.4,6.08,"will work when you have a lot of codes,"
+dDkynerzV-Q,538.4,5.04,"jargons, IDs, citations. Let's say you"
+dDkynerzV-Q,541.48,5.56,"are doing research, and you are always"
+dDkynerzV-Q,543.44,6.6,searching using some particular ID or a
+dDkynerzV-Q,547.04,5.36,"particular keyword, then this will work."
+dDkynerzV-Q,550.04,4.2,This is weak for semantic understanding.
+dDkynerzV-Q,552.4,4.4,When you are not doing exact keyword
+dDkynerzV-Q,554.24,4.88,"matching and searching using meaning,"
+dDkynerzV-Q,556.8,5.12,this is not a good choice. And the key
+dDkynerzV-Q,559.12,6.48,tools that uses keyword rag concepts
+dDkynerzV-Q,561.92,7.04,like BM25 is Elasticsearch and Apache
+dDkynerzV-Q,565.6,5.8,Solr. The next category in vector rag is
+dDkynerzV-Q,568.96,5.04,"hybrid rag, where you're combining"
+dDkynerzV-Q,571.4,5.64,"vector search and keyword search, okay?"
+dDkynerzV-Q,574.0,5.84,You do both of these in parallel and
+dDkynerzV-Q,577.04,5.76,merge the results. This is best for most
+dDkynerzV-Q,579.84,5.88,of the production systems. The key tools
+dDkynerzV-Q,582.8,6.6,here are Elasticsearch plus any vector
+dDkynerzV-Q,585.72,5.84,"DB. Now, in Atliq, we worked on one rag"
+dDkynerzV-Q,589.4,5.84,"project for our client, where we have"
+dDkynerzV-Q,591.56,6.24,developed our own custom hybrid method
+dDkynerzV-Q,595.24,5.12,"for doing rag, and we have given details"
+dDkynerzV-Q,597.8,3.68,of this approach in a different video.
+dDkynerzV-Q,600.36,3.12,You can check it out if you are
+dDkynerzV-Q,601.48,4.0,"interested. Also, if you want to learn"
+dDkynerzV-Q,603.48,4.36,AI engineering by building production
+dDkynerzV-Q,605.48,5.28,grade AI systems similar to the projects
+dDkynerzV-Q,607.84,5.2,"that I just mentioned, then check our AI"
+dDkynerzV-Q,610.76,5.24,engineering cohort where we have live
+dDkynerzV-Q,613.04,5.2,sessions on weekends and we will teach
+dDkynerzV-Q,616.0,4.56,you all the concepts plus you will build
+dDkynerzV-Q,618.24,4.72,eight plus production grade projects.
+dDkynerzV-Q,620.56,6.64,The next category in vector less rag is
+dDkynerzV-Q,622.96,6.76,a graph rag. It is also known as KG rag.
+dDkynerzV-Q,627.2,4.16,So here you will generate a knowledge
+dDkynerzV-Q,629.72,3.68,graph. So let's say your knowledge is
+dDkynerzV-Q,631.36,4.12,Elon Musk and all the companies he has
+dDkynerzV-Q,633.4,4.4,founded. So in that case you will build
+dDkynerzV-Q,635.48,4.12,this kind of knowledge graph where you
+dDkynerzV-Q,637.8,4.6,"will say Elon Musk founded Tesla,"
+dDkynerzV-Q,639.6,4.16,"SpaceX, Neuralink, OpenAI and so on."
+dDkynerzV-Q,642.4,3.12,And then these companies will be
+dDkynerzV-Q,643.76,3.52,operating in these different domains. So
+dDkynerzV-Q,645.52,3.84,these are all the entities and they are
+dDkynerzV-Q,647.28,4.2,connected through some kind of
+dDkynerzV-Q,649.36,4.36,relationship. Now when you ask a
+dDkynerzV-Q,651.48,4.68,"question, which companies are founded by"
+dDkynerzV-Q,653.72,4.96,"Elon Musk which are working in AI, you"
+dDkynerzV-Q,656.16,4.04,"will traverse this particular path,"
+dDkynerzV-Q,658.68,3.52,okay? So you will look at all the
+dDkynerzV-Q,660.2,4.84,companies and then you will do breadth
+dDkynerzV-Q,662.2,6.04,first traversal and you will find that
+dDkynerzV-Q,665.04,6.16,OpenAI is working in AI. The next one is
+dDkynerzV-Q,668.24,4.96,SQL rag. This is also known as text to
+dDkynerzV-Q,671.2,4.36,SQL. This method is very simple. Let's
+dDkynerzV-Q,673.2,4.84,say you have sales database which
+dDkynerzV-Q,675.56,4.2,contains the sales of
+dDkynerzV-Q,678.04,3.72,products. Now you are asking this
+dDkynerzV-Q,679.76,4.8,"question, which product sold the most"
+dDkynerzV-Q,681.76,5.2,last month? Using LLM you can first
+dDkynerzV-Q,684.56,4.6,generate a query for that database. You
+dDkynerzV-Q,686.96,4.48,"will execute the query, get the results"
+dDkynerzV-Q,689.16,4.679,and then give it back to LLM to generate
+dDkynerzV-Q,691.44,4.76,a comprehensive answer. Very simple
+dDkynerzV-Q,693.839,4.601,technique. You are taking a sentence in
+dDkynerzV-Q,696.2,5.2,"a natural language, converting it to SQL"
+dDkynerzV-Q,698.44,5.52,using LLM and putting a query in your
+dDkynerzV-Q,701.4,5.6,database to get the results. And the
+dDkynerzV-Q,703.96,6.64,"last method, which is relatively new, is"
+dDkynerzV-Q,707.0,6.56,called page index. It is reasoning based
+dDkynerzV-Q,710.6,5.56,"rag. So here let's say you have 3,000"
+dDkynerzV-Q,713.56,5.68,page PDF document. First you will
+dDkynerzV-Q,716.16,6.12,"generate the table of content, okay? The"
+dDkynerzV-Q,719.24,4.88,table of content or your information
+dDkynerzV-Q,722.28,4.0,structure. This is like you are having a
+dDkynerzV-Q,724.12,4.24,book and you are having all the chapter
+dDkynerzV-Q,726.28,3.64,and topic layout. Now when somebody asks
+dDkynerzV-Q,728.36,3.24,"this question, what does the contract"
+dDkynerzV-Q,729.92,5.84,say about compensation for breach of
+dDkynerzV-Q,731.6,6.84,"contract, the LLM will use its reasoning"
+dDkynerzV-Q,735.76,6.56,capability and this particular table of
+dDkynerzV-Q,738.44,7.28,content to traverse this particular
+dDkynerzV-Q,742.32,5.72,graph and locate the thing that it is
+dDkynerzV-Q,745.72,4.32,"looking for. So for example, in this"
+dDkynerzV-Q,748.04,4.04,case it will first find out that this is
+dDkynerzV-Q,750.04,3.52,related to performance of contracts
+dDkynerzV-Q,752.08,3.52,because the contract is already
+dDkynerzV-Q,753.56,4.88,executed. So it has to be related to
+dDkynerzV-Q,755.6,5.36,this and then it finds compensation of
+dDkynerzV-Q,758.44,3.52,breach. So it goes from here to here and
+dDkynerzV-Q,760.96,3.28,then
+dDkynerzV-Q,761.96,4.72,you are discussing loss. So due to that
+dDkynerzV-Q,764.24,5.36,"it will out of all these nodes, it will"
+dDkynerzV-Q,766.68,6.68,go to this particular node and it will
+dDkynerzV-Q,769.6,6.239,pull the relevant document. Now this
+dDkynerzV-Q,773.36,4.04,might give you an index and using index
+dDkynerzV-Q,775.839,3.681,you might have to refer back to the
+dDkynerzV-Q,777.4,4.76,original knowledge. So here is the
+dDkynerzV-Q,779.52,5.2,GitHub for page index. It is known as
+dDkynerzV-Q,782.16,5.12,vector less rag but it is one of the
+dDkynerzV-Q,784.72,5.44,"categories of vector less rag, okay? The"
+dDkynerzV-Q,787.28,4.559,right term is reasoning based rag. So
+dDkynerzV-Q,790.16,3.64,here you can see from document you are
+dDkynerzV-Q,791.839,4.561,"generating a tree, which is your"
+dDkynerzV-Q,793.8,5.12,knowledge tree structure index of
+dDkynerzV-Q,796.4,4.64,documents and then LLM will do its
+dDkynerzV-Q,798.92,3.919,reasoning to find the relevant chunk.
+dDkynerzV-Q,801.04,3.28,Here you are not using any vectors. You
+dDkynerzV-Q,802.839,4.081,are not using any
+dDkynerzV-Q,804.32,5.8,embeddings. No vector DB. Just by
+dDkynerzV-Q,806.92,5.64,"looking at the the structure, you know,"
+dDkynerzV-Q,810.12,3.8,"the table layout, which looks something"
+dDkynerzV-Q,812.56,4.36,"like this,"
+dDkynerzV-Q,813.92,4.88,"you will try to find a given node, okay?"
+dDkynerzV-Q,816.92,4.56,And see here there is a summary. So
+dDkynerzV-Q,818.8,5.68,"using the summary, LLM can reason and it"
+dDkynerzV-Q,821.48,4.56,"can say, ""Okay, maybe the answer is in"
+dDkynerzV-Q,824.48,4.0,"this particular node."" And then it will"
+dDkynerzV-Q,826.04,4.36,"go to that node, refer to the original"
+dDkynerzV-Q,828.48,3.44,document and pull the answer. I have
+dDkynerzV-Q,830.4,3.12,attached this PDF in the video
+dDkynerzV-Q,831.92,4.52,description below where you have
+dDkynerzV-Q,833.52,5.76,categories of rag. You also have a table
+dDkynerzV-Q,836.44,3.96,comparing when to use what. It is not
+dDkynerzV-Q,839.28,3.12,that
+dDkynerzV-Q,840.4,4.6,reasoning rag is here so you should not
+dDkynerzV-Q,842.4,5.64,use naive rag. You should use it when
+dDkynerzV-Q,845.0,5.52,"you have general text Q&A bots, etc. And"
+dDkynerzV-Q,848.04,4.84,the complexity here is low. The
+dDkynerzV-Q,850.52,4.319,complexity in case of page index is
+dDkynerzV-Q,852.88,5.16,high. You should use it when you have
+dDkynerzV-Q,854.839,4.561,hierarchical tree index LLM traversal.
+dDkynerzV-Q,858.04,3.799,"You know, these are the use cases. So"
+dDkynerzV-Q,859.4,5.12,you can use this table to determine when
+dDkynerzV-Q,861.839,4.841,to use what kind of rag. And at the end
+dDkynerzV-Q,864.52,3.92,we have rag interview questions. All
+dDkynerzV-Q,866.68,3.2,"right, folks. So please check it out. If"
+dDkynerzV-Q,868.44,4.68,"you have any question, post in the"
+dDkynerzV-Q,869.88,3.24,comment box below.
+dDkynerzV-Q,873.125,2.02,>> [music]

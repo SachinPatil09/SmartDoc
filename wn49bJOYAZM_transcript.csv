@@ -1,0 +1,1198 @@
+﻿video_id,start,duration,text
+wn49bJOYAZM,4.72,2.559,hey everyone
+wn49bJOYAZM,5.52,3.28,welcome back to the channel and in this
+wn49bJOYAZM,7.279,3.921,video we are learning about
+wn49bJOYAZM,8.8,3.919,types of languages this is important in
+wn49bJOYAZM,11.2,2.399,order to understand you know when we
+wn49bJOYAZM,12.719,2.88,will be doing like
+wn49bJOYAZM,13.599,3.44,data structures algorithms and even
+wn49bJOYAZM,15.599,3.281,though we'll be doing it in java you
+wn49bJOYAZM,17.039,3.201,have to you know have a basic idea about
+wn49bJOYAZM,18.88,3.04,what all these things
+wn49bJOYAZM,20.24,3.44,are and what type of languages you are
+wn49bJOYAZM,21.92,4.96,working with be that java
+wn49bJOYAZM,23.68,3.919,python or c plus plus so without further
+wn49bJOYAZM,26.88,4.08,ado let's just
+wn49bJOYAZM,27.599,5.52,jump right into it you know computers
+wn49bJOYAZM,30.96,2.159,like
+wn49bJOYAZM,33.28,3.76,internally like you know at the very
+wn49bJOYAZM,35.04,2.8,minute details it's just bunch of zeros
+wn49bJOYAZM,37.04,2.8,and ones
+wn49bJOYAZM,37.84,3.6,okay binary numbers and we'll look more
+wn49bJOYAZM,39.84,3.039,into like how binary numbers are
+wn49bJOYAZM,41.44,3.439,actually stored in memory
+wn49bJOYAZM,42.879,3.921,and whatever you know how we convert
+wn49bJOYAZM,44.879,3.2,normal decimals to binaries and
+wn49bJOYAZM,46.8,2.8,all these other things the memory
+wn49bJOYAZM,48.079,2.401,management all of these things will be
+wn49bJOYAZM,49.6,3.76,covered in the
+wn49bJOYAZM,50.48,4.079,future lectures speaking of programming
+wn49bJOYAZM,53.36,2.32,languages
+wn49bJOYAZM,54.559,2.64,what are programming languages
+wn49bJOYAZM,55.68,3.039,programming languages allow us to you
+wn49bJOYAZM,57.199,3.601,know we have some idea
+wn49bJOYAZM,58.719,3.84,and we write that in form of a code and
+wn49bJOYAZM,60.8,3.28,we get the output for that like whatever
+wn49bJOYAZM,62.559,4.081,you want to do let's say you want to
+wn49bJOYAZM,64.08,3.68,you know create a function or let's say
+wn49bJOYAZM,66.64,3.04,not if i if you don't
+wn49bJOYAZM,67.76,3.76,if you're not aware of functions let's
+wn49bJOYAZM,69.68,4.56,say you want to create a program
+wn49bJOYAZM,71.52,4.239,okay that takes input of all the
+wn49bJOYAZM,74.24,3.199,students in your class
+wn49bJOYAZM,75.759,4.4,okay or let's say you want to create a
+wn49bJOYAZM,77.439,4.241,program that gives you the table of two
+wn49bJOYAZM,80.159,4.0,or you want to create a program that
+wn49bJOYAZM,81.68,3.04,just you know gives you a nice message
+wn49bJOYAZM,84.159,2.161,like
+wn49bJOYAZM,84.72,3.12,hi how are you and good morning and all
+wn49bJOYAZM,86.32,3.36,these things
+wn49bJOYAZM,87.84,3.04,so we can do that via like programming
+wn49bJOYAZM,89.68,3.84,languages and
+wn49bJOYAZM,90.88,4.32,um programming language is basically as
+wn49bJOYAZM,93.52,3.68,i mentioned earlier like
+wn49bJOYAZM,95.2,4.239,internally at the very minute details
+wn49bJOYAZM,97.2,3.84,it's just a bunch of zeros and ones
+wn49bJOYAZM,99.439,3.281,so when you are executing these
+wn49bJOYAZM,101.04,2.64,instructions like you're instructing
+wn49bJOYAZM,102.72,3.52,your computer
+wn49bJOYAZM,103.68,3.2,hey computer please uh please you know
+wn49bJOYAZM,106.24,2.96,um
+wn49bJOYAZM,106.88,3.36,do this thing for me or tell me the time
+wn49bJOYAZM,109.2,3.44,or
+wn49bJOYAZM,110.24,4.559,hey computer please uh you know this is
+wn49bJOYAZM,112.64,3.439,a program that i have for you like uh
+wn49bJOYAZM,114.799,4.081,please print the
+wn49bJOYAZM,116.079,3.521,you know date for today so these are
+wn49bJOYAZM,118.88,2.96,basically just
+wn49bJOYAZM,119.6,3.36,instructions that your cpu is giving
+wn49bJOYAZM,121.84,2.16,like you know you're giving to your
+wn49bJOYAZM,122.96,2.96,computers
+wn49bJOYAZM,124.0,3.2,and computers contains all these things
+wn49bJOYAZM,125.92,3.039,like there's a cpu
+wn49bJOYAZM,127.2,3.36,there's a ram and how these how all
+wn49bJOYAZM,128.959,5.601,these things work we'll look into
+wn49bJOYAZM,130.56,5.039,uh later on so internally if it's just
+wn49bJOYAZM,134.56,3.2,zeros and ones
+wn49bJOYAZM,135.599,3.681,and uh instructions that you're giving
+wn49bJOYAZM,137.76,3.199,to your computer
+wn49bJOYAZM,139.28,3.039,it would be very difficult to write all
+wn49bJOYAZM,140.959,4.401,these instructions in just
+wn49bJOYAZM,142.319,3.841,zeros and ones okay there is a reason we
+wn49bJOYAZM,145.36,3.28,have like
+wn49bJOYAZM,146.16,4.32,programming languages that allows us to
+wn49bJOYAZM,148.64,2.879,write all of these programs like okay
+wn49bJOYAZM,150.48,3.28,computer do this
+wn49bJOYAZM,151.519,4.481,take this output this perform this
+wn49bJOYAZM,153.76,3.6,calculate this and do all these things
+wn49bJOYAZM,156.0,3.12,that is the reason we have programming
+wn49bJOYAZM,157.36,3.76,languages that we can write it in a
+wn49bJOYAZM,159.12,4.8,human readable format
+wn49bJOYAZM,161.12,4.8,in a human readable format internally
+wn49bJOYAZM,163.92,3.76,computer is going to translate it in a
+wn49bJOYAZM,165.92,4.48,bunch of zeros and ones
+wn49bJOYAZM,167.68,3.919,a computer is problem not my problem
+wn49bJOYAZM,170.4,3.119,okay
+wn49bJOYAZM,171.599,3.121,cool let's look at the type of languages
+wn49bJOYAZM,173.519,2.8,that we may have you might have heard
+wn49bJOYAZM,174.72,4.64,about so many languages
+wn49bJOYAZM,176.319,5.761,java c c plus plus python no and
+wn49bJOYAZM,179.36,4.159,so many other languages the first one we
+wn49bJOYAZM,182.08,2.879,are going to look into is called
+wn49bJOYAZM,183.519,3.041,procedural language
+wn49bJOYAZM,184.959,3.681,now procedural language like very
+wn49bJOYAZM,186.56,3.44,initial you know years of programming
+wn49bJOYAZM,188.64,3.28,as you can see on the screen it
+wn49bJOYAZM,190.0,5.2,specifies a series
+wn49bJOYAZM,191.92,5.039,of well-structured steps and procedures
+wn49bJOYAZM,195.2,3.92,to compose a program
+wn49bJOYAZM,196.959,3.28,now we can do this in you know it
+wn49bJOYAZM,199.12,4.16,contains like uh
+wn49bJOYAZM,200.239,5.681,an order of statements functions
+wn49bJOYAZM,203.28,4.08,and commands to complete a task so for
+wn49bJOYAZM,205.92,3.679,example it can be like hey
+wn49bJOYAZM,207.36,4.159,first you have to input a number then
+wn49bJOYAZM,209.599,3.92,you have to input the second number
+wn49bJOYAZM,211.519,3.681,then you have to add the sum of that and
+wn49bJOYAZM,213.519,3.841,then you have to print that
+wn49bJOYAZM,215.2,4.08,you can also you know see you can see
+wn49bJOYAZM,217.36,4.0,this flow of structure that is going
+wn49bJOYAZM,219.28,3.44,is it at any point of time going to be
+wn49bJOYAZM,221.36,3.519,input a number
+wn49bJOYAZM,222.72,3.36,take the sum of the two numbers then
+wn49bJOYAZM,224.879,2.961,input the second number
+wn49bJOYAZM,226.08,3.6,it will not happen like that right you
+wn49bJOYAZM,227.84,3.36,definitely need two numbers and then
+wn49bJOYAZM,229.68,3.36,only you will do the sum
+wn49bJOYAZM,231.2,3.119,so you can see the series of steps that
+wn49bJOYAZM,233.04,2.08,are happening this can happen in many
+wn49bJOYAZM,234.319,2.56,ways it can be
+wn49bJOYAZM,235.12,3.72,loops if you don't know what loops are
+wn49bJOYAZM,236.879,4.0,don't worry you can do this like in your
+wn49bJOYAZM,238.84,4.119,statements cases
+wn49bJOYAZM,240.879,3.92,functions so many other commands
+wn49bJOYAZM,242.959,2.401,basically the idea is to complete a task
+wn49bJOYAZM,244.799,2.8,like that
+wn49bJOYAZM,245.36,4.079,now you might be wondering hey kunal so
+wn49bJOYAZM,247.599,3.681,many languages do this
+wn49bJOYAZM,249.439,3.681,i am personally let's say not let's say
+wn49bJOYAZM,251.28,3.2,you might be like hey i don't let's say
+wn49bJOYAZM,253.12,2.8,know that much about know all the
+wn49bJOYAZM,254.48,2.479,languages but i'm pretty sure many
+wn49bJOYAZM,255.92,4.159,languages do this
+wn49bJOYAZM,256.959,4.081,and you are correct you are correct java
+wn49bJOYAZM,260.079,3.921,does this
+wn49bJOYAZM,261.04,4.159,python does this c plus plus does this
+wn49bJOYAZM,264.0,3.04,so can we say like
+wn49bJOYAZM,265.199,3.201,java c plus plus and python and all
+wn49bJOYAZM,267.04,4.56,these other languages
+wn49bJOYAZM,268.4,6.72,they follow the procedural language
+wn49bJOYAZM,271.6,6.72,um the the properties of this
+wn49bJOYAZM,275.12,4.72,most definitely they do all right now
+wn49bJOYAZM,278.32,3.12,let's look at the next language
+wn49bJOYAZM,279.84,3.359,next next type of language is the
+wn49bJOYAZM,281.44,2.8,functional language functional language
+wn49bJOYAZM,283.199,3.681,what is it
+wn49bJOYAZM,284.24,3.92,so writing a pro program only in pure
+wn49bJOYAZM,286.88,2.08,functions if you don't know what
+wn49bJOYAZM,288.16,2.8,functions are
+wn49bJOYAZM,288.96,3.6,do not worry we have a separate module
+wn49bJOYAZM,290.96,3.519,for that later in the course
+wn49bJOYAZM,292.56,4.0,functions are basically in simple
+wn49bJOYAZM,294.479,3.681,language
+wn49bJOYAZM,296.56,3.359,whenever i say this thing right whenever
+wn49bJOYAZM,298.16,2.479,i say in simple language during the
+wn49bJOYAZM,299.919,2.961,course
+wn49bJOYAZM,300.639,3.201,that basically means understand what
+wn49bJOYAZM,302.88,3.28,it's doing
+wn49bJOYAZM,303.84,4.32,ignore how it's doing it because it will
+wn49bJOYAZM,306.16,3.759,be covered later in the course
+wn49bJOYAZM,308.16,3.68,if you want to google yourself you can
+wn49bJOYAZM,309.919,3.201,do that for now just ignore how it's
+wn49bJOYAZM,311.84,2.639,doing it because that is a separate
+wn49bJOYAZM,313.12,4.16,module in the course
+wn49bJOYAZM,314.479,4.56,functions is basically you bundle a code
+wn49bJOYAZM,317.28,3.68,together in a particular
+wn49bJOYAZM,319.039,4.321,you know let's say something and you can
+wn49bJOYAZM,320.96,5.6,use that and reuse that many many times
+wn49bJOYAZM,323.36,4.48,if someone asks you hey kunal uh you
+wn49bJOYAZM,326.56,4.4,have 10 files
+wn49bJOYAZM,327.84,5.04,10 programming files or whatever and in
+wn49bJOYAZM,330.96,5.12,every file you have to
+wn49bJOYAZM,332.88,6.64,you know take two numbers in sum them
+wn49bJOYAZM,336.08,5.2,and print the sum does it make sense
+wn49bJOYAZM,339.52,3.36,that i write this program again and
+wn49bJOYAZM,341.28,3.359,again for 10 files
+wn49bJOYAZM,342.88,4.0,i can just write this program in one
+wn49bJOYAZM,344.639,5.441,file and use that particular program
+wn49bJOYAZM,346.88,4.64,in every other file saves me time
+wn49bJOYAZM,350.08,3.2,also will help me in changing the
+wn49bJOYAZM,351.52,2.399,particular function the particular
+wn49bJOYAZM,353.28,2.24,program
+wn49bJOYAZM,353.919,3.041,if there's an error in the program i can
+wn49bJOYAZM,355.52,2.799,just change the main one
+wn49bJOYAZM,356.96,2.799,automatically all the ones will be
+wn49bJOYAZM,358.319,2.16,changed rather than changing every
+wn49bJOYAZM,359.759,3.121,single file
+wn49bJOYAZM,360.479,4.321,functions allow us in doing that so pure
+wn49bJOYAZM,362.88,3.36,functions are basically never modify the
+wn49bJOYAZM,364.8,2.88,variables again if you're not aware of
+wn49bJOYAZM,366.24,3.44,variables do not worry
+wn49bJOYAZM,367.68,3.04,variable is simply if i'm saying a is
+wn49bJOYAZM,369.68,3.28,equal to 10
+wn49bJOYAZM,370.72,3.759,so a is a variable and the value of that
+wn49bJOYAZM,372.96,3.6,is 10.
+wn49bJOYAZM,374.479,4.081,name is equal to kunal name is a
+wn49bJOYAZM,376.56,3.68,variable value is kunal
+wn49bJOYAZM,378.56,4.16,we'll look into it later on in in this
+wn49bJOYAZM,380.24,5.6,particular like shortly as shortly only
+wn49bJOYAZM,382.72,5.28,in the next next videos so
+wn49bJOYAZM,385.84,4.32,it it is never going to modify it but
+wn49bJOYAZM,388.0,4.24,only create new ones as an output
+wn49bJOYAZM,390.16,3.36,or in other cases like in simple terms
+wn49bJOYAZM,392.24,3.04,if i want to share with you what
+wn49bJOYAZM,393.52,4.64,functional programming languages are
+wn49bJOYAZM,395.28,4.88,then it can be like used in situations
+wn49bJOYAZM,398.16,3.759,where we have to perform lots of
+wn49bJOYAZM,400.16,4.08,different operations on the same same
+wn49bJOYAZM,401.919,3.28,set of data because it's not modifying
+wn49bJOYAZM,404.24,3.04,the
+wn49bJOYAZM,405.199,3.041,original data it's creating new one as
+wn49bJOYAZM,407.28,2.8,an output
+wn49bJOYAZM,408.24,3.76,if you're like hey i am doing machine
+wn49bJOYAZM,410.08,2.48,learning here's the data set that i have
+wn49bJOYAZM,412.0,2.56,for you
+wn49bJOYAZM,412.56,3.6,i'm like okay cool this is my data set
+wn49bJOYAZM,414.56,4.16,let's play with this data set
+wn49bJOYAZM,416.16,3.599,and you know create some nice algorithms
+wn49bJOYAZM,418.72,4.56,and machine learning
+wn49bJOYAZM,419.759,5.28,models and whatever right so we are
+wn49bJOYAZM,423.28,3.759,doing these things with this data set
+wn49bJOYAZM,425.039,4.961,and i am like actually
+wn49bJOYAZM,427.039,4.241,utilizing that data set you know uh for
+wn49bJOYAZM,430.0,2.8,various operations
+wn49bJOYAZM,431.28,3.12,and it might be the case that i'm not
+wn49bJOYAZM,432.8,2.799,modifying the original file
+wn49bJOYAZM,434.4,2.96,it might be the case that i'm taking a
+wn49bJOYAZM,435.599,3.361,copy of that data manipulating it
+wn49bJOYAZM,437.36,2.64,changing its type or whatever that i'm
+wn49bJOYAZM,438.96,2.959,doing
+wn49bJOYAZM,440.0,4.08,another example i can give you is they
+wn49bJOYAZM,441.919,4.481,also follow first class functions
+wn49bJOYAZM,444.08,3.44,now what are first class functions very
+wn49bJOYAZM,446.4,2.799,simple do not worry
+wn49bJOYAZM,447.52,3.84,this is very simple stuff first class
+wn49bJOYAZM,449.199,3.521,function i'll explain to you right now
+wn49bJOYAZM,451.36,3.36,functions are basically just you know
+wn49bJOYAZM,452.72,3.039,block of code that i can reuse again and
+wn49bJOYAZM,454.72,2.56,again
+wn49bJOYAZM,455.759,3.601,many many simple things you can do in
+wn49bJOYAZM,457.28,3.199,programming languages like a is equal to
+wn49bJOYAZM,459.36,4.64,10
+wn49bJOYAZM,460.479,6.0,name is equal to kunal a is equal to
+wn49bJOYAZM,464.0,3.12,b that's a b let's say a is equal to
+wn49bJOYAZM,466.479,3.361,let's say
+wn49bJOYAZM,467.12,4.16,let's say number variable number i i'll
+wn49bJOYAZM,469.84,4.799,just write it down over here
+wn49bJOYAZM,471.28,5.28,let me just write it down so if i'm
+wn49bJOYAZM,474.639,3.521,saying
+wn49bJOYAZM,476.56,3.44,let's say in simple programming language
+wn49bJOYAZM,478.16,4.0,term i'm saying a is equal to 10
+wn49bJOYAZM,480.0,4.4,then i say b is equal to 30 and then i
+wn49bJOYAZM,482.16,5.52,say c is equal to b
+wn49bJOYAZM,484.4,5.44,so can you see that i reassigned c to b
+wn49bJOYAZM,487.68,3.28,if i print c now if i try to get the
+wn49bJOYAZM,489.84,2.88,value of c
+wn49bJOYAZM,490.96,3.359,it's going to be equal to what the value
+wn49bJOYAZM,492.72,3.52,of b which is 30
+wn49bJOYAZM,494.319,3.28,so the value of c is also value of b 30
+wn49bJOYAZM,496.24,2.239,do not worry about this we'll cover this
+wn49bJOYAZM,497.599,2.32,later on
+wn49bJOYAZM,498.479,3.28,but the important thing to note over
+wn49bJOYAZM,499.919,3.12,here is can you see how i'm reassigning
+wn49bJOYAZM,501.759,4.081,variables like this
+wn49bJOYAZM,503.039,3.761,c to b and things like that this is
+wn49bJOYAZM,505.84,3.12,basically
+wn49bJOYAZM,506.8,4.64,means that if you are able to do such
+wn49bJOYAZM,508.96,4.24,things with functions as well
+wn49bJOYAZM,511.44,3.76,reassigning function variable name to
+wn49bJOYAZM,513.2,3.04,other function you know doing all these
+wn49bJOYAZM,515.2,2.639,other things
+wn49bJOYAZM,516.24,3.599,that basically means that is like first
+wn49bJOYAZM,517.839,4.0,class functions
+wn49bJOYAZM,519.839,3.2,example for this language that follows
+wn49bJOYAZM,521.839,4.241,these sorts of
+wn49bJOYAZM,523.039,4.641,you know properties can be python
+wn49bJOYAZM,526.08,3.439,python follows such properties python
+wn49bJOYAZM,527.68,3.599,has first class functions
+wn49bJOYAZM,529.519,3.681,may not be purely functional but it does
+wn49bJOYAZM,531.279,3.68,follow the functional programming
+wn49bJOYAZM,533.2,3.44,theories now you might be asking hey
+wn49bJOYAZM,534.959,2.32,kunal you're saying python is procedural
+wn49bJOYAZM,536.64,2.72,also
+wn49bJOYAZM,537.279,3.281,saying it follows functionals also which
+wn49bJOYAZM,539.36,2.96,one is it
+wn49bJOYAZM,540.56,3.92,wait a minute let's look at object
+wn49bJOYAZM,542.32,3.28,oriented what is object-oriented
+wn49bJOYAZM,544.48,2.72,programming
+wn49bJOYAZM,545.6,3.12,so again do not worry if you did not
+wn49bJOYAZM,547.2,3.36,like get the gist of it just
+wn49bJOYAZM,548.72,3.52,a basic understanding is fine do not
+wn49bJOYAZM,550.56,2.88,worry if you did not get the details
+wn49bJOYAZM,552.24,4.48,because we have a function
+wn49bJOYAZM,553.44,5.2,section separate as a module and
+wn49bJOYAZM,556.72,4.64,variables what are variables we will
+wn49bJOYAZM,558.64,5.28,cover that in the next next videos
+wn49bJOYAZM,561.36,4.64,in this video object-oriented
+wn49bJOYAZM,563.92,5.44,programming it basically revolves around
+wn49bJOYAZM,566.0,4.16,objects now what is object the idea is
+wn49bJOYAZM,569.36,3.599,that code
+wn49bJOYAZM,570.16,3.84,the code file that the code that we have
+wn49bJOYAZM,572.959,2.961,plus the data
+wn49bJOYAZM,574.0,3.44,if you combine these two together it
+wn49bJOYAZM,575.92,3.76,forms an object
+wn49bJOYAZM,577.44,3.44,what do i mean by an object let's say
+wn49bJOYAZM,579.68,4.24,you are like hey kunal
+wn49bJOYAZM,580.88,3.44,um can you please collect us a data for
+wn49bJOYAZM,583.92,2.72,me
+wn49bJOYAZM,584.32,3.6,of 10 people that contains the role
+wn49bJOYAZM,586.64,4.0,numbers of those people
+wn49bJOYAZM,587.92,4.64,okay that's a problem statement what is
+wn49bJOYAZM,590.64,3.44,the type of this data going to be forget
+wn49bJOYAZM,592.56,3.68,programming what is the type of role
+wn49bJOYAZM,594.08,6.48,number going to be in simple terms
+wn49bJOYAZM,596.24,6.64,integer integer let's say hey kunal
+wn49bJOYAZM,600.56,3.519,create a collection of data that
+wn49bJOYAZM,602.88,3.36,contains
+wn49bJOYAZM,604.079,4.801,names of all the students what is the
+wn49bJOYAZM,606.24,6.24,type of this data going to be
+wn49bJOYAZM,608.88,4.56,string alphabets letters you're like hey
+wn49bJOYAZM,612.48,2.64,kunal
+wn49bJOYAZM,613.44,3.839,create a collection of data that
+wn49bJOYAZM,615.12,3.36,contains all the addresses of people
+wn49bJOYAZM,617.279,2.721,what is the type of this is going to be
+wn49bJOYAZM,618.48,3.039,maybe like a it's going to be like a
+wn49bJOYAZM,620.0,3.76,string or a paragraph
+wn49bJOYAZM,621.519,4.0,you know what is the type of all the
+wn49bJOYAZM,623.76,3.68,collections of all the people
+wn49bJOYAZM,625.519,4.161,the marks of all the people the cgpa
+wn49bJOYAZM,627.44,7.04,going to be decimal numbers
+wn49bJOYAZM,629.68,6.719,some cgpa 9.5 9.2 9.1 8.7 whatever
+wn49bJOYAZM,634.48,4.56,now you might be asking another question
+wn49bJOYAZM,636.399,4.241,hey create a collection of data of all
+wn49bJOYAZM,639.04,4.08,the students
+wn49bJOYAZM,640.64,3.6,where each student has let's say three
+wn49bJOYAZM,643.12,4.159,properties
+wn49bJOYAZM,644.24,3.92,name roll number and marks now you get
+wn49bJOYAZM,647.279,2.881,confused
+wn49bJOYAZM,648.16,4.0,okay what is the data type of this going
+wn49bJOYAZM,650.16,3.679,to be now what is the data of each
+wn49bJOYAZM,652.16,3.2,student going to be of which type
+wn49bJOYAZM,653.839,3.68,is it going to be string because we are
+wn49bJOYAZM,655.36,3.599,containing names is it going to be the
+wn49bJOYAZM,657.519,3.281,integer because we are storing the
+wn49bJOYAZM,658.959,3.601,integer like the roll number
+wn49bJOYAZM,660.8,3.44,is it going to be decimal point because
+wn49bJOYAZM,662.56,3.44,we are storing the marks
+wn49bJOYAZM,664.24,3.2,we are storing all of these different
+wn49bJOYAZM,666.0,3.44,types of data types
+wn49bJOYAZM,667.44,3.76,so what is one single data type that can
+wn49bJOYAZM,669.44,4.079,be of a student
+wn49bJOYAZM,671.2,3.12,it can be a custom data type which we
+wn49bJOYAZM,673.519,3.601,can
+wn49bJOYAZM,674.32,3.519,specify using classes do not worry about
+wn49bJOYAZM,677.12,2.32,what
+wn49bJOYAZM,677.839,4.401,if you don't know what classes are
+wn49bJOYAZM,679.44,6.399,classes in simple terms is this only
+wn49bJOYAZM,682.24,6.8,named group of properties and functions
+wn49bJOYAZM,685.839,6.081,someone is saying create a separate data
+wn49bJOYAZM,689.04,4.239,type like a type of data for student
+wn49bJOYAZM,691.92,2.159,you're like okay this is neither an
+wn49bJOYAZM,693.279,3.921,integer
+wn49bJOYAZM,694.079,4.721,nor a string or alphabets nor a decimal
+wn49bJOYAZM,697.2,5.68,because it is collection of all
+wn49bJOYAZM,698.8,7.44,this collection of all is called a class
+wn49bJOYAZM,702.88,4.16,okay so and an instance of this class is
+wn49bJOYAZM,706.24,4.56,called an object
+wn49bJOYAZM,707.04,7.2,so for example i am of class human
+wn49bJOYAZM,710.8,5.36,we all are of class human but i am an
+wn49bJOYAZM,714.24,3.599,object of class human i'm a running i'm
+wn49bJOYAZM,716.16,4.239,an instance of that class
+wn49bJOYAZM,717.839,4.481,a class is like a template a property we
+wn49bJOYAZM,720.399,4.88,all know humans have a few properties
+wn49bJOYAZM,722.32,4.24,two eyes one nose one mouth two ears two
+wn49bJOYAZM,725.279,3.761,hands two legs
+wn49bJOYAZM,726.56,4.959,this is a property a template using this
+wn49bJOYAZM,729.04,4.64,template god has created many objects
+wn49bJOYAZM,731.519,3.361,we we are actually objects we are
+wn49bJOYAZM,733.68,3.52,actually the
+wn49bJOYAZM,734.88,4.48,the memory inside your ram you know when
+wn49bJOYAZM,737.2,4.639,you say a is equal to 10
+wn49bJOYAZM,739.36,4.159,a is actually the variable 10 is
+wn49bJOYAZM,741.839,3.521,actually the object that is the thing
+wn49bJOYAZM,743.519,3.281,that is actually in the memory
+wn49bJOYAZM,745.36,2.719,we'll talk more about that later do not
+wn49bJOYAZM,746.8,2.64,worry but i hope you are able to
+wn49bJOYAZM,748.079,3.2,understand the difference between
+wn49bJOYAZM,749.44,3.04,classes and object we'll cover that
+wn49bJOYAZM,751.279,2.481,later on classes
+wn49bJOYAZM,752.48,2.72,objective programming is a separate
+wn49bJOYAZM,753.76,2.48,section but in order to make you
+wn49bJOYAZM,755.2,1.759,understand what object-oriented
+wn49bJOYAZM,756.24,3.839,programming
+wn49bJOYAZM,756.959,4.481,you know is in type of languages it's
+wn49bJOYAZM,760.079,4.081,basically
+wn49bJOYAZM,761.44,5.12,dividing our code into various chunks so
+wn49bJOYAZM,764.16,5.119,that it makes it easy for us to develop
+wn49bJOYAZM,766.56,4.16,debug reuse and maintain the software
+wn49bJOYAZM,769.279,3.201,for example if you want to create a
+wn49bJOYAZM,770.72,2.96,function or sorry not a function a
+wn49bJOYAZM,772.48,3.599,program a program
+wn49bJOYAZM,773.68,3.599,computer program that has information
+wn49bJOYAZM,776.079,3.041,about your car
+wn49bJOYAZM,777.279,3.921,it can have many information what is the
+wn49bJOYAZM,779.12,2.48,color how what what is the type of the
+wn49bJOYAZM,781.2,2.48,car
+wn49bJOYAZM,781.6,3.52,supercar or what is the you know how
+wn49bJOYAZM,783.68,3.92,many engine does it has
+wn49bJOYAZM,785.12,3.44,or what is the type of the engine okay
+wn49bJOYAZM,787.6,3.039,so many things
+wn49bJOYAZM,788.56,4.32,let's say in your program now you want
+wn49bJOYAZM,790.639,3.44,to change the type of the engine
+wn49bJOYAZM,792.88,3.92,you're saying hey i want to change it
+wn49bJOYAZM,794.079,6.401,from diesel to petrol or petrol
+wn49bJOYAZM,796.8,5.279,to diesel or from fuel to electrical
+wn49bJOYAZM,800.48,3.44,does it really make sense to change the
+wn49bJOYAZM,802.079,2.481,entire car when you go to your car
+wn49bJOYAZM,803.92,2.56,mechanic
+wn49bJOYAZM,804.56,3.92,and you want to get that you know some
+wn49bJOYAZM,806.48,4.159,parts changed do they change the entire
+wn49bJOYAZM,808.48,4.479,car or just change that particular part
+wn49bJOYAZM,810.639,3.44,they change that particular part if we
+wn49bJOYAZM,812.959,3.921,divide the entire
+wn49bJOYAZM,814.079,3.361,program also in these parts engine has
+wn49bJOYAZM,816.88,2.8,an
+wn49bJOYAZM,817.44,3.839,a separate code base steering wheel has
+wn49bJOYAZM,819.68,3.44,a separate code base
+wn49bJOYAZM,821.279,3.601,you know other properties have separate
+wn49bJOYAZM,823.12,3.44,code bases if you want to make a change
+wn49bJOYAZM,824.88,2.56,in that entire program just change that
+wn49bJOYAZM,826.56,3.519,simple
+wn49bJOYAZM,827.44,4.24,part of the program that is what i mean
+wn49bJOYAZM,830.079,2.32,by like object-oriented simple terms so
+wn49bJOYAZM,831.68,2.08,i'm
+wn49bJOYAZM,832.399,3.281,trying to explain it as simple as you
+wn49bJOYAZM,833.76,3.519,can as i can do not
+wn49bJOYAZM,835.68,3.44,worry about how these things are working
+wn49bJOYAZM,837.279,3.201,do not worry about it ignore it
+wn49bJOYAZM,839.12,3.44,because it will be covered later on in
+wn49bJOYAZM,840.48,4.4,detail ignore what is happening
+wn49bJOYAZM,842.56,4.079,just understand what these things are
+wn49bJOYAZM,844.88,6.0,ignore how it's happening
+wn49bJOYAZM,846.639,5.121,okay now java supports object-oriented
+wn49bJOYAZM,850.88,2.48,principles
+wn49bJOYAZM,851.76,2.879,okay we can create objects and like
+wn49bJOYAZM,853.36,2.88,classes and all these nice nice
+wn49bJOYAZM,854.639,3.44,structures that i told you about like
+wn49bJOYAZM,856.24,3.279,entire student structure or whatever
+wn49bJOYAZM,858.079,3.841,python also supports this
+wn49bJOYAZM,859.519,3.921,c plus also supports this i might be
+wn49bJOYAZM,861.92,3.12,asking hey kunal
+wn49bJOYAZM,863.44,3.28,you're saying java supports both
+wn49bJOYAZM,865.04,4.0,procedural and object oriented
+wn49bJOYAZM,866.72,3.84,python supports all the three c plus
+wn49bJOYAZM,869.04,3.359,plus also supports object-oriented and
+wn49bJOYAZM,870.56,3.519,procedural
+wn49bJOYAZM,872.399,6.081,are these languages all the types of
+wn49bJOYAZM,874.079,6.401,languages the correct answer is yes like
+wn49bJOYAZM,878.48,3.599,a particular language if it's object
+wn49bJOYAZM,880.48,3.76,oriented it does not mean
+wn49bJOYAZM,882.079,3.521,that it will not follow procedural you
+wn49bJOYAZM,884.24,4.0,know fundamentals
+wn49bJOYAZM,885.6,4.4,procedural rules or functional rules
+wn49bJOYAZM,888.24,2.719,java for example follows object oriented
+wn49bJOYAZM,890.0,3.519,and procedural
+wn49bJOYAZM,890.959,4.081,c we have that follows procedural c plus
+wn49bJOYAZM,893.519,2.88,plus we have that follows like you know
+wn49bJOYAZM,895.04,3.28,procedural we can also do like some
+wn49bJOYAZM,896.399,3.761,functional programming that was as well
+wn49bJOYAZM,898.32,3.92,it also follows objective programming
+wn49bJOYAZM,900.16,4.96,python you know follows procedural
+wn49bJOYAZM,902.24,4.56,functional object oriented so this idea
+wn49bJOYAZM,905.12,3.839,that one particular language can only be
+wn49bJOYAZM,906.8,5.52,of one type that is not correct
+wn49bJOYAZM,908.959,5.44,okay that is not correct it's like
+wn49bJOYAZM,912.32,3.759,hybrid sort of like structure follow
+wn49bJOYAZM,914.399,3.521,many many other theories
+wn49bJOYAZM,916.079,3.76,and that's basically about the types of
+wn49bJOYAZM,917.92,3.279,languages we are learning java so we'll
+wn49bJOYAZM,919.839,2.56,be doing heavily focused on
+wn49bJOYAZM,921.199,2.801,object-oriented principles
+wn49bJOYAZM,922.399,2.8,this is also very very important for
+wn49bJOYAZM,924.0,2.48,your you know interviews and stuff
+wn49bJOYAZM,925.199,1.921,object-oriented we will do in very
+wn49bJOYAZM,926.48,2.479,detail
+wn49bJOYAZM,927.12,3.36,and so many properties inheritance
+wn49bJOYAZM,928.959,3.12,polymorphism abstraction
+wn49bJOYAZM,930.48,3.52,encapsulation everything will be done in
+wn49bJOYAZM,932.079,3.841,detail do not worry about it
+wn49bJOYAZM,934.0,5.279,that was a basic understanding of this
+wn49bJOYAZM,935.92,5.52,thing let's move forward
+wn49bJOYAZM,939.279,3.041,another types that you might encounter
+wn49bJOYAZM,941.44,3.6,are known as
+wn49bJOYAZM,942.32,4.319,static versus dynamic languages let's
+wn49bJOYAZM,945.04,2.32,look into what is static and dynamic
+wn49bJOYAZM,946.639,5.2,language
+wn49bJOYAZM,947.36,8.479,let me create a yeah okay
+wn49bJOYAZM,951.839,4.0,let me just
+wn49bJOYAZM,960.16,4.32,write this thing over here so you are
+wn49bJOYAZM,961.44,5.28,able to see i think we all can see this
+wn49bJOYAZM,964.48,2.24,now
+wn49bJOYAZM,966.839,3.0,cool
+wn49bJOYAZM,976.88,5.44,okay just looks good
+wn49bJOYAZM,980.399,3.521,so speaking of static versus dynamic
+wn49bJOYAZM,982.32,3.439,languages this is based on
+wn49bJOYAZM,983.92,3.039,that was based on like the mem like the
+wn49bJOYAZM,985.759,2.961,the previous three
+wn49bJOYAZM,986.959,3.361,points that we had were like structure
+wn49bJOYAZM,988.72,3.84,of the you know how we write code and
+wn49bJOYAZM,990.32,5.68,how things are structured and everything
+wn49bJOYAZM,992.56,5.36,what are static versus dynamic languages
+wn49bJOYAZM,996.0,4.24,static languages before moving forward
+wn49bJOYAZM,997.92,2.719,to that we gave the student example
+wn49bJOYAZM,1000.24,2.32,right
+wn49bJOYAZM,1000.639,4.32,so i can say i have something like name
+wn49bJOYAZM,1002.56,5.44,is equal to kunal
+wn49bJOYAZM,1004.959,4.721,something like this okay now here you
+wn49bJOYAZM,1008.0,2.72,can see when i write name is equal to
+wn49bJOYAZM,1009.68,4.079,kunal
+wn49bJOYAZM,1010.72,4.239,the name the type of this variable that
+wn49bJOYAZM,1013.759,4.481,we have over here is
+wn49bJOYAZM,1014.959,5.841,string like letters and alphabets right
+wn49bJOYAZM,1018.24,3.519,if i say something like roll number is
+wn49bJOYAZM,1020.8,4.32,equal to
+wn49bJOYAZM,1021.759,6.001,56 this is of type integer
+wn49bJOYAZM,1025.12,4.839,okay if i write something like marks is
+wn49bJOYAZM,1027.76,6.799,equal to
+wn49bJOYAZM,1029.959,6.681,93.6 this is of type decimal or float
+wn49bJOYAZM,1034.559,4.0,now there are two ways to approach this
+wn49bJOYAZM,1036.64,3.279,problem like the problem is that how do
+wn49bJOYAZM,1038.559,2.961,we know which type how does the
+wn49bJOYAZM,1039.919,4.081,programming language know
+wn49bJOYAZM,1041.52,3.919,what is the type of these variables okay
+wn49bJOYAZM,1044.0,2.4,how does the programming language know
+wn49bJOYAZM,1045.439,5.041,that
+wn49bJOYAZM,1046.4,5.6,so the basic idea over here is that
+wn49bJOYAZM,1050.48,3.6,there are two ways to do this one is the
+wn49bJOYAZM,1052.0,5.28,static and one is the dynamic
+wn49bJOYAZM,1054.08,5.12,what is static type checking is you know
+wn49bJOYAZM,1057.28,4.16,performing the type checking it does the
+wn49bJOYAZM,1059.2,3.76,type checking at compile time
+wn49bJOYAZM,1061.44,3.119,so what do i mean by compile time
+wn49bJOYAZM,1062.96,3.12,remember when i mentioned that
+wn49bJOYAZM,1064.559,3.441,we write the program in programming
+wn49bJOYAZM,1066.08,3.599,languages and computer will you know
+wn49bJOYAZM,1068.0,2.799,compile that and or interpret that in
+wn49bJOYAZM,1069.679,2.88,whatever sense and
+wn49bJOYAZM,1070.799,3.76,convert it into the machine readable
+wn49bJOYAZM,1072.559,3.601,format like zeros and ones or whatever
+wn49bJOYAZM,1074.559,3.12,assembly or whatever so that the
+wn49bJOYAZM,1076.16,4.8,computer can understand this
+wn49bJOYAZM,1077.679,5.681,this conversion is known as compilation
+wn49bJOYAZM,1080.96,3.52,your source code the code that you will
+wn49bJOYAZM,1083.36,2.96,be writing in java
+wn49bJOYAZM,1084.48,4.24,or c plus plus or whatever that gets
+wn49bJOYAZM,1086.32,2.88,convert to machine code that machine can
+wn49bJOYAZM,1088.72,1.68,read
+wn49bJOYAZM,1089.2,2.719,and then machine will read that code
+wn49bJOYAZM,1090.4,2.639,this is known as compilation of your
+wn49bJOYAZM,1091.919,3.041,program
+wn49bJOYAZM,1093.039,3.281,so when you're writing a is equal to 10
+wn49bJOYAZM,1094.96,3.68,for example
+wn49bJOYAZM,1096.32,4.239,there are two ways to do this when the
+wn49bJOYAZM,1098.64,4.88,compilation is done
+wn49bJOYAZM,1100.559,3.761,and when the program is running that
+wn49bJOYAZM,1103.52,3.039,time
+wn49bJOYAZM,1104.32,5.84,if the programming language is like okay
+wn49bJOYAZM,1106.559,5.201,this is integer that is dynamic language
+wn49bJOYAZM,1110.16,3.2,entire program is run it is being
+wn49bJOYAZM,1111.76,3.36,converted to machine language
+wn49bJOYAZM,1113.36,3.28,and now programming language is like
+wn49bJOYAZM,1115.12,3.6,okay program is running
+wn49bJOYAZM,1116.64,3.44,the value of a is equal to 10 so a is an
+wn49bJOYAZM,1118.72,3.44,integer
+wn49bJOYAZM,1120.08,3.36,program is running the value of a is
+wn49bJOYAZM,1122.16,3.44,equal to kunal
+wn49bJOYAZM,1123.44,3.84,so so value of name is equal to kunal
+wn49bJOYAZM,1125.6,3.52,sorry name is equal to kunal
+wn49bJOYAZM,1127.28,4.08,so name has a type of let's say string
+wn49bJOYAZM,1129.12,4.72,or alphabets or letters or whatever
+wn49bJOYAZM,1131.36,4.64,okay this is known as dynamic language
+wn49bJOYAZM,1133.84,5.36,where you do not have to worry about
+wn49bJOYAZM,1136.0,4.08,specifying the type previously so you
+wn49bJOYAZM,1139.2,3.12,don't have to tell
+wn49bJOYAZM,1140.08,3.76,the programming language like hey i am
+wn49bJOYAZM,1142.32,4.4,giving you a variable
+wn49bJOYAZM,1143.84,4.64,a which is of type integer like int a is
+wn49bJOYAZM,1146.72,3.28,equal to 10.
+wn49bJOYAZM,1148.48,3.76,what is happening in this case this is
+wn49bJOYAZM,1150.0,4.16,statically typed here
+wn49bJOYAZM,1152.24,3.439,while the program is compiling while
+wn49bJOYAZM,1154.16,3.84,it's converting your source code the
+wn49bJOYAZM,1155.679,4.321,code you have written in machine code
+wn49bJOYAZM,1158.0,3.679,during that conversion time the
+wn49bJOYAZM,1160.0,4.08,programming language should know what is
+wn49bJOYAZM,1161.679,5.281,the type of a
+wn49bJOYAZM,1164.08,2.88,during that time
+wn49bJOYAZM,1168.0,4.16,so the type checking here it is done at
+wn49bJOYAZM,1170.64,3.52,compile time
+wn49bJOYAZM,1172.16,3.6,while the thing is compiling so you can
+wn49bJOYAZM,1174.16,2.96,see this left hand side thing what is
+wn49bJOYAZM,1175.76,2.799,happening is compile
+wn49bJOYAZM,1177.12,3.84,whatever happens here in the right hand
+wn49bJOYAZM,1178.559,4.0,side of the equal to is runtime
+wn49bJOYAZM,1180.96,3.04,this is the actual thing that is stored
+wn49bJOYAZM,1182.559,2.801,in the object and
+wn49bJOYAZM,1184.0,3.28,this is the actual object that is stored
+wn49bJOYAZM,1185.36,3.6,in the memory to understand more about
+wn49bJOYAZM,1187.28,3.04,this in detail watch the next lecture
+wn49bJOYAZM,1188.96,2.64,i'll cover it in detail
+wn49bJOYAZM,1190.32,2.4,what are the memories and how the
+wn49bJOYAZM,1191.6,2.88,reference variables and everything is
+wn49bJOYAZM,1192.72,3.6,working in the next detail
+wn49bJOYAZM,1194.48,4.079,for now just imagine that this is a
+wn49bJOYAZM,1196.32,4.16,variable a it has a type that is equal
+wn49bJOYAZM,1198.559,4.161,to whatever type it's equal to
+wn49bJOYAZM,1200.48,3.52,in simple case again do not worry how
+wn49bJOYAZM,1202.72,2.72,it's working because that is coming in
+wn49bJOYAZM,1204.0,5.12,the next lecture
+wn49bJOYAZM,1205.44,4.4,okay so in static type languages if i'm
+wn49bJOYAZM,1209.12,4.64,saying you have an
+wn49bJOYAZM,1209.84,6.719,integer a the value is equal to kunal
+wn49bJOYAZM,1213.76,4.24,is this possible is this kunal thing
+wn49bJOYAZM,1216.559,2.721,that i have on the right hand side is
+wn49bJOYAZM,1218.0,4.08,really an integer
+wn49bJOYAZM,1219.28,3.92,no it's a string it's letters and you
+wn49bJOYAZM,1222.08,4.4,know characters
+wn49bJOYAZM,1223.2,3.28,this will give me an error
+wn49bJOYAZM,1227.44,5.52,error while my program will be compiling
+wn49bJOYAZM,1231.039,3.601,it will be like hey you mentioned a is
+wn49bJOYAZM,1232.96,4.56,integer but you're giving string
+wn49bJOYAZM,1234.64,4.24,error so errors will show at compile
+wn49bJOYAZM,1237.52,3.6,time
+wn49bJOYAZM,1238.88,3.679,okay i hope the first point is clear
+wn49bJOYAZM,1241.12,3.52,type checking at runtime
+wn49bJOYAZM,1242.559,4.0,and then static type checking at compile
+wn49bJOYAZM,1244.64,4.0,time what is runtime when the program is
+wn49bJOYAZM,1246.559,4.161,running after the compilation period
+wn49bJOYAZM,1248.64,3.12,okay once the program has been converted
+wn49bJOYAZM,1250.72,2.88,into machine code
+wn49bJOYAZM,1251.76,3.76,and when that machine code is running
+wn49bJOYAZM,1253.6,2.48,that's basically when the runtime thing
+wn49bJOYAZM,1255.52,3.44,is happening
+wn49bJOYAZM,1256.08,3.2,okay very simple stuff okay when you
+wn49bJOYAZM,1258.96,2.64,write
+wn49bJOYAZM,1259.28,4.0,a is equal to 10 okay let's say this is
+wn49bJOYAZM,1261.6,2.24,dynamic language i'm not specifying a is
+wn49bJOYAZM,1263.28,2.32,equal to 10
+wn49bJOYAZM,1263.84,3.44,i'm like when you run this program you
+wn49bJOYAZM,1265.6,3.36,figure it out yourself that is what i'm
+wn49bJOYAZM,1267.28,3.2,saying to the language
+wn49bJOYAZM,1268.96,2.959,so in this case it will be like okay
+wn49bJOYAZM,1270.48,2.8,when the program is running so when
+wn49bJOYAZM,1271.919,2.161,first it will compile and then in the
+wn49bJOYAZM,1273.28,2.72,runtime like if
+wn49bJOYAZM,1274.08,3.36,i look at the memories and everything 10
+wn49bJOYAZM,1276.0,2.08,will actually be stored in some memory
+wn49bJOYAZM,1277.44,2.8,or ram
+wn49bJOYAZM,1278.08,3.12,a will be pointing to that all these
+wn49bJOYAZM,1280.24,3.52,things we'll
+wn49bJOYAZM,1281.2,4.0,look into it in the next lecture but
+wn49bJOYAZM,1283.76,3.039,here let's say if we do let's look at
+wn49bJOYAZM,1285.2,3.839,the second point now
+wn49bJOYAZM,1286.799,3.681,so error will show at compile time or i
+wn49bJOYAZM,1289.039,2.0,already showed you if i do something
+wn49bJOYAZM,1290.48,2.079,like
+wn49bJOYAZM,1291.039,4.161,you know something like string a is
+wn49bJOYAZM,1292.559,3.36,equal to 10 or not a something like i
+wn49bJOYAZM,1295.2,3.92,can do
+wn49bJOYAZM,1295.919,5.041,int a is equal to kunal
+wn49bJOYAZM,1299.12,3.6,error kunal is not an integer and you
+wn49bJOYAZM,1300.96,4.079,are specifying it as integer
+wn49bJOYAZM,1302.72,3.839,error at compile time let's see how we
+wn49bJOYAZM,1305.039,2.481,can get an error in the dynamic
+wn49bJOYAZM,1306.559,2.48,languages
+wn49bJOYAZM,1307.52,3.279,let's say you do a is equal to 10 this
+wn49bJOYAZM,1309.039,3.76,will work perfectly fine
+wn49bJOYAZM,1310.799,4.721,this will work perfectly fine you know
+wn49bJOYAZM,1312.799,6.481,and uh here you may say
+wn49bJOYAZM,1315.52,5.68,that um another possibility can be
+wn49bJOYAZM,1319.28,3.44,a is equal to in the next line i can say
+wn49bJOYAZM,1321.2,5.04,of the code kunal
+wn49bJOYAZM,1322.72,5.52,first a was integer now a is kunal
+wn49bJOYAZM,1326.24,3.84,is it going to give an error pause this
+wn49bJOYAZM,1328.24,3.919,video and think to yourself
+wn49bJOYAZM,1330.08,3.44,in dynamic languages where type is not
+wn49bJOYAZM,1332.159,3.121,specified beforehand
+wn49bJOYAZM,1333.52,4.159,type is only calculated after the you
+wn49bJOYAZM,1335.28,5.68,know the in the during the run time
+wn49bJOYAZM,1337.679,6.321,in python for example okay
+wn49bJOYAZM,1340.96,5.199,if you said yes then that's not correct
+wn49bJOYAZM,1344.0,3.6,actually it will not give an error okay
+wn49bJOYAZM,1346.159,2.241,why it will not give an error watch the
+wn49bJOYAZM,1347.6,4.16,next video
+wn49bJOYAZM,1348.4,4.72,it's basically an object and references
+wn49bJOYAZM,1351.76,4.48,thing and it's uh
+wn49bJOYAZM,1353.12,5.28,actually like first the value was 10 and
+wn49bJOYAZM,1356.24,5.76,then the value is going to point towards
+wn49bJOYAZM,1358.4,4.96,kunal string because at the compile time
+wn49bJOYAZM,1362.0,2.96,it does not really care about the type
+wn49bJOYAZM,1363.36,2.16,so it can definitely change things like
+wn49bJOYAZM,1364.96,3.28,that
+wn49bJOYAZM,1365.52,4.24,okay first a was pointing to 10 then a
+wn49bJOYAZM,1368.24,3.76,will be pointing to kunal
+wn49bJOYAZM,1369.76,4.24,then a will be pointing to 13.5 whatever
+wn49bJOYAZM,1372.0,3.76,now float or decimals you want
+wn49bJOYAZM,1374.0,4.24,but this will give an error in static
+wn49bJOYAZM,1375.76,2.48,languages
+wn49bJOYAZM,1378.96,4.0,here i have specified a is equal to 10
+wn49bJOYAZM,1380.96,3.76,there is a rule associated to it
+wn49bJOYAZM,1382.96,3.199,in the next line if i do a is equal to
+wn49bJOYAZM,1384.72,3.199,kunal
+wn49bJOYAZM,1386.159,3.921,this will give an error in static
+wn49bJOYAZM,1387.919,4.481,languages
+wn49bJOYAZM,1390.08,4.16,okay so when it's compiling it will be
+wn49bJOYAZM,1392.4,3.68,like hey you said a is equal to 10
+wn49bJOYAZM,1394.24,3.12,which is an integer but in the next line
+wn49bJOYAZM,1396.08,2.959,you are assigning it a string
+wn49bJOYAZM,1397.36,3.439,this is an error you can definitely do
+wn49bJOYAZM,1399.039,4.0,something like this
+wn49bJOYAZM,1400.799,3.041,okay so that's like error will show at
+wn49bJOYAZM,1403.039,2.561,compile time
+wn49bJOYAZM,1403.84,4.0,error might not show till the program is
+wn49bJOYAZM,1405.6,3.68,run so in this case it can be something
+wn49bJOYAZM,1407.84,4.48,like if you do
+wn49bJOYAZM,1409.28,6.08,you know if you're doing something like
+wn49bJOYAZM,1412.32,5.28,a plus 10 so you are adding
+wn49bJOYAZM,1415.36,3.6,a string and a number this will give an
+wn49bJOYAZM,1417.6,6.24,error
+wn49bJOYAZM,1418.96,6.959,okay we'll talk more about this later on
+wn49bJOYAZM,1423.84,3.439,now declaring the data type before you
+wn49bJOYAZM,1425.919,3.281,use it we already covered this
+wn49bJOYAZM,1427.279,3.52,in a is equal to 10 like a is type
+wn49bJOYAZM,1429.2,3.44,integer value is 10
+wn49bJOYAZM,1430.799,3.76,declaring the data type before we
+wn49bJOYAZM,1432.64,3.44,actually use it no need to declare the
+wn49bJOYAZM,1434.559,2.561,data type
+wn49bJOYAZM,1436.08,3.04,now what are the advantages
+wn49bJOYAZM,1437.12,3.439,disadvantages more control
+wn49bJOYAZM,1439.12,3.679,okay you have to write a little bit more
+wn49bJOYAZM,1440.559,4.72,code but you have more control over the
+wn49bJOYAZM,1442.799,4.0,you know type data run time errors are
+wn49bJOYAZM,1445.279,3.28,reduced
+wn49bJOYAZM,1446.799,3.601,and in dynamic languages no need to
+wn49bJOYAZM,1448.559,4.401,specify the type or anything so just
+wn49bJOYAZM,1450.4,3.6,saves time in writing code but it might
+wn49bJOYAZM,1452.96,3.68,give error at
+wn49bJOYAZM,1454.0,3.44,runtime that was pretty much about it
+wn49bJOYAZM,1456.64,3.519,and we'll cover
+wn49bJOYAZM,1457.44,4.479,more about the memory management and all
+wn49bJOYAZM,1460.159,3.841,these things in the next video
+wn49bJOYAZM,1461.919,3.76,now let's answer a few questions that
+wn49bJOYAZM,1464.0,3.279,you might be having right you might not
+wn49bJOYAZM,1465.679,2.081,know what are variables you might not
+wn49bJOYAZM,1467.279,2.241,know
+wn49bJOYAZM,1467.76,3.2,how the objects are working internally
+wn49bJOYAZM,1469.52,2.48,what all this memory thing that i'm
+wn49bJOYAZM,1470.96,2.959,talking about
+wn49bJOYAZM,1472.0,3.84,so let's answer that let's take the very
+wn49bJOYAZM,1473.919,2.64,very simple stuff like the very simple
+wn49bJOYAZM,1475.84,2.16,stuff
+wn49bJOYAZM,1476.559,3.521,if you write in a programming language
+wn49bJOYAZM,1478.0,5.6,something like a is equal to
+wn49bJOYAZM,1480.08,5.199,10 as simple as it gets i'm just writing
+wn49bJOYAZM,1483.6,4.079,a is equal to 10 over here
+wn49bJOYAZM,1485.279,3.28,let's dive deep into how this thing is
+wn49bJOYAZM,1487.679,2.641,working
+wn49bJOYAZM,1488.559,3.521,so when you're talking about memory
+wn49bJOYAZM,1490.32,4.56,management right
+wn49bJOYAZM,1492.08,4.16,there are two types of memories here in
+wn49bJOYAZM,1494.88,2.159,your computer you know programming
+wn49bJOYAZM,1496.24,5.2,languages
+wn49bJOYAZM,1497.039,7.921,one is the stack memory
+wn49bJOYAZM,1501.44,6.719,one is the heap memory okay
+wn49bJOYAZM,1504.96,4.24,so this is the stack memory and this is
+wn49bJOYAZM,1508.159,3.601,the
+wn49bJOYAZM,1509.2,3.92,heap memory and when you write in your
+wn49bJOYAZM,1511.76,2.32,programming language when you write
+wn49bJOYAZM,1513.12,3.679,something like this
+wn49bJOYAZM,1514.08,4.079,a is equal to 10 when you write
+wn49bJOYAZM,1516.799,3.76,something like this
+wn49bJOYAZM,1518.159,4.961,this a is known as what reference
+wn49bJOYAZM,1520.559,2.561,variable
+wn49bJOYAZM,1525.12,5.76,and this 10 is known as what object
+wn49bJOYAZM,1529.12,3.6,a is not the object many people say is
+wn49bJOYAZM,1530.88,4.159,the object no a is the reference
+wn49bJOYAZM,1532.72,5.199,variable 10 is the object
+wn49bJOYAZM,1535.039,4.401,how is this stored in memory then your
+wn49bJOYAZM,1537.919,2.0,variables and function calls and
+wn49bJOYAZM,1539.44,2.56,whatever
+wn49bJOYAZM,1539.919,3.76,like for now let's just say variables
+wn49bJOYAZM,1542.0,3.6,they are stored in the stack
+wn49bJOYAZM,1543.679,3.681,and the actual object that is in the
+wn49bJOYAZM,1545.6,2.559,memory like the actual value of that
+wn49bJOYAZM,1547.36,3.84,object
+wn49bJOYAZM,1548.159,3.041,that is stored in heap
+wn49bJOYAZM,1552.64,3.36,in this memory let's say in its ram or
+wn49bJOYAZM,1554.559,3.201,whatever and a
+wn49bJOYAZM,1556.0,4.08,is going to be pointing towards that
+wn49bJOYAZM,1557.76,2.32,object
+wn49bJOYAZM,1560.24,3.2,so when you're saying hey give me the
+wn49bJOYAZM,1562.32,3.599,value of a
+wn49bJOYAZM,1563.44,3.76,it's going to say it's 10 how it's going
+wn49bJOYAZM,1565.919,4.0,to see a is here
+wn49bJOYAZM,1567.2,3.28,what is a pointing towards a is pointing
+wn49bJOYAZM,1569.919,2.801,to
+wn49bJOYAZM,1570.48,3.84,10 this a is going to point to the
+wn49bJOYAZM,1572.72,3.92,address of this particular thing
+wn49bJOYAZM,1574.32,4.08,you know every object and stuff has an
+wn49bJOYAZM,1576.64,3.36,address in the memory like some
+wn49bJOYAZM,1578.4,3.519,some address in some ram or whatever
+wn49bJOYAZM,1580.0,2.799,very nice computer science is very
+wn49bJOYAZM,1581.919,3.041,fascinating
+wn49bJOYAZM,1582.799,3.601,in simple terms this is how it works so
+wn49bJOYAZM,1584.96,3.839,you have a is equal to 10
+wn49bJOYAZM,1586.4,3.12,a is a variable in stack memory pointing
+wn49bJOYAZM,1588.799,2.88,towards the
+wn49bJOYAZM,1589.52,3.759,object in heap memory the stack and heap
+wn49bJOYAZM,1591.679,2.561,and everything is just memory management
+wn49bJOYAZM,1593.279,2.4,how they are done in
+wn49bJOYAZM,1594.24,2.799,like computer like scientists and stuff
+wn49bJOYAZM,1595.679,2.721,they have computer scientists they have
+wn49bJOYAZM,1597.039,2.24,you know made these things like there's
+wn49bJOYAZM,1598.4,2.639,a stack memory
+wn49bJOYAZM,1599.279,3.361,heap memory this thing will be much more
+wn49bJOYAZM,1601.039,2.88,clear when we'll be doing like recursion
+wn49bJOYAZM,1602.64,2.88,and stuff
+wn49bJOYAZM,1603.919,3.76,for now this is as simple as it gets
+wn49bJOYAZM,1605.52,4.0,it's not like a separate hardware piece
+wn49bJOYAZM,1607.679,4.88,in your pc okay it's just how memory is
+wn49bJOYAZM,1609.52,5.6,managed it's how memory is managed
+wn49bJOYAZM,1612.559,3.841,so a is in the stack memory pointing
+wn49bJOYAZM,1615.12,2.559,towards the heap memory
+wn49bJOYAZM,1616.4,3.44,heap is let's say another section of
+wn49bJOYAZM,1617.679,3.841,your memory or ram or whatever hard disk
+wn49bJOYAZM,1619.84,3.28,and there's a heap memory allocation
+wn49bJOYAZM,1621.52,3.44,over there in your you know
+wn49bJOYAZM,1623.12,3.52,it sometimes there's also like some if
+wn49bJOYAZM,1624.96,3.04,you talk about cpus they also have some
+wn49bJOYAZM,1626.64,2.399,memories they have registers and stuff
+wn49bJOYAZM,1628.0,3.44,but we don't have to go
+wn49bJOYAZM,1629.039,3.921,in too much detail simple terms
+wn49bJOYAZM,1631.44,3.04,variables in stack memory
+wn49bJOYAZM,1632.96,3.44,pointing towards the object in heap
+wn49bJOYAZM,1634.48,3.28,memory that is simple but that is not
+wn49bJOYAZM,1636.4,2.08,what i am trying to make you understand
+wn49bJOYAZM,1637.76,2.159,here
+wn49bJOYAZM,1638.48,3.28,i am trying to make you understand how
+wn49bJOYAZM,1639.919,3.281,these things are working and how this is
+wn49bJOYAZM,1641.76,3.6,going to help us
+wn49bJOYAZM,1643.2,3.52,what is the actual meaning of object
+wn49bJOYAZM,1645.36,2.88,what is the actual meaning of reference
+wn49bJOYAZM,1646.72,3.199,variable let's look into that
+wn49bJOYAZM,1648.24,5.039,this is the best example and it will
+wn49bJOYAZM,1649.919,4.64,make things very very clear
+wn49bJOYAZM,1653.279,3.041,so now we are answering the very
+wn49bJOYAZM,1654.559,3.921,important question he the
+wn49bJOYAZM,1656.32,4.16,object and memory and reference variable
+wn49bJOYAZM,1658.48,3.6,all these things
+wn49bJOYAZM,1660.48,3.919,previously i mentioned that i am an
+wn49bJOYAZM,1662.08,3.68,object for by far you should know that
+wn49bJOYAZM,1664.399,2.241,the reference variable is just like the
+wn49bJOYAZM,1665.76,2.88,variable
+wn49bJOYAZM,1666.64,3.919,and the actual value of that variable is
+wn49bJOYAZM,1668.64,4.24,in the object i'll repeat it again
+wn49bJOYAZM,1670.559,3.201,variable does not a is not the actual
+wn49bJOYAZM,1672.88,3.279,value of 10
+wn49bJOYAZM,1673.76,4.159,in a is equal to 10 10 is actually in
+wn49bJOYAZM,1676.159,3.361,the memory in the heap memory a is just
+wn49bJOYAZM,1677.919,4.64,pointing towards that
+wn49bJOYAZM,1679.52,3.68,for example i am kunal my object is my
+wn49bJOYAZM,1682.559,2.561,body
+wn49bJOYAZM,1683.2,3.599,this is a physical object in the memory
+wn49bJOYAZM,1685.12,4.88,of this of this world
+wn49bJOYAZM,1686.799,8.041,this is this is the object kunal
+wn49bJOYAZM,1690.0,7.2,object when i'm saying name is equal to
+wn49bJOYAZM,1694.84,4.76,kunal
+wn49bJOYAZM,1697.2,4.479,okay so this object kunal this is a
+wn49bJOYAZM,1699.6,4.24,object on an actual object
+wn49bJOYAZM,1701.679,4.24,you might i might ask you hey what is
+wn49bJOYAZM,1703.84,5.92,the type of this object kunal
+wn49bJOYAZM,1705.919,6.24,human we are all of class human
+wn49bJOYAZM,1709.76,3.44,so objects have a type and we can define
+wn49bJOYAZM,1712.159,3.361,those via classes
+wn49bJOYAZM,1713.2,3.92,we'll look more into that later on so
+wn49bJOYAZM,1715.52,2.8,this is the object in the memory in the
+wn49bJOYAZM,1717.12,2.88,heap memory okay this is in the heap
+wn49bJOYAZM,1718.32,3.359,memory the object
+wn49bJOYAZM,1720.0,4.08,if you want to call this object if you
+wn49bJOYAZM,1721.679,5.521,want to call my myself my my
+wn49bJOYAZM,1724.08,4.24,physical self how do you call me you
+wn49bJOYAZM,1727.2,4.24,call me via my name
+wn49bJOYAZM,1728.32,4.239,so you can say kunal this is the
+wn49bJOYAZM,1731.44,3.68,reference variable
+wn49bJOYAZM,1732.559,3.84,pointing to this object so if kunal is
+wn49bJOYAZM,1735.12,3.76,giving a party
+wn49bJOYAZM,1736.399,3.121,okay so we'll just say kunal pay the
+wn49bJOYAZM,1738.88,2.96,bill
+wn49bJOYAZM,1739.52,4.159,kunal will pay the pill and this objects
+wn49bJOYAZM,1741.84,4.559,bill account will be reduced like
+wn49bJOYAZM,1743.679,4.0,this objects money will be spent let's
+wn49bJOYAZM,1746.399,2.801,say my mom
+wn49bJOYAZM,1747.679,3.201,also calls me something she does not
+wn49bJOYAZM,1749.2,4.959,call me kunal she calls me
+wn49bJOYAZM,1750.88,6.24,son son
+wn49bJOYAZM,1754.159,4.88,is also the same person if you are
+wn49bJOYAZM,1757.12,3.84,calling me you will call me kunal
+wn49bJOYAZM,1759.039,4.481,if my call if my mom let's say only my
+wn49bJOYAZM,1760.96,5.199,mom if let's say my mom calls me kunal
+wn49bJOYAZM,1763.52,3.759,same person is being called if my mom
+wn49bJOYAZM,1766.159,3.52,calls me son
+wn49bJOYAZM,1767.279,5.28,same person is being called if my sister
+wn49bJOYAZM,1769.679,2.88,calls me brother
+wn49bJOYAZM,1772.96,4.319,same person is being called so if kunal
+wn49bJOYAZM,1776.08,3.599,is giving a party
+wn49bJOYAZM,1777.279,3.681,or son is giving a party or brother is
+wn49bJOYAZM,1779.679,2.801,giving a party
+wn49bJOYAZM,1780.96,2.959,let's say in a hypothetical world i
+wn49bJOYAZM,1782.48,3.199,might have a girlfriend might call me
+wn49bJOYAZM,1783.919,4.721,baby
+wn49bJOYAZM,1785.679,5.041,if baby is giving a party money is being
+wn49bJOYAZM,1788.64,3.12,spent of the original object only just
+wn49bJOYAZM,1790.72,2.559,one object
+wn49bJOYAZM,1791.76,4.0,it's not like there are four canals for
+wn49bJOYAZM,1793.279,3.921,these four people
+wn49bJOYAZM,1795.76,3.919,what am i trying to make you understand
+wn49bJOYAZM,1797.2,4.079,with this if you write something like a
+wn49bJOYAZM,1799.679,4.401,is equal to 10
+wn49bJOYAZM,1801.279,4.4,b is equal to 37.5 or whatever you buy
+wn49bJOYAZM,1804.08,3.199,now you know these are objects
+wn49bJOYAZM,1805.679,3.441,these are reference variables these are
+wn49bJOYAZM,1807.279,2.561,in heap memory these are the actual
+wn49bJOYAZM,1809.12,2.24,objects
+wn49bJOYAZM,1809.84,3.68,and these are in the stack memory that
+wn49bJOYAZM,1811.36,3.52,are just pointing towards these objects
+wn49bJOYAZM,1813.52,3.44,what am i trying to make you understand
+wn49bJOYAZM,1814.88,3.279,with this example then the thing i'm
+wn49bJOYAZM,1816.96,5.04,trying to make you understand
+wn49bJOYAZM,1818.159,5.921,is one object
+wn49bJOYAZM,1822.0,3.12,or more than one this is what i'm trying
+wn49bJOYAZM,1824.08,3.28,to make you understand
+wn49bJOYAZM,1825.12,3.919,listen very carefully more than one
+wn49bJOYAZM,1827.36,4.0,reference variables
+wn49bJOYAZM,1829.039,3.441,can point to the same object point
+wn49bJOYAZM,1831.36,4.0,number one
+wn49bJOYAZM,1832.48,5.6,pointer number two if any one of these
+wn49bJOYAZM,1835.36,5.199,reference variables change the object
+wn49bJOYAZM,1838.08,6.16,original object is going to be changed
+wn49bJOYAZM,1840.559,3.681,and it is going to be changed for all
+wn49bJOYAZM,1845.76,6.56,if sun gets a haircut then if br
+wn49bJOYAZM,1849.279,5.12,if if if uh if son gets the haircut
+wn49bJOYAZM,1852.32,3.92,then baby also gets the haircut right
+wn49bJOYAZM,1854.399,2.561,okay if if my mom told me to get a
+wn49bJOYAZM,1856.24,2.159,haircut
+wn49bJOYAZM,1856.96,4.319,it's not like my sister will not see
+wn49bJOYAZM,1858.399,3.52,that haircut even though the change was
+wn49bJOYAZM,1861.279,3.441,made
+wn49bJOYAZM,1861.919,4.321,via this reference variable original
+wn49bJOYAZM,1864.72,3.439,object was changed
+wn49bJOYAZM,1866.24,3.84,and since all of these other variables
+wn49bJOYAZM,1868.159,2.64,are also pointing towards the original
+wn49bJOYAZM,1870.08,2.959,object
+wn49bJOYAZM,1870.799,4.961,the change is going to be visible to all
+wn49bJOYAZM,1873.039,2.721,these variables
+wn49bJOYAZM,1876.96,3.839,this is how it sort of like functions in
+wn49bJOYAZM,1878.96,3.52,like java and python as well
+wn49bJOYAZM,1880.799,3.201,so in the future we will be looking into
+wn49bJOYAZM,1882.48,2.96,like some concepts like pass by
+wn49bJOYAZM,1884.0,3.44,reference pass by
+wn49bJOYAZM,1885.44,4.64,value you know might have heard in c
+wn49bJOYAZM,1887.44,5.359,plus java does not have this thing
+wn49bJOYAZM,1890.08,3.839,it only has pass by objects value sorry
+wn49bJOYAZM,1892.799,4.0,not objects value
+wn49bJOYAZM,1893.919,4.081,pass by reference value okay it does not
+wn49bJOYAZM,1896.799,3.921,have like value or anything
+wn49bJOYAZM,1898.0,4.32,pass by reference value that it's there
+wn49bJOYAZM,1900.72,2.24,in java only we'll talk more about that
+wn49bJOYAZM,1902.32,2.0,later
+wn49bJOYAZM,1902.96,3.36,okay how these things are internally
+wn49bJOYAZM,1904.32,2.88,working but what it's doing are you able
+wn49bJOYAZM,1906.32,2.239,to understand
+wn49bJOYAZM,1907.2,2.959,if i'm saying there's a list something
+wn49bJOYAZM,1908.559,2.561,like this let's say let's say simple
+wn49bJOYAZM,1910.159,3.12,python example
+wn49bJOYAZM,1911.12,3.2,let's say i say a is equal to a list
+wn49bJOYAZM,1913.279,4.561,which is like 1
+wn49bJOYAZM,1914.32,6.56,3 5 9 or whatever and then i say
+wn49bJOYAZM,1917.84,4.319,b is equal to a what is happening
+wn49bJOYAZM,1920.88,3.919,internally
+wn49bJOYAZM,1922.159,3.76,this is happening internally list is
+wn49bJOYAZM,1924.799,4.081,nothing but a collection of
+wn49bJOYAZM,1925.919,3.6,uh numbers or you know elements you can
+wn49bJOYAZM,1928.88,2.32,you might have
+wn49bJOYAZM,1929.519,3.201,also heard it like in areas or whatever
+wn49bJOYAZM,1931.2,2.56,okay let's say this is array forget
+wn49bJOYAZM,1932.72,1.76,about programming language let's say
+wn49bJOYAZM,1933.76,3.759,this is an array
+wn49bJOYAZM,1934.48,4.559,in you know java or python so actually
+wn49bJOYAZM,1937.519,4.241,internally all of you know this is in
+wn49bJOYAZM,1939.039,5.841,stack memory pointing towards this
+wn49bJOYAZM,1941.76,5.6,which is 1 3 5 9
+wn49bJOYAZM,1944.88,4.72,b is pointing to a means whatever a is
+wn49bJOYAZM,1947.36,4.72,pointing to b will also point to that
+wn49bJOYAZM,1949.6,5.199,very simple stuff now if you make a
+wn49bJOYAZM,1952.08,4.88,change via a if you say the 0th element
+wn49bJOYAZM,1954.799,5.36,of whatever a is pointing to
+wn49bJOYAZM,1956.96,4.64,should be 99 this will be changed to 99
+wn49bJOYAZM,1960.159,5.281,very simple stuff
+wn49bJOYAZM,1961.6,6.88,now when you display output
+wn49bJOYAZM,1965.44,6.16,b my question to you is
+wn49bJOYAZM,1968.48,5.52,is b also going to show this updated 99
+wn49bJOYAZM,1971.6,4.799,or is it going to show the original one
+wn49bJOYAZM,1974.0,4.48,pause for a minute and think about it
+wn49bJOYAZM,1976.399,3.52,if you said that it will also update 99
+wn49bJOYAZM,1978.48,2.799,that is true because the answer is in
+wn49bJOYAZM,1979.919,4.561,front of your eyes
+wn49bJOYAZM,1981.279,4.161,b is also pointing to the same object so
+wn49bJOYAZM,1984.48,3.679,if this
+wn49bJOYAZM,1985.44,4.8,simple terms are repeated again if the
+wn49bJOYAZM,1988.159,4.0,object was changed via one reference
+wn49bJOYAZM,1990.24,5.279,variable
+wn49bJOYAZM,1992.159,5.041,then this change will also be visible
+wn49bJOYAZM,1995.519,4.88,to all the other reference variables
+wn49bJOYAZM,1997.2,4.8,that are pointing to the same object
+wn49bJOYAZM,2000.399,4.0,okay there are more things we'll
+wn49bJOYAZM,2002.0,3.039,consider mutability immutability later
+wn49bJOYAZM,2004.399,2.481,on
+wn49bJOYAZM,2005.039,3.36,but this is just like a simple example
+wn49bJOYAZM,2006.88,4.639,that i'm giving you
+wn49bJOYAZM,2008.399,4.88,okay don't worry we'll we'll cover
+wn49bJOYAZM,2011.519,2.721,mutability like how we can modify and
+wn49bJOYAZM,2013.279,2.481,all these things
+wn49bJOYAZM,2014.24,2.72,objects and sometimes it may show
+wn49bJOYAZM,2015.76,2.639,sometimes we may not show but this is
+wn49bJOYAZM,2016.96,4.319,the
+wn49bJOYAZM,2018.399,4.241,theory i wanted to show you i noticed
+wn49bJOYAZM,2021.279,3.361,you were not able to see but i
+wn49bJOYAZM,2022.64,3.68,i just wrote output b only okay that's
+wn49bJOYAZM,2024.64,2.159,it output b was only thing written you
+wn49bJOYAZM,2026.32,3.52,did not
+wn49bJOYAZM,2026.799,4.0,miss out on anything one more thing i
+wn49bJOYAZM,2029.84,2.88,want to share with you
+wn49bJOYAZM,2030.799,3.841,it's another important thing which is
+wn49bJOYAZM,2032.72,3.6,what happens when there is no reference
+wn49bJOYAZM,2034.64,6.24,variable to the object
+wn49bJOYAZM,2036.32,4.56,say it's my name is kunal
+wn49bJOYAZM,2041.36,4.24,reference variable to something this is
+wn49bJOYAZM,2044.88,5.68,my body
+wn49bJOYAZM,2045.6,7.6,okay my object now someone calls me baby
+wn49bJOYAZM,2050.56,3.2,same object let's say a third person
+wn49bJOYAZM,2053.2,4.08,came
+wn49bJOYAZM,2053.76,3.52,let's say um
+wn49bJOYAZM,2057.679,5.121,i don't know um
+wn49bJOYAZM,2061.28,3.2,this is a hypothetical situation by the
+wn49bJOYAZM,2062.8,3.52,way trying to make you understand so
+wn49bJOYAZM,2064.48,3.359,you know i can either be called kunal or
+wn49bJOYAZM,2066.32,3.519,baby so if you call me
+wn49bJOYAZM,2067.839,3.28,by canal or she calls me by a baby same
+wn49bJOYAZM,2069.839,3.601,person is being called
+wn49bJOYAZM,2071.119,4.0,okay let's say there comes another
+wn49bJOYAZM,2073.44,4.719,person
+wn49bJOYAZM,2075.119,5.76,and let's say this person's name is
+wn49bJOYAZM,2078.159,5.601,another object so this name is adam
+wn49bJOYAZM,2080.879,2.881,levine or whatever
+wn49bJOYAZM,2083.919,3.601,adam levine is married let's take some
+wn49bJOYAZM,2086.079,3.76,other example
+wn49bJOYAZM,2087.52,3.04,who is a popular celebrity who is not
+wn49bJOYAZM,2089.839,5.28,married
+wn49bJOYAZM,2090.56,10.0,um or i can just take some random name
+wn49bJOYAZM,2095.119,8.48,uh random name okay alex or alex or
+wn49bJOYAZM,2100.56,6.08,alex zan alexander
+wn49bJOYAZM,2103.599,6.161,or something okay this new guy comes
+wn49bJOYAZM,2106.64,4.959,and now let's say baby now points
+wn49bJOYAZM,2109.76,3.44,towards alexander
+wn49bJOYAZM,2111.599,4.24,okay let's say kunal is not the baby
+wn49bJOYAZM,2113.2,4.08,anymore okay so if alexander is called
+wn49bJOYAZM,2115.839,2.481,the same person will be called now baby
+wn49bJOYAZM,2117.28,3.68,will be called
+wn49bJOYAZM,2118.32,4.4,all the changes made by a baby variable
+wn49bJOYAZM,2120.96,4.8,will be in this object now
+wn49bJOYAZM,2122.72,5.84,okay let's say kunal now gets upset
+wn49bJOYAZM,2125.76,4.88,like i'm not the baby anymore okay so
+wn49bJOYAZM,2128.56,4.32,what happens to kunal is that
+wn49bJOYAZM,2130.64,4.16,kunal goes into the forest and like
+wn49bJOYAZM,2132.88,4.4,leaves the material world and everything
+wn49bJOYAZM,2134.8,4.559,and gives up his name okay so now there
+wn49bJOYAZM,2137.28,4.0,is no more name kunal even
+wn49bJOYAZM,2139.359,4.48,there is no name of this person now this
+wn49bJOYAZM,2141.28,6.079,person is living alone in the forest
+wn49bJOYAZM,2143.839,4.081,okay so when this is an object what is
+wn49bJOYAZM,2147.359,3.76,happening
+wn49bJOYAZM,2147.92,6.4,this is an object with
+wn49bJOYAZM,2151.119,3.201,no reference variable
+wn49bJOYAZM,2155.68,4.159,there is no reference variable to this
+wn49bJOYAZM,2157.2,5.6,object meaning there is no variable that
+wn49bJOYAZM,2159.839,6.081,is pointing towards this object
+wn49bJOYAZM,2162.8,6.08,so this will be removed from the memory
+wn49bJOYAZM,2165.92,4.08,when garbage collection hits so in java
+wn49bJOYAZM,2168.88,1.76,there is something known as garbage
+wn49bJOYAZM,2170.0,2.24,collection
+wn49bJOYAZM,2170.64,3.439,in very simple terms what is garbage
+wn49bJOYAZM,2172.24,4.24,collection very simple terms
+wn49bJOYAZM,2174.079,4.241,garbage collection means that objects
+wn49bJOYAZM,2176.48,4.08,that do not have a reference variable
+wn49bJOYAZM,2178.32,4.56,pointing towards them like this example
+wn49bJOYAZM,2180.56,3.84,no one is pointing to this object when
+wn49bJOYAZM,2182.88,3.6,the garbage collection hits it
+wn49bJOYAZM,2184.4,3.92,it is it hits automatically okay when it
+wn49bJOYAZM,2186.48,4.08,feels like it needs to free the memory
+wn49bJOYAZM,2188.32,3.84,in that case all the all the objects
+wn49bJOYAZM,2190.56,2.32,that do not have a variable pointing to
+wn49bJOYAZM,2192.16,2.08,them
+wn49bJOYAZM,2192.88,3.92,they will be removed from the memory
+wn49bJOYAZM,2194.24,4.4,deleted that happens automatically
+wn49bJOYAZM,2196.8,3.2,we'll we'll look more into that later on
+wn49bJOYAZM,2198.64,2.959,how we can you know perform
+wn49bJOYAZM,2200.0,3.44,some functions when garbage collection
+wn49bJOYAZM,2201.599,3.361,is hit in object 20 programming we look
+wn49bJOYAZM,2203.44,3.2,into later on there's a finalize final
+wn49bJOYAZM,2204.96,3.84,finalize on whatever
+wn49bJOYAZM,2206.64,3.439,okay so if you're doing something like a
+wn49bJOYAZM,2208.8,3.84,is equal to 10
+wn49bJOYAZM,2210.079,4.241,so this basically means uh a is pointing
+wn49bJOYAZM,2212.64,4.959,to an object 10
+wn49bJOYAZM,2214.32,6.56,then you say a is equal to 37 now a will
+wn49bJOYAZM,2217.599,3.281,be pointing towards 37
+wn49bJOYAZM,2222.96,3.68,okay what happens to this 10 no one is
+wn49bJOYAZM,2225.52,2.88,pointing to 10
+wn49bJOYAZM,2226.64,3.84,garbage collection will come and remove
+wn49bJOYAZM,2228.4,5.84,it yam raj
+wn49bJOYAZM,2230.48,5.2,if you can get that reference okay
+wn49bJOYAZM,2234.24,3.44,one last thing i wanted to share was in
+wn49bJOYAZM,2235.68,3.84,like uh previous example i mentioned
+wn49bJOYAZM,2237.68,5.2,something regarding
+wn49bJOYAZM,2239.52,5.68,the dynamically type languages
+wn49bJOYAZM,2242.88,4.0,so why is this thing working so if i say
+wn49bJOYAZM,2245.2,4.0,something in dynamic type language that
+wn49bJOYAZM,2246.88,3.84,in python for example if i say a is
+wn49bJOYAZM,2249.2,4.72,equal to 10
+wn49bJOYAZM,2250.72,4.24,then i say a is equal to kunal this will
+wn49bJOYAZM,2253.92,3.199,not give an error
+wn49bJOYAZM,2254.96,3.04,in dynamic languages where the type is
+wn49bJOYAZM,2257.119,3.601,decided
+wn49bJOYAZM,2258.0,4.24,compile at runtime hours this is working
+wn49bJOYAZM,2260.72,3.28,internally
+wn49bJOYAZM,2262.24,3.2,now you might be knowing a is pointing
+wn49bJOYAZM,2264.0,3.44,towards 10
+wn49bJOYAZM,2265.44,6.399,a is equal to kunal now another object
+wn49bJOYAZM,2267.44,4.399,will be formed kunal
+wn49bJOYAZM,2272.72,3.28,a will be now pointing to this this will
+wn49bJOYAZM,2275.52,2.319,be
+wn49bJOYAZM,2276.0,3.119,removed when garbage collection hits
+wn49bJOYAZM,2277.839,3.441,that's how python works
+wn49bJOYAZM,2279.119,3.841,very simple stuff that's the entire idea
+wn49bJOYAZM,2281.28,3.52,of objects and you know things and we'll
+wn49bJOYAZM,2282.96,3.6,go more into details of this when we're
+wn49bJOYAZM,2284.8,3.2,learning about classes objective and
+wn49bJOYAZM,2286.56,2.64,programming but this is the general idea
+wn49bJOYAZM,2288.0,2.72,of memory management
+wn49bJOYAZM,2289.2,3.52,some simple simple data types we look
+wn49bJOYAZM,2290.72,4.16,into next lecture is like the integer
+wn49bJOYAZM,2292.72,4.08,and like character and like booleans
+wn49bJOYAZM,2294.88,2.4,very simple stuff like int a is equal to
+wn49bJOYAZM,2296.8,2.64,10
+wn49bJOYAZM,2297.28,3.28,just created an integer a value 10 this
+wn49bJOYAZM,2299.44,2.56,is the object this is a reference
+wn49bJOYAZM,2300.56,1.84,variable this is in stack this is in
+wn49bJOYAZM,2302.0,2.4,heap
+wn49bJOYAZM,2302.4,3.52,this is pointing to this that's it if
+wn49bJOYAZM,2304.4,3.52,you did if you say something like
+wn49bJOYAZM,2305.92,3.679,output the value of a it will actually
+wn49bJOYAZM,2307.92,3.12,see where it's pointing and get that
+wn49bJOYAZM,2309.599,3.681,value and print this for us
+wn49bJOYAZM,2311.04,3.44,if you say a plus b what is equal to c
+wn49bJOYAZM,2313.28,2.559,is equal to a plus b
+wn49bJOYAZM,2314.48,3.359,this will get the value from heap this
+wn49bJOYAZM,2315.839,2.401,will get the value from heap combine it
+wn49bJOYAZM,2317.839,3.041,and
+wn49bJOYAZM,2318.24,3.359,add a value in another another variable
+wn49bJOYAZM,2320.88,2.719,this also
+wn49bJOYAZM,2321.599,3.76,will be in heap all the objects are in
+wn49bJOYAZM,2323.599,4.561,heap nothing to think about here
+wn49bJOYAZM,2325.359,4.0,very simple stuff all right thanks a lot
+wn49bJOYAZM,2328.16,2.8,for watching and
+wn49bJOYAZM,2329.359,3.121,we will see you in the next video make
+wn49bJOYAZM,2330.96,3.04,sure you like share and subscribe and
+wn49bJOYAZM,2332.48,8.14,check out the links in the description
+wn49bJOYAZM,2334.0,9.58,as well
+wn49bJOYAZM,2340.62,2.96,[Music]

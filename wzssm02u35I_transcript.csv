@@ -1,0 +1,919 @@
+﻿video_id,start,duration,text
+wzssm02u35I,0.4,3.76,use this information to answer the
+wzssm02u35I,2.32,3.92,question. We are also sending the data
+wzssm02u35I,4.16,3.759,or the context along with it. Now I need
+wzssm02u35I,6.24,3.2,to scrape my site and add the
+wzssm02u35I,7.919,3.84,information in the vector database.
+wzssm02u35I,9.44,4.159,These splits we need to embed them into
+wzssm02u35I,11.759,4.241,vectors and we need to store them in a
+wzssm02u35I,13.599,4.481,database. I am creating a dictionary.
+wzssm02u35I,16.0,4.56,Now whatever prompt I'm going to get
+wzssm02u35I,18.08,4.72,that I am passing as an input to our LM.
+wzssm02u35I,20.56,5.68,Also if you want to see the exact prompt
+wzssm02u35I,22.8,5.28,that is going LLMs are trained on a lot
+wzssm02u35I,26.24,3.68,of data and they are awesome at
+wzssm02u35I,28.08,3.92,answering queries related to that
+wzssm02u35I,29.92,3.92,information. But now what if I want my
+wzssm02u35I,32.0,4.16,LLM to be able to answer questions
+wzssm02u35I,33.84,4.16,related to my company specific data. For
+wzssm02u35I,36.16,4.0,"example, what if I have an e-commerce"
+wzssm02u35I,38.0,3.84,platform like Amazon? Now I want our
+wzssm02u35I,40.16,3.04,LLMs to be able to answer questions
+wzssm02u35I,41.84,3.44,related to the products that are
+wzssm02u35I,43.2,4.16,specific to my particular platform or
+wzssm02u35I,45.28,4.72,what if I have courses right? I want to
+wzssm02u35I,47.36,5.12,create a bot where I'm using LLM to
+wzssm02u35I,50.0,4.079,answer questions related to our courses.
+wzssm02u35I,52.48,3.36,How can we do that? There are a couple
+wzssm02u35I,54.079,3.441,of things that we can do. The first one
+wzssm02u35I,55.84,3.199,is fine-tuning. And for those of you who
+wzssm02u35I,57.52,3.6,"understand finetuning, you will know the"
+wzssm02u35I,59.039,4.16,problems associated with it. It is very
+wzssm02u35I,61.12,4.399,very costly. It is very computationally
+wzssm02u35I,63.199,3.841,expensive. It will need a lot of time.
+wzssm02u35I,65.519,2.881,You will need to pre-process your data.
+wzssm02u35I,67.04,3.36,You will need to clean it. You will need
+wzssm02u35I,68.4,5.12,ML engineers to actually do the
+wzssm02u35I,70.4,5.12,"finetuning. Also, if your data is being"
+wzssm02u35I,73.52,3.36,"updated very frequently, for example, we"
+wzssm02u35I,75.52,2.88,are going to add on products or I'm
+wzssm02u35I,76.88,3.04,"going to add on my courses, right? Then"
+wzssm02u35I,78.4,3.6,my company specific data is being
+wzssm02u35I,79.92,4.0,"updated again and again. So, I will need"
+wzssm02u35I,82.0,3.84,to fine-tune my model again and again.
+wzssm02u35I,83.92,3.519,"So, it is going to be hard to update."
+wzssm02u35I,85.84,3.04,"Plus, if I need to remove some"
+wzssm02u35I,87.439,2.801,"information, then it is very hard to"
+wzssm02u35I,88.88,3.12,remove the particular course or
+wzssm02u35I,90.24,3.12,"particular products also. So, there are"
+wzssm02u35I,92.0,3.52,a lot of problems associated with
+wzssm02u35I,93.36,4.16,"fine-tuning. So, introducing the second"
+wzssm02u35I,95.52,5.4,"solution, rack, which is what we'll be"
+wzssm02u35I,97.52,3.4,discussing now.
+wzssm02u35I,101.6,4.24,The concept behind rag is very very
+wzssm02u35I,103.84,3.52,simple and very very logical. Let me
+wzssm02u35I,105.84,3.919,explain it in very simple terms. Forget
+wzssm02u35I,107.36,4.0,the term right now. See we have LLM
+wzssm02u35I,109.759,3.601,which is very good at answering
+wzssm02u35I,111.36,3.6,questions but it does not have our data.
+wzssm02u35I,113.36,3.92,Where is our data? Our data is present
+wzssm02u35I,114.96,4.88,in the database. Now what can we do?
+wzssm02u35I,117.28,4.96,What if we fetch or we take out the
+wzssm02u35I,119.84,4.48,relevant information from this database
+wzssm02u35I,122.24,4.0,and when we are quering RLM when we are
+wzssm02u35I,124.32,3.999,sending the query to LLM at that time we
+wzssm02u35I,126.24,3.76,are just going to tell see this is the
+wzssm02u35I,128.319,4.0,information that we have already gotten
+wzssm02u35I,130.0,4.879,from the database use this information
+wzssm02u35I,132.319,4.721,to answer the question exactly this is
+wzssm02u35I,134.879,4.0,as simple as that this is rag so what do
+wzssm02u35I,137.04,3.6,we do let me repeat it we have a
+wzssm02u35I,138.879,4.08,database present what are we going to do
+wzssm02u35I,140.64,4.0,we are going to get a query now based on
+wzssm02u35I,142.959,3.36,this query we are going to fetch only
+wzssm02u35I,144.64,3.599,the relevant information from the
+wzssm02u35I,146.319,3.28,database So we're going to retrieve the
+wzssm02u35I,148.239,2.481,information from database or we are
+wzssm02u35I,149.599,3.121,going to get the information from
+wzssm02u35I,150.72,3.92,database and that we are going to send
+wzssm02u35I,152.72,3.599,to our LLM as a prompt along with the
+wzssm02u35I,154.64,3.52,question we're going to send listen this
+wzssm02u35I,156.319,3.521,is the context this is the data just use
+wzssm02u35I,158.16,3.2,this to answer this particular question
+wzssm02u35I,159.84,3.36,so we are sending the question but we
+wzssm02u35I,161.36,4.239,are also sending the data or the context
+wzssm02u35I,163.2,4.56,along with it which our LLM will use and
+wzssm02u35I,165.599,3.92,it will answer the question our LLM is
+wzssm02u35I,167.76,3.36,awesome at answering questions but it
+wzssm02u35I,169.519,3.201,does not have the data so all we are
+wzssm02u35I,171.12,3.36,doing is fetching the data from our
+wzssm02u35I,172.72,4.159,database and sending it along with the
+wzssm02u35I,174.48,4.24,question as simple as that. So rag
+wzssm02u35I,176.879,3.921,stands for retrieval augmented
+wzssm02u35I,178.72,3.76,generation. Retrieval meaning we are
+wzssm02u35I,180.8,3.68,retrieving or we are fetching out the
+wzssm02u35I,182.48,4.24,relevant information from the database.
+wzssm02u35I,184.48,5.2,Augmented meaning we are augmenting or
+wzssm02u35I,186.72,4.799,we are enhancing the query by adding the
+wzssm02u35I,189.68,3.52,context of the data that we have gotten
+wzssm02u35I,191.519,3.601,from the database. So we retrieve the
+wzssm02u35I,193.2,3.44,information we enhanced our query. We
+wzssm02u35I,195.12,3.6,added the context of this extra
+wzssm02u35I,196.64,4.0,information and then who is generating
+wzssm02u35I,198.72,4.08,the answer? The LM is generating the
+wzssm02u35I,200.64,4.64,answer. So retrieval augmented
+wzssm02u35I,202.8,4.0,"generation simple. Before we move ahead,"
+wzssm02u35I,205.28,2.959,I would like to take a moment over here
+wzssm02u35I,206.8,3.6,to say something to those who are
+wzssm02u35I,208.239,4.321,"technically interested in Geni. See,"
+wzssm02u35I,210.4,4.0,there are two sides of Genai. One is if
+wzssm02u35I,212.56,3.84,"you are learning to build your own LMS,"
+wzssm02u35I,214.4,4.0,build your own version of chat GPT. The
+wzssm02u35I,216.4,4.72,other side is when you are learning to
+wzssm02u35I,218.4,4.479,"use LLMs to build your own apps. Now, if"
+wzssm02u35I,221.12,3.199,"you're learning to build your own LLMs,"
+wzssm02u35I,222.879,3.36,you need to understand transformer
+wzssm02u35I,224.319,4.081,architecture based on which chat GPT is
+wzssm02u35I,226.239,4.64,"built. And for that, the prerequisite is"
+wzssm02u35I,228.4,4.32,understanding LSTM and RNN for which the
+wzssm02u35I,230.879,3.201,prerequisite is neural network. So this
+wzssm02u35I,232.72,3.519,is how you will be able to build your
+wzssm02u35I,234.08,5.28,own version of chatgity neural networks
+wzssm02u35I,236.239,4.56,ANN CNN RNN LSTMs transformer
+wzssm02u35I,239.36,3.12,architecture and then you will be ready
+wzssm02u35I,240.799,3.44,to build and when you're talking about
+wzssm02u35I,242.48,3.44,building your own apps that is where
+wzssm02u35I,244.239,4.161,lang chain rag and all of this comes
+wzssm02u35I,245.92,4.72,into picture in our 7 weeks hands-on
+wzssm02u35I,248.4,4.32,generative AI course with educosis we
+wzssm02u35I,250.64,4.239,have covered both of these sites in
+wzssm02u35I,252.72,3.919,seven weeks now this is a very very
+wzssm02u35I,254.879,3.841,comprehensive course which I'm teaching
+wzssm02u35I,256.639,4.641,live currently all the recordings are
+wzssm02u35I,258.72,4.0,available for lifetime notes code
+wzssm02u35I,261.28,3.12,everything is available You can check
+wzssm02u35I,262.72,3.759,out the curriculum. You can check out
+wzssm02u35I,264.4,4.16,the testimonials of our courses for this
+wzssm02u35I,266.479,4.16,course also. We already have such great
+wzssm02u35I,268.56,4.4,feedback. I'm thoroughly enjoying this
+wzssm02u35I,270.639,4.401,course and I'm so proud of it. If you're
+wzssm02u35I,272.96,4.16,interested in learning live with me or
+wzssm02u35I,275.04,3.52,"watch the recordings 7 weeks, this is"
+wzssm02u35I,277.12,2.96,very very comprehensive and we are
+wzssm02u35I,278.56,3.12,covering everything. It's very beginner
+wzssm02u35I,280.08,3.28,friendly. At least check out the details
+wzssm02u35I,281.68,3.2,"in the description. For now, let's get"
+wzssm02u35I,283.36,3.52,back to the video. Let's get started
+wzssm02u35I,284.88,3.52,"with our code. And for the example, what"
+wzssm02u35I,286.88,3.92,I'm going to be doing is I'm going to be
+wzssm02u35I,288.4,4.4,creating a bot for my courses. So I'm
+wzssm02u35I,290.8,4.48,going to retrieve information for a
+wzssm02u35I,292.8,4.399,particular query from a database and I'm
+wzssm02u35I,295.28,4.0,going to send this information to our
+wzssm02u35I,297.199,3.841,LLM and I'm going to fetch the answers.
+wzssm02u35I,299.28,3.76,So I'm going to be creating this entire
+wzssm02u35I,301.04,3.599,rack pipeline. But what is the first
+wzssm02u35I,303.04,3.439,thing that I need to do? I need to make
+wzssm02u35I,304.639,4.481,sure that the information is present in
+wzssm02u35I,306.479,4.241,some database. See in your case in your
+wzssm02u35I,309.12,3.44,example you might already have this
+wzssm02u35I,310.72,3.68,information present in the database. So
+wzssm02u35I,312.56,3.6,you can directly start from there. But
+wzssm02u35I,314.4,3.76,in order to demo it I'm going to show
+wzssm02u35I,316.16,3.759,you that how you can also put the
+wzssm02u35I,318.16,3.52,information in the vector database. So
+wzssm02u35I,319.919,3.361,I'm going to be using Chromma DB as the
+wzssm02u35I,321.68,4.4,vector database in our particular
+wzssm02u35I,323.28,4.479,example and I need to make sure that the
+wzssm02u35I,326.08,3.6,information for my courses is present
+wzssm02u35I,327.759,3.521,over here. Now this is going to be a
+wzssm02u35I,329.68,3.76,one-time effort to put the information
+wzssm02u35I,331.28,4.0,in the vector database. Right? So I'll
+wzssm02u35I,333.44,3.479,also demo that. So in our case what I'm
+wzssm02u35I,335.28,3.919,going to be doing is I have a site
+wzssm02u35I,336.919,4.12,educes.com. I'm going to be scraping
+wzssm02u35I,339.199,4.0,this site. I'm going to be scraping it
+wzssm02u35I,341.039,4.321,and putting that relevant information of
+wzssm02u35I,343.199,3.521,the courses. Whatever information I have
+wzssm02u35I,345.36,3.679,"about the courses, I'm going to be"
+wzssm02u35I,346.72,4.56,putting it into the vector database. So
+wzssm02u35I,349.039,4.401,that is one time effort and then in the
+wzssm02u35I,351.28,3.68,rack pipeline for a particular query I'm
+wzssm02u35I,353.44,2.88,going to retrieve the relevant
+wzssm02u35I,354.96,5.28,information and I'm going to send it to
+wzssm02u35I,356.32,3.92,the LLM. So let's get started with the
+wzssm02u35I,360.759,3.641,code. Let's get started with writing
+wzssm02u35I,362.96,2.799,some boiler plate code. So I'm just
+wzssm02u35I,364.4,2.72,quickly installing all the libraries
+wzssm02u35I,365.759,3.041,that we are going to need. I'm going to
+wzssm02u35I,367.12,3.84,be starting with Lang community. We are
+wzssm02u35I,368.8,3.519,going to be using lang hub and I will
+wzssm02u35I,370.96,3.12,let you know for what are we using all
+wzssm02u35I,372.319,3.761,of this. We are going to be using ChromB
+wzssm02u35I,374.08,4.8,as our vector database and we are going
+wzssm02u35I,376.08,5.44,to be using OpenAI as our LLM. So we are
+wzssm02u35I,378.88,2.64,going to be using
+wzssm02u35I,382.68,6.04,GPT. This is going to take a couple of
+wzssm02u35I,385.12,3.6,minutes. So just give me a
+wzssm02u35I,392.12,5.88,second and let's quickly set our OpenAI
+wzssm02u35I,394.96,4.799,"API key. So in Google Collab itself, if"
+wzssm02u35I,398.0,3.919,"you just go to keys, I have a lot of"
+wzssm02u35I,399.759,3.921,keys over here. I'll be using this
+wzssm02u35I,401.919,3.921,particular key. So you can just create
+wzssm02u35I,403.68,3.76,your OpenAI API key. It's fairly simple.
+wzssm02u35I,405.84,4.0,I've shown it earlier as well. I'll just
+wzssm02u35I,407.44,4.879,add the screen recording over here. In
+wzssm02u35I,409.84,3.479,"order to set up OpenAI API key, just go"
+wzssm02u35I,412.319,2.961,to
+wzssm02u35I,413.319,4.121,platform.opi.com. You will be able to
+wzssm02u35I,415.28,4.24,see all the documentation over here. A
+wzssm02u35I,417.44,4.64,lot of details is there. But just go to
+wzssm02u35I,419.52,4.399,"dashboard, go to API keys. See, right"
+wzssm02u35I,422.08,3.679,now I have two secret keys. These are
+wzssm02u35I,423.919,3.761,for my projects. What you can do is
+wzssm02u35I,425.759,4.041,create a new secret key over here. Just
+wzssm02u35I,427.68,4.959,give some name like for example text
+wzssm02u35I,429.8,5.0,project and create the secret key and
+wzssm02u35I,432.639,3.68,copy it and keep it somewhere. Make sure
+wzssm02u35I,434.8,3.399,you save it because you will not be able
+wzssm02u35I,436.319,5.361,to access it later and we'll be needing
+wzssm02u35I,438.199,5.641,it. Right? And I'm going to import user
+wzssm02u35I,441.68,4.32,data. So we are going to have our keys
+wzssm02u35I,443.84,4.24,and our user data and I'm going to be
+wzssm02u35I,446.0,3.72,using OS. So I'm just going to set the
+wzssm02u35I,448.08,4.8,environment variables
+wzssm02u35I,449.72,5.8,quickly. So it's as simple as that. Here
+wzssm02u35I,452.88,6.24,our name was this. So this is it. We are
+wzssm02u35I,455.52,3.6,done with setting our open API
+wzssm02u35I,460.039,4.201,key. Now I need to scrape my site and
+wzssm02u35I,462.88,3.28,add the information in the vector
+wzssm02u35I,464.24,3.28,database. So let's go to the lang chain
+wzssm02u35I,466.16,2.96,documentation. Here you can see there
+wzssm02u35I,467.52,4.16,are a lot of document loaders that are
+wzssm02u35I,469.12,5.28,"available. So you can load PDF file, CSV"
+wzssm02u35I,471.68,4.4,"data, HTML data, JSON data and so on. So"
+wzssm02u35I,474.4,3.12,we have a web page that we want to
+wzssm02u35I,476.08,3.839,"scrape, right? So that is what we want"
+wzssm02u35I,477.52,3.6,to load. So we are going to be using web
+wzssm02u35I,479.919,2.72,based loader. So this is the
+wzssm02u35I,481.12,3.919,documentation that I went through to
+wzssm02u35I,482.639,3.761,understand how to load web pages. So
+wzssm02u35I,485.039,2.88,everything is available in the
+wzssm02u35I,486.4,4.0,documentation. I keep saying this in
+wzssm02u35I,487.919,4.481,every video. Everything is available.
+wzssm02u35I,490.4,3.6,Don't get too overwhelmed that how will
+wzssm02u35I,492.4,3.12,I understand this. Everything is
+wzssm02u35I,494.0,3.68,available. It is for free. Don't worry
+wzssm02u35I,495.52,4.64,about it. Okay. My job is to make things
+wzssm02u35I,497.68,4.959,easier for you. So let's do that. I am
+wzssm02u35I,500.16,5.2,going to be using web page loader and
+wzssm02u35I,502.639,5.84,that is available in langu. So let's
+wzssm02u35I,505.36,6.76,just quickly from the document loaders
+wzssm02u35I,508.479,6.641,let's just quickly import webbased
+wzssm02u35I,512.12,5.32,loader and in the loader I can just give
+wzssm02u35I,515.12,4.32,the paths that I want to load. So in
+wzssm02u35I,517.44,4.479,this web based loader if I go see you
+wzssm02u35I,519.44,4.32,can give a single path like this or you
+wzssm02u35I,521.919,3.521,could also give multiple paths. So if
+wzssm02u35I,523.76,3.759,you go over here say let me just
+wzssm02u35I,525.44,3.68,actually write it. So if I write web
+wzssm02u35I,527.519,3.201,path you can see you can give either one
+wzssm02u35I,529.12,3.44,path or you can give multiple paths. So
+wzssm02u35I,530.72,4.08,you can see this right? I can give a
+wzssm02u35I,532.56,4.48,list of parts that I want to basically
+wzssm02u35I,534.8,4.0,"load. So in our case, I am just loading"
+wzssm02u35I,537.04,3.84,the Educosis site and I'm just loading
+wzssm02u35I,538.8,3.599,the Geni course right now. Okay. So I am
+wzssm02u35I,540.88,4.32,loading one. But you can also give a
+wzssm02u35I,542.399,4.801,list of sites like this. Okay. Just
+wzssm02u35I,545.2,3.759,explaining you how you can do that. And
+wzssm02u35I,547.2,5.04,"once you have the loader, all you have"
+wzssm02u35I,548.959,5.281,to do is loader.load. That's it. It's as
+wzssm02u35I,552.24,3.52,simple as that. And we will have all the
+wzssm02u35I,554.24,3.599,documents. And if you want to see the
+wzssm02u35I,555.76,5.12,"documents, let's just quickly print them"
+wzssm02u35I,557.839,5.281,and see how it looks like.
+wzssm02u35I,560.88,4.56,So you can see this is awesome. We have
+wzssm02u35I,563.12,4.64,the source. The title is hands-on geni
+wzssm02u35I,565.44,4.56,course. The description is something.
+wzssm02u35I,567.76,3.84,This is the content and if you go down
+wzssm02u35I,570.0,3.2,you will be able to see the entire
+wzssm02u35I,571.6,3.6,thing. You will be able to see that it
+wzssm02u35I,573.2,4.56,is seven weeks. You will be able to see
+wzssm02u35I,575.2,4.88,the entire curriculum. The entire FAQ
+wzssm02u35I,577.76,4.72,section. You will be able to see the
+wzssm02u35I,580.08,6.36,entire content of the page is now
+wzssm02u35I,582.48,3.96,available in this documents.
+wzssm02u35I,587.68,4.48,Now that I have the entire page content
+wzssm02u35I,589.839,4.721,"available with me in this docs variable,"
+wzssm02u35I,592.16,4.72,do I store the entire docs as it is in
+wzssm02u35I,594.56,4.32,the vector database? What do you think?
+wzssm02u35I,596.88,4.959,"Think about it. See, when I have to send"
+wzssm02u35I,598.88,5.12,"some context to my data, to my LLM, do I"
+wzssm02u35I,601.839,3.921,send the entire content of the page?
+wzssm02u35I,604.0,4.08,Think about it. Because our page can be
+wzssm02u35I,605.76,5.04,"huge. Currently, I'm scraping only the"
+wzssm02u35I,608.08,4.0,geni part. Maybe I'm scraping all the
+wzssm02u35I,610.8,4.08,courses like I'm just scraping
+wzssm02u35I,612.08,4.64,educes.com. then the information of all
+wzssm02u35I,614.88,4.0,the courses is there. Now if someone is
+wzssm02u35I,616.72,4.08,"asking just about jennyang, do I send"
+wzssm02u35I,618.88,4.8,the information of all the courses to
+wzssm02u35I,620.8,4.64,our LLM? No. Right? Why do I send so
+wzssm02u35I,623.68,3.36,much of irrelevant information? If
+wzssm02u35I,625.44,3.68,someone is asking about the duration of
+wzssm02u35I,627.04,4.72,"the course, why do I send the curriculum"
+wzssm02u35I,629.12,4.48,and the FAQ to the LLM? Right? It is
+wzssm02u35I,631.76,3.6,just going to be too many tokens that I
+wzssm02u35I,633.6,4.08,am sending to LLM. It is just going to
+wzssm02u35I,635.36,4.96,be too much processing that I am making
+wzssm02u35I,637.68,4.399,LLM do for no reason at all. So what do
+wzssm02u35I,640.32,3.44,I want to do? I want to send just the
+wzssm02u35I,642.079,3.601,relevant information which is going to
+wzssm02u35I,643.76,4.48,be useful in answering the query to our
+wzssm02u35I,645.68,5.76,LLM. So in order to do that I want to
+wzssm02u35I,648.24,5.839,send just some part of this entire
+wzssm02u35I,651.44,5.12,document right so it makes sense that I
+wzssm02u35I,654.079,4.88,split this entire document into some
+wzssm02u35I,656.56,4.48,chunks or into some splits and I save it
+wzssm02u35I,658.959,4.0,in our vector database. So that is what
+wzssm02u35I,661.04,4.16,we are going to be doing now. And how do
+wzssm02u35I,662.959,4.081,I convert this entire data into splits?
+wzssm02u35I,665.2,3.92,Again go back to the lang documentation.
+wzssm02u35I,667.04,3.359,And I'm just going back just below the
+wzssm02u35I,669.12,2.959,"document loaders, we have text"
+wzssm02u35I,670.399,4.0,splitters. And we have documentation
+wzssm02u35I,672.079,4.561,"about how to recursively split text, how"
+wzssm02u35I,674.399,4.641,"to split HTML, how to split code, how to"
+wzssm02u35I,676.64,4.639,recursively split JSON and so on. So we
+wzssm02u35I,679.04,3.84,"just need to split our text, right? I'm"
+wzssm02u35I,681.279,3.68,going to be using recursive character
+wzssm02u35I,682.88,3.68,"text splitter. Again, very simple. I'm"
+wzssm02u35I,684.959,3.521,just going to be using the documentation
+wzssm02u35I,686.56,3.839,itself. We are going to have something
+wzssm02u35I,688.48,3.84,called chunk size and chunk overlap.
+wzssm02u35I,690.399,3.921,What is this chunk size from the name
+wzssm02u35I,692.32,3.44,itself? How big we want our chunk to be.
+wzssm02u35I,694.32,3.04,Right? So here they have taken really
+wzssm02u35I,695.76,3.04,small chunk size 100. We are going to
+wzssm02u35I,697.36,3.28,take for demo. We are going to maybe
+wzssm02u35I,698.8,3.599,take 1 th00and you can make it smaller
+wzssm02u35I,700.64,3.28,obviously. They have also taken
+wzssm02u35I,702.399,3.601,something called chunk overlap which
+wzssm02u35I,703.92,4.8,they have kept 20. In our case maybe
+wzssm02u35I,706.0,5.04,we'll keep 200. And let me explain you
+wzssm02u35I,708.72,5.119,why do we need chunk overlap. Let's take
+wzssm02u35I,711.04,5.28,an example. Suppose in my content
+wzssm02u35I,713.839,5.361,currently I have it's a 7 weeks course.
+wzssm02u35I,716.32,5.36,Now suppose I split at between seven and
+wzssm02u35I,719.2,4.4,weeks. Now seven is present in one chunk
+wzssm02u35I,721.68,4.719,and weeks course is present in the other
+wzssm02u35I,723.6,5.12,chunk. So now the context of seven weeks
+wzssm02u35I,726.399,4.88,is neither present in chunk one nor nor
+wzssm02u35I,728.72,4.72,chunk two. Right? So when I split in
+wzssm02u35I,731.279,3.921,between I will need to do some
+wzssm02u35I,733.44,3.519,processing to understand that okay this
+wzssm02u35I,735.2,3.36,was seven which was there in chunk one
+wzssm02u35I,736.959,3.44,and weeks which was present in chunk
+wzssm02u35I,738.56,3.519,"two. Instead of doing all of that,"
+wzssm02u35I,740.399,3.68,"instead of making it more complex, we"
+wzssm02u35I,742.079,4.161,just have some overlap of chunks. So
+wzssm02u35I,744.079,4.241,that the last 200 characters that were
+wzssm02u35I,746.24,3.839,there in the say chunk one will also be
+wzssm02u35I,748.32,3.36,there in the starting of the chunk two.
+wzssm02u35I,750.079,3.921,"So like this, you're making sure that"
+wzssm02u35I,751.68,3.92,"context is present. If if needed, you"
+wzssm02u35I,754.0,3.76,"can send both chunk one, chunk two to"
+wzssm02u35I,755.6,3.76,lm. That is okay. But you're just saving
+wzssm02u35I,757.76,3.6,on your computation and you're making
+wzssm02u35I,759.36,3.44,sure that the entire context is present.
+wzssm02u35I,761.36,3.68,"Just to give you another example,"
+wzssm02u35I,762.8,5.12,suppose my text was no prerequisite
+wzssm02u35I,765.04,5.28,needed. And I split the chunks between
+wzssm02u35I,767.92,4.159,no and prerequisite needed. So in my
+wzssm02u35I,770.32,3.84,"second chunk, we have prerequisite"
+wzssm02u35I,772.079,3.521,needed and no went in the first chunk.
+wzssm02u35I,774.16,4.08,You get the point that the entire
+wzssm02u35I,775.6,5.12,"context is lots, right? So it makes"
+wzssm02u35I,778.24,4.159,sense that I have some overlap between
+wzssm02u35I,780.72,3.76,the chunks. I hope that part is clear.
+wzssm02u35I,782.399,3.841,"If not, let me know in the comments and"
+wzssm02u35I,784.48,3.359,think of different examples for which
+wzssm02u35I,786.24,3.36,you know chunk overlap would make a lot
+wzssm02u35I,787.839,5.361,of sense. So let's get back to writing
+wzssm02u35I,789.6,5.239,our code. And from lang chain I am going
+wzssm02u35I,793.2,5.639,to be using text
+wzssm02u35I,794.839,7.0,splitters and I'm going to be importing
+wzssm02u35I,798.839,6.12,recursive character text splitter and
+wzssm02u35I,801.839,3.12,I'm going to be creating the
+wzssm02u35I,805.16,6.52,splitter and chunk size as we discussed
+wzssm02u35I,808.16,3.52,I'm probably going to give say
+wzssm02u35I,812.44,7.519,"1,000. You could also give chunk overlap"
+wzssm02u35I,815.12,4.839,is zero but I am giving it as 200.
+wzssm02u35I,820.72,5.2,And here we have these
+wzssm02u35I,823.24,4.92,splits. And it is as simple as that. You
+wzssm02u35I,825.92,4.4,can also print your splits. So let's see
+wzssm02u35I,828.16,4.479,how our splits look like. So suppose you
+wzssm02u35I,830.32,5.959,"want to see splits of zero, splits of"
+wzssm02u35I,832.639,6.401,one. You can just check it out like
+wzssm02u35I,836.279,4.281,this. So this is the first split and
+wzssm02u35I,839.04,3.039,this is going to be of thousand
+wzssm02u35I,840.56,4.24,characters and there's going to be some
+wzssm02u35I,842.079,5.281,overlap. So if you see in the end part
+wzssm02u35I,844.8,6.64,there was uh tensorboard mini project
+wzssm02u35I,847.36,6.0,implement GAN uh two handwritten digents
+wzssm02u35I,851.44,4.639,and then it was starting with mini
+wzssm02u35I,853.36,6.0,project something I think and then if we
+wzssm02u35I,856.079,5.681,come to the starting of this you can see
+wzssm02u35I,859.36,4.719,the GAN part is going to be there again.
+wzssm02u35I,861.76,4.0,So you can say implement a GAN to uh
+wzssm02u35I,864.079,3.2,generate handwritten digits mini
+wzssm02u35I,865.76,3.36,project. The next one is coming like
+wzssm02u35I,867.279,4.161,this. Right? So there is some overlap.
+wzssm02u35I,869.12,4.48,So the entire VA part was ending over
+wzssm02u35I,871.44,3.6,there and then the after that GAN part
+wzssm02u35I,873.6,2.88,started again. So there is some overlap
+wzssm02u35I,875.04,2.799,between chunk one and chunk two.
+wzssm02u35I,876.48,2.799,Similarly it's going to be there for the
+wzssm02u35I,877.839,3.281,rest of the chunks also. I hope you
+wzssm02u35I,879.279,3.601,understood that point. But also if you
+wzssm02u35I,881.12,3.68,want to see the total number of splits
+wzssm02u35I,882.88,4.319,it is as simple as just printing the
+wzssm02u35I,884.8,4.479,length of the splits. So if we see that
+wzssm02u35I,887.199,3.76,the total number of splits is 11. So you
+wzssm02u35I,889.279,3.68,can actually try printing all of the
+wzssm02u35I,890.959,3.921,splits and you can see right so you can
+wzssm02u35I,892.959,3.68,also write like a for loop or something
+wzssm02u35I,894.88,3.44,there just right so here you can see
+wzssm02u35I,896.639,3.841,again you will be able to see some
+wzssm02u35I,898.32,3.68,overlap between this and the last one so
+wzssm02u35I,900.48,4.799,here you can see it is starting from
+wzssm02u35I,902.0,6.959,nodes state graph so in the second split
+wzssm02u35I,905.279,5.56,if I go over here there should be nodes
+wzssm02u35I,908.959,5.361,so I'm basically talking
+wzssm02u35I,910.839,5.24,about graph and let's see so you can see
+wzssm02u35I,914.32,4.0,right lang graph nodes a state state
+wzssm02u35I,916.079,3.521,graph so you can see the simple Q&A
+wzssm02u35I,918.32,3.199,application ation that is going to be
+wzssm02u35I,919.6,5.2,present in this particular third chunk
+wzssm02u35I,921.519,3.281,as well. So you can see that
+wzssm02u35I,925.56,4.839,right now that we have the splits is
+wzssm02u35I,928.16,3.679,time that we add these splits into a
+wzssm02u35I,930.399,4.321,vector database. We are going to be
+wzssm02u35I,931.839,5.12,using chromb. But see again these splits
+wzssm02u35I,934.72,4.0,are just text and vector database from
+wzssm02u35I,936.959,4.56,the name itself we are supposed to store
+wzssm02u35I,938.72,4.72,vectors right everything internally in
+wzssm02u35I,941.519,4.081,mli is basically numbers it's all
+wzssm02u35I,943.44,4.16,vectors. So what do we need to do these
+wzssm02u35I,945.6,4.0,splits we need to embed them into
+wzssm02u35I,947.6,4.08,vectors and we need to store them in a
+wzssm02u35I,949.6,4.159,database. It sounds fancy. It's actually
+wzssm02u35I,951.68,5.44,very simple. We are just converting this
+wzssm02u35I,953.759,5.841,text into numbers into vectors and we
+wzssm02u35I,957.12,5.44,are trying to understand the meaning of
+wzssm02u35I,959.6,5.12,the words in that. Okay. And we are
+wzssm02u35I,962.56,3.68,going to be using everything from
+wzssm02u35I,964.72,3.359,libraries. So it's not like we have to
+wzssm02u35I,966.24,3.839,"write the code for that. Oh, it's giving"
+wzssm02u35I,968.079,4.401,me autocomplete. So let's actually do
+wzssm02u35I,970.079,4.961,that. So I'm going to be using chromb
+wzssm02u35I,972.48,4.719,and here I'm using openi embeddings to
+wzssm02u35I,975.04,4.239,convert our splits into embeddings.
+wzssm02u35I,977.199,5.041,Okay. So this is what we are going to
+wzssm02u35I,979.279,4.721,use to convert this textual information
+wzssm02u35I,982.24,3.839,into numbers into vectors. We are
+wzssm02u35I,984.0,4.24,embedding these texts. Okay. And we are
+wzssm02u35I,986.079,5.2,embedding splits and that is what we are
+wzssm02u35I,988.24,4.88,storing in a vector store. So after this
+wzssm02u35I,991.279,4.24,we have the information present in a
+wzssm02u35I,993.12,5.76,vector DB. And once we have that we can
+wzssm02u35I,995.519,5.12,actually also print the collection to
+wzssm02u35I,998.88,5.48,see that how it is right. So in our
+wzssm02u35I,1000.639,6.401,vector store if you want to see the
+wzssm02u35I,1004.36,4.32,collection and if we see the suppose
+wzssm02u35I,1007.04,5.039,count of
+wzssm02u35I,1008.68,5.64,it you can see there are 11 splits
+wzssm02u35I,1012.079,4.56,embedded and stored over here. Right? If
+wzssm02u35I,1014.32,5.439,you also want to see so instead of the
+wzssm02u35I,1016.639,6.64,count if you also want to see the uh
+wzssm02u35I,1019.759,6.32,suppose ids of these collections. So if
+wzssm02u35I,1023.279,5.361,I just do this these are the ids for the
+wzssm02u35I,1026.079,4.401,11 splits that we had embedded into
+wzssm02u35I,1028.64,4.039,vector store. And if you also want to
+wzssm02u35I,1030.48,4.8,"print it, we can also print the"
+wzssm02u35I,1032.679,5.64,collections. And I'm just printing the
+wzssm02u35I,1035.28,3.039,first collection for
+wzssm02u35I,1041.079,4.081,now. And I'm just giving the ID of the
+wzssm02u35I,1044.079,3.921,first
+wzssm02u35I,1045.16,4.6,"collection. And in Chroma database, so"
+wzssm02u35I,1048.0,4.4,it stores in different values the
+wzssm02u35I,1049.76,4.799,embeddings in and the documents. So here
+wzssm02u35I,1052.4,3.92,I'm just going to tell it to include the
+wzssm02u35I,1054.559,3.601,embeddings. So I want to see the
+wzssm02u35I,1056.32,3.28,embeddings and the documents over here.
+wzssm02u35I,1058.16,3.04,So you can see if you want to see the
+wzssm02u35I,1059.6,5.04,metadata as the document. So you can
+wzssm02u35I,1061.2,3.44,just give what all you want to
+wzssm02u35I,1064.919,4.681,see. So you can see this is the
+wzssm02u35I,1067.2,4.56,embedding. So this is the array and in
+wzssm02u35I,1069.6,4.72,the document you can see the entire
+wzssm02u35I,1071.76,4.88,document. So document is basically the
+wzssm02u35I,1074.32,4.32,original text that you had that is
+wzssm02u35I,1076.64,3.84,embedded and stored into the embedding.
+wzssm02u35I,1078.64,3.52,So like this you can also try printing
+wzssm02u35I,1080.48,3.199,for multiple collections for any of the
+wzssm02u35I,1082.16,4.08,collections in fact and you can try
+wzssm02u35I,1083.679,5.521,checking it out. So okay let me just
+wzssm02u35I,1086.24,2.96,change this
+wzssm02u35I,1091.679,4.081,So like this you can see that these are
+wzssm02u35I,1093.52,4.96,the embeddings for these particular
+wzssm02u35I,1095.76,4.56,chunks. So it is only creating the ID.
+wzssm02u35I,1098.48,3.12,It is only saving the documents and
+wzssm02u35I,1100.32,4.56,embedding. So how are we doing the
+wzssm02u35I,1101.6,3.28,embedding? Using open
+wzssm02u35I,1105.96,5.24,embedding till now I was just adding the
+wzssm02u35I,1109.039,3.52,information into my vector database. So
+wzssm02u35I,1111.2,2.96,you might already have the information
+wzssm02u35I,1112.559,3.601,in vector database and you might not
+wzssm02u35I,1114.16,4.32,need to do all of this. Now I'm going to
+wzssm02u35I,1116.16,4.56,get started with the rack pipeline. So I
+wzssm02u35I,1118.48,4.88,need this vector store to act as my
+wzssm02u35I,1120.72,5.76,retriever. So I'm just going to create a
+wzssm02u35I,1123.36,6.64,variable retriever and I'm going to make
+wzssm02u35I,1126.48,4.84,my vector store act as retriever. That's
+wzssm02u35I,1130.0,3.84,it. As simple as
+wzssm02u35I,1131.32,5.719,that. And what is the next step that I
+wzssm02u35I,1133.84,3.199,need to do? I need to do the
+wzssm02u35I,1138.36,4.199,"augmentation. For augmentation, what do"
+wzssm02u35I,1140.64,3.68,we need to do? See in our vector
+wzssm02u35I,1142.559,3.521,"database, there is a lot of documents."
+wzssm02u35I,1144.32,3.92,Now we are going to fetch the relevant
+wzssm02u35I,1146.08,4.16,document and along with the question
+wzssm02u35I,1148.24,4.72,that we are getting we are going to send
+wzssm02u35I,1150.24,5.28,this context this relevant documentation
+wzssm02u35I,1152.96,4.64,to our LLM. Correct? Now see we can
+wzssm02u35I,1155.52,3.36,create our own prompt and send to LLM
+wzssm02u35I,1157.6,3.84,that see this is the question this is
+wzssm02u35I,1158.88,4.159,the context but there are lot of prompts
+wzssm02u35I,1161.44,3.84,that are already available and I just
+wzssm02u35I,1163.039,4.161,wanted to show it to you. See in lang
+wzssm02u35I,1165.28,3.84,itself if you see there are so many
+wzssm02u35I,1167.2,3.92,prompts that are available. So we are
+wzssm02u35I,1169.12,3.76,going to be using this rack prompt. You
+wzssm02u35I,1171.12,4.08,could actually just copy this and you
+wzssm02u35I,1172.88,4.64,could write it yourself also. But I want
+wzssm02u35I,1175.2,4.32,to also show you how you can use the
+wzssm02u35I,1177.52,4.08,prompts that are available in the hub.
+wzssm02u35I,1179.52,3.68,So what this is saying is that you are
+wzssm02u35I,1181.6,3.6,an assistant for question answering
+wzssm02u35I,1183.2,3.52,"task. So this is the question, this is"
+wzssm02u35I,1185.2,4.08,the context and you're supposed to
+wzssm02u35I,1186.72,4.8,answer in three sentences maximum and
+wzssm02u35I,1189.28,4.0,keep the answer concise. So you can also
+wzssm02u35I,1191.52,4.24,write your own prompt. You can say that
+wzssm02u35I,1193.28,5.2,no I want a more detailed information or
+wzssm02u35I,1195.76,3.919,I want maybe three-word answer or
+wzssm02u35I,1198.48,3.199,"something like that. Whatever you want,"
+wzssm02u35I,1199.679,4.0,right? You can customize your own prompt
+wzssm02u35I,1201.679,3.36,and you can write your own prompt. I
+wzssm02u35I,1203.679,3.921,just want to show you that there are
+wzssm02u35I,1205.039,4.401,prompts available in the hub and you can
+wzssm02u35I,1207.6,3.6,just use them like this. Okay. So we are
+wzssm02u35I,1209.44,3.44,going to be using them like this. I'm
+wzssm02u35I,1211.2,4.56,again saying it you this is just
+wzssm02u35I,1212.88,5.6,basically copy paste of text. So I can
+wzssm02u35I,1215.76,4.88,copy it and I can create a prompt or I
+wzssm02u35I,1218.48,3.76,can use it from the hub as it is. So
+wzssm02u35I,1220.64,5.279,let's write the code for pulling the
+wzssm02u35I,1222.24,7.2,prompt. And from lang chain itself I'm
+wzssm02u35I,1225.919,9.081,going to be importing hub and we are
+wzssm02u35I,1229.44,8.64,going to be pulling the prompt from the
+wzssm02u35I,1235.0,5.24,hub and let's run this. So we have the
+wzssm02u35I,1238.08,4.719,prompt now. Now now we need to send this
+wzssm02u35I,1240.24,4.96,prompt to whom to our LLM. So we need to
+wzssm02u35I,1242.799,2.401,use our
+wzssm02u35I,1245.88,4.279,LLM. We are going to be using GPT as our
+wzssm02u35I,1248.799,3.921,LLM. So we are going to be using
+wzssm02u35I,1250.159,6.961,OpenAI's LLM. So let me just quickly
+wzssm02u35I,1252.72,6.88,create the LLM. So we are using open AI
+wzssm02u35I,1257.12,4.48,"and whenever we need to talk to LLMs,"
+wzssm02u35I,1259.6,4.0,what do we create? CH chat models. We
+wzssm02u35I,1261.6,4.72,have covered this in multiple videos. So
+wzssm02u35I,1263.6,4.319,"I hope this should be clear now. If not,"
+wzssm02u35I,1266.32,3.2,check out the lang and the langraph
+wzssm02u35I,1267.919,3.601,videos. You should be clear with these
+wzssm02u35I,1269.52,4.72,concepts. And we can just create the
+wzssm02u35I,1271.52,4.24,"chat model for chat open AI, right? And"
+wzssm02u35I,1274.24,3.84,uh we can give the model name and the
+wzssm02u35I,1275.76,4.159,temperature or we can just do this. And
+wzssm02u35I,1278.08,5.44,we are going to use the default values.
+wzssm02u35I,1279.919,6.801,So we have our LLM. Now we are ready to
+wzssm02u35I,1283.52,3.2,create our rack
+wzssm02u35I,1287.559,4.6,chain. What do we send to our LM? We
+wzssm02u35I,1290.32,4.08,send the prompt. And what does our
+wzssm02u35I,1292.159,4.241,prompt need? So if we go to the prompt
+wzssm02u35I,1294.4,4.24,"that we are using, we need the question"
+wzssm02u35I,1296.4,3.6,and the context. So first we need the
+wzssm02u35I,1298.64,3.36,context. From where are we going to get
+wzssm02u35I,1300.0,4.0,the context? From our retriever. So the
+wzssm02u35I,1302.0,4.559,first thing that I need to do is have
+wzssm02u35I,1304.0,5.919,the variables that I need to send to our
+wzssm02u35I,1306.559,6.0,prompt. So I need to send context.
+wzssm02u35I,1309.919,5.521,So I need to send context and that I'm
+wzssm02u35I,1312.559,4.561,going to get from the retriever. Right?
+wzssm02u35I,1315.44,3.44,Other than this what do I need to send?
+wzssm02u35I,1317.12,3.439,I need to send the question. So I am
+wzssm02u35I,1318.88,3.76,sending it in a dictionary. Right? So
+wzssm02u35I,1320.559,3.921,here you can see I have to send context
+wzssm02u35I,1322.64,3.519,and question. So I am sending these
+wzssm02u35I,1324.48,4.36,values in a dictionary. So I have the
+wzssm02u35I,1326.159,5.361,context now. Now I need to send the
+wzssm02u35I,1328.84,5.16,question. See whenever we need to just
+wzssm02u35I,1331.52,4.32,pass the input as it is. So our question
+wzssm02u35I,1334.0,3.84,is going to be the input. Whenever we
+wzssm02u35I,1335.84,3.6,"just need to pass the input as it is, we"
+wzssm02u35I,1337.84,3.52,use something called runnable pass
+wzssm02u35I,1339.44,4.719,through. So let me just quickly import
+wzssm02u35I,1341.36,4.319,that. So in lang itself there are a lot
+wzssm02u35I,1344.159,2.961,of runnables that are available. So
+wzssm02u35I,1345.679,3.36,langchain concepts are very very
+wzssm02u35I,1347.12,4.16,important over here. So whenever you
+wzssm02u35I,1349.039,4.081,"just need to pass the question as it is,"
+wzssm02u35I,1351.28,4.24,"whatever is there, whatever you need to"
+wzssm02u35I,1353.12,4.72,"pass as it is, you use something called"
+wzssm02u35I,1355.52,3.92,runnable pass through. So it is a
+wzssm02u35I,1357.84,3.36,runnable. So basically a task that
+wzssm02u35I,1359.44,3.68,you're going to be running where we are
+wzssm02u35I,1361.2,4.32,"just passing through the information,"
+wzssm02u35I,1363.12,4.32,right? So here because I need to pass
+wzssm02u35I,1365.52,4.159,the question I am using runnable pass
+wzssm02u35I,1367.44,4.64,through. Now another point over here is
+wzssm02u35I,1369.679,5.201,that whatever I'm going to be retrieving
+wzssm02u35I,1372.08,4.88,from my vector store. It doesn't have to
+wzssm02u35I,1374.88,3.36,be a single document. Maybe I'm asking
+wzssm02u35I,1376.96,3.12,something maybe I'm asking the
+wzssm02u35I,1378.24,3.52,curriculum for all the five weeks. So
+wzssm02u35I,1380.08,3.44,the curriculum might be present in
+wzssm02u35I,1381.76,4.399,multiple splits instead of just one
+wzssm02u35I,1383.52,5.68,split. Right? So whatever context I'm
+wzssm02u35I,1386.159,5.041,getting I need to join these relevant
+wzssm02u35I,1389.2,4.719,splits. So maybe there were a total of
+wzssm02u35I,1391.2,5.599,thousand splits and from that I got say
+wzssm02u35I,1393.919,5.12,five or four relevant splits right now I
+wzssm02u35I,1396.799,4.561,need to join them and send them together
+wzssm02u35I,1399.039,4.801,to in my context right it is not like
+wzssm02u35I,1401.36,4.799,I'm sending a list of four or five
+wzssm02u35I,1403.84,4.24,different splits so our rack chain I
+wzssm02u35I,1406.159,3.76,just need to send the context so the
+wzssm02u35I,1408.08,3.76,entire whatever is the context so
+wzssm02u35I,1409.919,4.88,whatever relevant information I got from
+wzssm02u35I,1411.84,4.56,the vector store I need to join that and
+wzssm02u35I,1414.799,4.081,send it in the context I'm repeating
+wzssm02u35I,1416.4,5.12,that see in our splits right now in our
+wzssm02u35I,1418.88,4.24,"case we 11 splits. In real cases, maybe"
+wzssm02u35I,1421.52,4.12,we have a lot of data. We have say
+wzssm02u35I,1423.12,5.12,thousand splits and the relevant
+wzssm02u35I,1425.64,4.76,information might be in say four to five
+wzssm02u35I,1428.24,4.16,splits. So I need to join this relevant
+wzssm02u35I,1430.4,4.24,information and send it together in this
+wzssm02u35I,1432.4,4.88,context. So I need to do that joining
+wzssm02u35I,1434.64,5.12,also. Right? So here I have whatever the
+wzssm02u35I,1437.28,3.92,retriever sent me but I need to do one
+wzssm02u35I,1439.76,3.84,more thing. So whatever is the output
+wzssm02u35I,1441.2,4.8,from this retriever I'm going to pass to
+wzssm02u35I,1443.6,6.079,my own function and I'm going to call
+wzssm02u35I,1446.0,6.08,this as maybe format documents. Okay.
+wzssm02u35I,1449.679,4.641,And let's just write this function. And
+wzssm02u35I,1452.08,4.32,here all I am doing is basically
+wzssm02u35I,1454.32,4.56,formatting whatever relevant information
+wzssm02u35I,1456.4,4.48,I have. So in this I'm going to be
+wzssm02u35I,1458.88,3.6,passing the documents that I have. How
+wzssm02u35I,1460.88,4.0,am I getting this documents from the
+wzssm02u35I,1462.48,4.559,retriever? So retriever is responsible
+wzssm02u35I,1464.88,4.08,for doing it that whatever is relevant
+wzssm02u35I,1467.039,4.24,for this particular question give me the
+wzssm02u35I,1468.96,5.12,documents for that and all that we have
+wzssm02u35I,1471.279,5.76,to do is join those documents. Okay. So
+wzssm02u35I,1474.08,6.959,here whatever information is there I'm
+wzssm02u35I,1477.039,4.0,just going to join
+wzssm02u35I,1482.36,6.199,them. So in the page content and I'm
+wzssm02u35I,1486.24,4.919,going to go through all the talks and
+wzssm02u35I,1488.559,5.681,I'm just going to
+wzssm02u35I,1491.159,5.4,join and that's it. So now I have the
+wzssm02u35I,1494.24,4.48,context in the question. Where do I need
+wzssm02u35I,1496.559,4.72,to pass this context and question to the
+wzssm02u35I,1498.72,5.12,prompt right? So this is the first
+wzssm02u35I,1501.279,5.28,thing. Now this needs to be passed to
+wzssm02u35I,1503.84,6.0,the prompt. So the input is to the
+wzssm02u35I,1506.559,6.081,prompt. Right? Now when I get the prompt
+wzssm02u35I,1509.84,4.8,"that has to be sent to our LLM, right?"
+wzssm02u35I,1512.64,4.32,and from arm I'm going to get the
+wzssm02u35I,1514.64,4.32,output. Now the output is going to have
+wzssm02u35I,1516.96,4.319,a lot of information. I just need the
+wzssm02u35I,1518.96,4.24,content out of it. So whenever we have
+wzssm02u35I,1521.279,4.241,we have to take out the content we can
+wzssm02u35I,1523.2,4.4,use str output parser. Again we have
+wzssm02u35I,1525.52,4.08,used this also in previous videos. It's
+wzssm02u35I,1527.6,3.84,okay if you don't know these things just
+wzssm02u35I,1529.6,3.36,you'll get used to them as you write
+wzssm02u35I,1531.44,3.92,more and more code or just go through
+wzssm02u35I,1532.96,4.719,the langraph videos and you'll get used
+wzssm02u35I,1535.36,5.0,to these things. Okay. So we need to use
+wzssm02u35I,1537.679,6.0,the str output parser and let me just
+wzssm02u35I,1540.36,3.319,quickly import
+wzssm02u35I,1547.159,5.88,that and whatever is the output I'm
+wzssm02u35I,1550.64,5.279,going to basically parse out the content
+wzssm02u35I,1553.039,5.281,from it and that is what I'm going to
+wzssm02u35I,1555.919,4.88,get as the output. So we have made our
+wzssm02u35I,1558.32,6.359,rank chain. Let's quickly revise it once
+wzssm02u35I,1560.799,3.88,what's happening over here.
+wzssm02u35I,1565.6,4.4,See whenever we create a chain we create
+wzssm02u35I,1567.679,4.24,a chain of some runnables or tasks. So
+wzssm02u35I,1570.0,4.24,what are the different tasks over here
+wzssm02u35I,1571.919,4.88,this is one task and what am I doing? I
+wzssm02u35I,1574.24,4.64,am creating a dictionary of where I am
+wzssm02u35I,1576.799,3.841,passing the retriever and I'm formatting
+wzssm02u35I,1578.88,3.84,the documents and I'm passing it as
+wzssm02u35I,1580.64,4.48,context and the question I'm passing it
+wzssm02u35I,1582.72,4.48,as it is. So now these are going to be
+wzssm02u35I,1585.12,3.679,the inputs to the prompt. Now what is
+wzssm02u35I,1587.2,3.92,the prompt? This is the prompt and it
+wzssm02u35I,1588.799,4.161,needed these two as the inputs. Right?
+wzssm02u35I,1591.12,3.84,Now what am I going to get output from
+wzssm02u35I,1592.96,4.0,this? I'm going to get the prompt. I
+wzssm02u35I,1594.96,3.52,could have just done create prompt from
+wzssm02u35I,1596.96,3.44,chat prompt template and I could have
+wzssm02u35I,1598.48,3.76,passed this as it is with the inputs. So
+wzssm02u35I,1600.4,4.159,this these inputs I have passed them as
+wzssm02u35I,1602.24,4.319,dictionary. Now whatever prompt I'm
+wzssm02u35I,1604.559,4.0,going to get that I am passing as an
+wzssm02u35I,1606.559,4.161,input to our LM. So I am passing the
+wzssm02u35I,1608.559,3.761,prompt to our LLM. Now what is the
+wzssm02u35I,1610.72,3.439,output that I get from LM? There are a
+wzssm02u35I,1612.32,3.599,lot of things present. I'm going to take
+wzssm02u35I,1614.159,4.561,out just the content of it and I'm
+wzssm02u35I,1615.919,4.88,parsing out the content. Okay. So I'm
+wzssm02u35I,1618.72,4.48,parsing out the content over here. So
+wzssm02u35I,1620.799,4.401,basically here the runnables are or the
+wzssm02u35I,1623.2,4.16,different tasks are divided by this pipe
+wzssm02u35I,1625.2,4.24,operator and whatever is the output from
+wzssm02u35I,1627.36,4.319,this prompt is passed into the LLM.
+wzssm02u35I,1629.44,3.839,Whatever is the output from the LLM is
+wzssm02u35I,1631.679,3.6,passed to the parser and we take out the
+wzssm02u35I,1633.279,4.88,content. And what are we doing over
+wzssm02u35I,1635.279,4.961,here? See why do we need this function?
+wzssm02u35I,1638.159,3.201,So I have a retriever. Retriever is
+wzssm02u35I,1640.24,2.96,going to take out the relevant
+wzssm02u35I,1641.36,4.16,documents. Now maybe they might be like
+wzssm02u35I,1643.2,4.8,two documents or three documents. I need
+wzssm02u35I,1645.52,4.56,to join those documents. So here I'm
+wzssm02u35I,1648.0,4.159,just going through the documents and I'm
+wzssm02u35I,1650.08,3.68,joining the entire content. All I'm
+wzssm02u35I,1652.159,3.12,doing over here is adding one line
+wzssm02u35I,1653.76,2.799,between those documents and I'm just
+wzssm02u35I,1655.279,3.601,"putting the documents together,"
+wzssm02u35I,1656.559,4.24,formatting them together and passing the
+wzssm02u35I,1658.88,3.84,context and the question forming the
+wzssm02u35I,1660.799,4.0,prompt passing to the NLM. Whatever is
+wzssm02u35I,1662.72,4.16,the output I am just passing it out.
+wzssm02u35I,1664.799,6.201,It's time that we actually check whether
+wzssm02u35I,1666.88,4.12,this chain is working or not.
+wzssm02u35I,1671.44,5.76,Let's run this chain and let all we have
+wzssm02u35I,1673.76,5.44,to do now is invoke the chain and we can
+wzssm02u35I,1677.2,5.56,just pass the query over here. So
+wzssm02u35I,1679.2,6.199,suppose let's ask are the
+wzssm02u35I,1682.76,6.399,recordings of the course
+wzssm02u35I,1685.399,7.241,available for how long? Let's
+wzssm02u35I,1689.159,6.76,"see. Okay, there is some error in"
+wzssm02u35I,1692.64,5.96,"runnable pass through. Okay. Oh, sorry."
+wzssm02u35I,1695.919,4.88,So I missed this. Let's run it
+wzssm02u35I,1698.6,3.959,again. Here's the recordings of the
+wzssm02u35I,1700.799,4.721,course are available for lifetime
+wzssm02u35I,1702.559,5.801,access. Nice. So let's probably try for
+wzssm02u35I,1705.52,5.84,some more queries. Let's try something
+wzssm02u35I,1708.36,4.84,like um are the testimonials for the
+wzssm02u35I,1711.36,4.799,course available? Because I just added
+wzssm02u35I,1713.2,4.64,the testimonials like right before uh
+wzssm02u35I,1716.159,4.161,recording this video. I was just adding
+wzssm02u35I,1717.84,4.719,them because the course just ended the
+wzssm02u35I,1720.32,2.239,live
+wzssm02u35I,1722.919,3.801,"classes. Yes, the testimonials for the"
+wzssm02u35I,1725.12,3.52,course are available on this website.
+wzssm02u35I,1726.72,4.4,Shows real stories and satisfaction from
+wzssm02u35I,1728.64,5.72,the courses. Uh let's see if it can name
+wzssm02u35I,1731.12,3.24,these students.
+wzssm02u35I,1737.279,3.921,Nice. So it has named some of the
+wzssm02u35I,1739.039,3.76,"students. Sahitya, Manika, Ashish,"
+wzssm02u35I,1741.2,3.68,Satish. So these are all my students
+wzssm02u35I,1742.799,3.12,from the HNI course. So these are some
+wzssm02u35I,1744.88,3.679,of the students. There are more
+wzssm02u35I,1745.919,5.521,testimonials but this is good enough. Uh
+wzssm02u35I,1748.559,5.761,we can also probably check for something
+wzssm02u35I,1751.44,6.76,some more questions like for example are
+wzssm02u35I,1754.32,3.88,these certificates provided?
+wzssm02u35I,1761.36,3.679,certificates are provided for the course
+wzssm02u35I,1763.12,3.439,probably let's say what all projects are
+wzssm02u35I,1765.039,3.76,covered as part of the course so maybe
+wzssm02u35I,1766.559,4.0,it will go through the curriculum and it
+wzssm02u35I,1768.799,4.721,will tell what all projects are covered
+wzssm02u35I,1770.559,2.961,right so that would be
+wzssm02u35I,1775.24,5.799,nice oh nice so it is saying okay
+wzssm02u35I,1777.84,6.319,implementing can training VA uh then
+wzssm02u35I,1781.039,4.88,there is uh fine-tuning techniques
+wzssm02u35I,1784.159,3.681,offers hands-on learning experiences
+wzssm02u35I,1785.919,4.081,allows participants for mini and major
+wzssm02u35I,1787.84,2.16,projects
+wzssm02u35I,1791.919,4.161,Nice. This is so cool. We created a rack
+wzssm02u35I,1794.08,3.599,pipeline and we are able to create
+wzssm02u35I,1796.08,3.36,basically a pot where we are able to
+wzssm02u35I,1797.679,3.841,answer questions based on our site.
+wzssm02u35I,1799.44,4.239,Right? So like this I have courses. You
+wzssm02u35I,1801.52,4.32,could be having any products and you can
+wzssm02u35I,1803.679,4.48,make LLM answer questions related to
+wzssm02u35I,1805.84,4.319,your products. Also if you want to see
+wzssm02u35I,1808.159,4.961,the exact prompt that is going into the
+wzssm02u35I,1810.159,5.201,"LLM, you can also add probably a print"
+wzssm02u35I,1813.12,4.559,after this. So let's try doing that. So
+wzssm02u35I,1815.36,7.4,what I'm going to do is probably create
+wzssm02u35I,1817.679,8.0,a new chain. So rack chain with
+wzssm02u35I,1822.76,4.68,print something like this. Okay. And
+wzssm02u35I,1825.679,3.921,whatever is the output from this prompt.
+wzssm02u35I,1827.44,5.839,"So I'm getting the prompt, right? I need"
+wzssm02u35I,1829.6,6.4,to print it and I need to again pass the
+wzssm02u35I,1833.279,4.64,"prompt to my LLM, right? So in order to"
+wzssm02u35I,1836.0,4.799,"print it, what I'm going to do is I'm"
+wzssm02u35I,1837.919,4.961,going to create my own custom
+wzssm02u35I,1840.799,4.801,uh function where I'm going to basically
+wzssm02u35I,1842.88,4.88,create a runnable lambda. And to create
+wzssm02u35I,1845.6,3.76,"your own custom function, you need to"
+wzssm02u35I,1847.76,3.519,create reneable lambda. Okay. So there
+wzssm02u35I,1849.36,3.6,are different kinds of runnables. So if
+wzssm02u35I,1851.279,3.441,you want to just pass the information as
+wzssm02u35I,1852.96,4.0,"it is, we have reable pass through. If"
+wzssm02u35I,1854.72,4.48,"you want to create your own function, uh"
+wzssm02u35I,1856.96,4.079,you can basically use renable lambda. So
+wzssm02u35I,1859.2,5.92,let me just quickly import that from
+wzssm02u35I,1861.039,4.081,blankchain core
+wzssm02u35I,1867.72,4.76,and and I'm going to be using that and I
+wzssm02u35I,1870.64,3.919,need to give a function over here right
+wzssm02u35I,1872.48,3.96,so the function that we are going to be
+wzssm02u35I,1874.559,6.24,writing is probably going to be print
+wzssm02u35I,1876.44,7.119,prompt and let's just define it and I'm
+wzssm02u35I,1880.799,5.201,going to be getting the prompt text over
+wzssm02u35I,1883.559,5.72,here and I'm just going to be printing
+wzssm02u35I,1886.0,3.279,it just to show it to
+wzssm02u35I,1891.279,4.161,And also see whatever will be the output
+wzssm02u35I,1893.52,4.48,from this renable lambda that will be
+wzssm02u35I,1895.44,4.88,passed to the LLM. So LM is still
+wzssm02u35I,1898.0,4.72,expecting the prompt right. So I'm going
+wzssm02u35I,1900.32,4.32,to be returning the prompt as it is. So
+wzssm02u35I,1902.72,3.52,that I am making sure that it is passed
+wzssm02u35I,1904.64,4.0,to the LLM. Right? So don't do this
+wzssm02u35I,1906.24,4.72,mistake. If you add a print like if you
+wzssm02u35I,1908.64,3.919,"are adding in between for enable lambda,"
+wzssm02u35I,1910.96,3.36,you need to make sure that the same is
+wzssm02u35I,1912.559,3.84,passed to the LLM. Right? So whatever
+wzssm02u35I,1914.32,4.0,"prompt was the output, same thing I am"
+wzssm02u35I,1916.399,4.52,passing to the LL. Okay. So let's
+wzssm02u35I,1918.32,6.64,quickly run
+wzssm02u35I,1920.919,6.921,this and let's try again. So in this
+wzssm02u35I,1924.96,6.559,particular chain I'm going to probably
+wzssm02u35I,1927.84,4.92,invoke something else. Suppose is there
+wzssm02u35I,1931.519,5.361,doubt
+wzssm02u35I,1932.76,4.12,support and let's try running
+wzssm02u35I,1937.159,7.0,this. So it is saying I don't know. So
+wzssm02u35I,1940.64,6.12,maybe it was not able to get that part.
+wzssm02u35I,1944.159,5.36,So let's probably try for this
+wzssm02u35I,1946.76,6.44,itself. Maybe I need to be better at my
+wzssm02u35I,1949.519,5.841,FAQ. Right. Uh so here we are getting
+wzssm02u35I,1953.2,4.16,you are an assistant answering questions
+wzssm02u35I,1955.36,3.919,for question answering task. Right? So
+wzssm02u35I,1957.36,3.36,this was basically the same thing that
+wzssm02u35I,1959.279,2.64,is going you are an assistant for
+wzssm02u35I,1960.72,3.199,question answering task. Use the
+wzssm02u35I,1961.919,4.801,following pieces of retrieved context.
+wzssm02u35I,1963.919,4.561,So the same thing is basically going and
+wzssm02u35I,1966.72,4.319,we are passing the question and the
+wzssm02u35I,1968.48,5.199,context. So if I just go ahead this is
+wzssm02u35I,1971.039,4.721,the context and these are probably some
+wzssm02u35I,1973.679,5.36,chunks that the retriever has taken out
+wzssm02u35I,1975.76,5.68,for us. Uh maybe you know for what part
+wzssm02u35I,1979.039,4.721,it did not work maybe because my uh
+wzssm02u35I,1981.44,4.64,chunk size was too huge. So maybe using
+wzssm02u35I,1983.76,3.919,that we'll get better and so the
+wzssm02u35I,1986.08,3.12,question in the context is passed. So
+wzssm02u35I,1987.679,3.201,you can see the question is passed what
+wzssm02u35I,1989.2,4.4,all projects are covered in the course
+wzssm02u35I,1990.88,4.96,and then the entire context basically uh
+wzssm02u35I,1993.6,5.76,the splits are passed. Now you remember
+wzssm02u35I,1995.84,5.679,I had joined the documents with a end
+wzssm02u35I,1999.36,3.84,line in between right. So that is why
+wzssm02u35I,2001.519,3.201,these are in new lines. So these are the
+wzssm02u35I,2003.2,3.12,different chunks that are being passed
+wzssm02u35I,2004.72,4.799,and based on that we are getting the
+wzssm02u35I,2006.32,5.04,response. So nice and this brings us to
+wzssm02u35I,2009.519,3.76,the end of the video. I hope you enjoyed
+wzssm02u35I,2011.36,3.439,and you understood drag very well. If
+wzssm02u35I,2013.279,3.041,there are any questions please let me
+wzssm02u35I,2014.799,4.0,know in the comments and I would love to
+wzssm02u35I,2016.32,5.359,answer them. Also guys I'm planning to
+wzssm02u35I,2018.799,4.641,be extremely active on YouTube now. I am
+wzssm02u35I,2021.679,3.041,"creating a lot of content on YouTube,"
+wzssm02u35I,2023.44,3.04,LinkedIn as well as on my personal
+wzssm02u35I,2024.72,3.36,Instagram that is the personal side. But
+wzssm02u35I,2026.48,3.919,"for YouTube and LinkedIn, I am creating"
+wzssm02u35I,2028.08,4.079,so much of free content and I it would
+wzssm02u35I,2030.399,3.841,really really motivate me if you could
+wzssm02u35I,2032.159,3.76,support me a bit more. Hit the like
+wzssm02u35I,2034.24,3.039,"button, share with your friends, share"
+wzssm02u35I,2035.919,3.281,on LinkedIn. If you are finding it
+wzssm02u35I,2037.279,3.361,"useful, if you have watched it here, I"
+wzssm02u35I,2039.2,4.4,am hoping that you really found it
+wzssm02u35I,2040.64,4.639,useful. Please do let me know and please
+wzssm02u35I,2043.6,3.439,consider sharing more of your support
+wzssm02u35I,2045.279,4.001,and love. It is going to mean the world
+wzssm02u35I,2047.039,4.32,to me. It is really going to motivate me
+wzssm02u35I,2049.28,6.81,a lot. And see you next time. I promise
+wzssm02u35I,2051.359,17.291,a lot more videos coming up. Stay tuned.
+wzssm02u35I,2056.09,12.56,[Music]

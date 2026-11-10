@@ -1,0 +1,2480 @@
+﻿video_id,start,duration,text
+n60Dn0UsbEk,4.56,3.6,hey everyone welcome back to another
+n60Dn0UsbEk,6.359,4.641,video and today we are starting with
+n60Dn0UsbEk,8.16,5.04,arrays so we'll start by what is array
+n60Dn0UsbEk,11.0,3.92,what are arrays and uh we'll look into
+n60Dn0UsbEk,13.2,3.999,array list we'll do some questions we'll
+n60Dn0UsbEk,14.92,5.68,do some really nice things today so let
+n60Dn0UsbEk,17.199,6.0,me just uh create a new structure
+n60Dn0UsbEk,20.6,5.8,basically a new
+n60Dn0UsbEk,23.199,5.281,folder I need to create a new
+n60Dn0UsbEk,26.4,4.959,project and
+n60Dn0UsbEk,28.48,6.12,next next
+n60Dn0UsbEk,31.359,5.241,in community classroom I can create
+n60Dn0UsbEk,34.6,5.08,lecture eight or something in the
+n60Dn0UsbEk,36.6,3.08,lecture lecture number
+n60Dn0UsbEk,39.84,4.36,eight arrays so in this session if you
+n60Dn0UsbEk,42.52,4.32,don't know what our a are we'll learn
+n60Dn0UsbEk,44.2,4.679,like into we'll dive into it like from
+n60Dn0UsbEk,46.84,4.399,the basics why we need arrays what is
+n60Dn0UsbEk,48.879,3.52,the syntax of arrays and how this thing
+n60Dn0UsbEk,51.239,2.921,you know how we can code in it we'll
+n60Dn0UsbEk,52.399,3.32,also do some questions we'll also see
+n60Dn0UsbEk,54.16,4.239,how the memory management works for
+n60Dn0UsbEk,55.719,4.721,arrays in Java and uh we'll be doing
+n60Dn0UsbEk,58.399,4.881,some nice things we'll see d make memory
+n60Dn0UsbEk,60.44,4.759,allocation we'll see you know we'll see
+n60Dn0UsbEk,63.28,3.6,array list we'll see how we can input
+n60Dn0UsbEk,65.199,3.481,from arrays how we can output from
+n60Dn0UsbEk,66.88,4.08,arrays and I'll also show you a little
+n60Dn0UsbEk,68.68,6.479,bit more about uh array lists and all
+n60Dn0UsbEk,70.96,4.199,these other things so let's get started
+n60Dn0UsbEk,78.88,5.44,finish that looks good all right so the
+n60Dn0UsbEk,82.159,4.881,first point that we will cover in this
+n60Dn0UsbEk,84.32,5.28,session is why we need arrays okay so
+n60Dn0UsbEk,87.04,4.079,let's say the question is store a role
+n60Dn0UsbEk,89.6,3.4,number
+n60Dn0UsbEk,91.119,4.481,okay we love questions over here so we
+n60Dn0UsbEk,93.0,5.32,we say store a role number how can you
+n60Dn0UsbEk,95.6,4.0,store a role number so will you can just
+n60Dn0UsbEk,98.32,3.159,say hey if you want to store a role
+n60Dn0UsbEk,99.6,5.479,number you can just do something like
+n60Dn0UsbEk,101.479,3.6,int a is equal to
+n60Dn0UsbEk,105.92,7.68,19 very simple another question is let's
+n60Dn0UsbEk,109.32,6.96,say store a person's
+n60Dn0UsbEk,113.6,5.96,name in some sort of a data type data
+n60Dn0UsbEk,116.28,4.64,structure you know so you can say okay
+n60Dn0UsbEk,119.56,3.72,if you want want to store one name I can
+n60Dn0UsbEk,120.92,5.96,just store it in a name variable uh I
+n60Dn0UsbEk,123.28,3.6,can say n
+n60Dn0UsbEk,127.2,8.72,kushwaha okay so many things you can do
+n60Dn0UsbEk,129.84,6.08,but now the question is store five role
+n60Dn0UsbEk,137.08,7.6,numbers store five role numbers how are
+n60Dn0UsbEk,140.4,10.559,you going to do it int role number one
+n60Dn0UsbEk,144.68,10.68,is equal to let's say 23 int rle number
+n60Dn0UsbEk,150.959,8.36,2 is equal to 55 in rle number 3 is
+n60Dn0UsbEk,155.36,6.48,equal to 9 18 or whatever imagine the
+n60Dn0UsbEk,159.319,4.84,question was store 500 R numbers would
+n60Dn0UsbEk,161.84,4.319,you write this line again and
+n60Dn0UsbEk,164.159,4.841,again would you declare and then
+n60Dn0UsbEk,166.159,4.201,initialize this again and again would
+n60Dn0UsbEk,169.0,3.319,would it not make sense if this there
+n60Dn0UsbEk,170.36,4.72,was a sort of a data structure where I
+n60Dn0UsbEk,172.319,6.161,could store this collection of data
+n60Dn0UsbEk,175.08,5.96,types we can use an array for this what
+n60Dn0UsbEk,178.48,4.36,is an array an array it's basically a
+n60Dn0UsbEk,181.04,3.759,collection of the your you know your
+n60Dn0UsbEk,182.84,4.64,data types it can either be Primitives
+n60Dn0UsbEk,184.799,4.681,or your objects even complex data types
+n60Dn0UsbEk,187.48,5.88,whatever you want to store you can store
+n60Dn0UsbEk,189.48,7.679,it in an array okay so basically the
+n60Dn0UsbEk,193.36,3.799,syntax looks something like
+n60Dn0UsbEk,197.319,8.361,this syntax looks something like this so
+n60Dn0UsbEk,201.44,4.24,basically here you will have the data
+n60Dn0UsbEk,207.72,4.92,type okay bracket brackets brackets
+n60Dn0UsbEk,210.72,4.48,basically means that this is an array so
+n60Dn0UsbEk,212.64,5.28,example here I'm saying int role number
+n60Dn0UsbEk,215.2,4.679,so in this case I will say int brackets
+n60Dn0UsbEk,217.92,4.12,brackets means it's saying that this
+n60Dn0UsbEk,219.879,4.041,reference variable is of an array
+n60Dn0UsbEk,222.04,5.36,similarly rno O is a reference variable
+n60Dn0UsbEk,223.92,7.08,here I can say variable
+n60Dn0UsbEk,227.4,7.039,name is equal to
+n60Dn0UsbEk,231.0,3.439,new data
+n60Dn0UsbEk,235.799,5.08,type size let's look about it for a
+n60Dn0UsbEk,239.28,4.319,second okay let's look into it for a
+n60Dn0UsbEk,240.879,4.761,second look at this particular uh syntax
+n60Dn0UsbEk,243.599,5.441,over here which is the Declaration
+n60Dn0UsbEk,245.64,5.36,syntax so basically if I say I want to
+n60Dn0UsbEk,249.04,6.6,store some role numbers five Ro numbers
+n60Dn0UsbEk,251.0,6.44,you know store five role numbers I will
+n60Dn0UsbEk,255.64,3.2,explain in detail how this thing is
+n60Dn0UsbEk,257.44,3.079,working internally how the memory
+n60Dn0UsbEk,258.84,3.2,management is happening how this is
+n60Dn0UsbEk,260.519,3.601,mapping to the object or whatever what
+n60Dn0UsbEk,262.04,3.68,is this new keyword what is this size
+n60Dn0UsbEk,264.12,4.2,thing everything I'll explain what don't
+n60Dn0UsbEk,265.72,5.36,worry so I'll say
+n60Dn0UsbEk,268.32,6.36,int Ro numbers are integer so I can say
+n60Dn0UsbEk,271.08,5.28,int I can say role numbers is equal to
+n60Dn0UsbEk,274.68,5.28,new
+n60Dn0UsbEk,276.36,3.6,integer five role
+n60Dn0UsbEk,280.759,4.521,numbers or you can also directly write
+n60Dn0UsbEk,285.72,3.0,this
+n60Dn0UsbEk,289.16,6.479,int role numbers 2 is equal to directly
+n60Dn0UsbEk,292.639,7.921,you can write some role numbers like 23
+n60Dn0UsbEk,295.639,7.521,12 45 32 and 15
+n60Dn0UsbEk,300.56,3.919,let's look into a few things Point
+n60Dn0UsbEk,303.16,4.039,number one for people who are taking
+n60Dn0UsbEk,304.479,5.361,notes Point number one this data type
+n60Dn0UsbEk,307.199,5.801,basically represents what is the type of
+n60Dn0UsbEk,309.84,4.68,data stored inside the array so array is
+n60Dn0UsbEk,313.0,4.479,what I already mentioned it's like a
+n60Dn0UsbEk,314.52,4.44,collection of data type you cannot do
+n60Dn0UsbEk,317.479,4.16,something like this you cannot do
+n60Dn0UsbEk,318.96,4.48,something like okay first two number
+n60Dn0UsbEk,321.639,5.12,first two elements of my array will be
+n60Dn0UsbEk,323.44,5.92,integers second second element will be a
+n60Dn0UsbEk,326.759,4.0,string you can't do that so this is
+n60Dn0UsbEk,329.36,3.92,point number two for people who are
+n60Dn0UsbEk,330.759,4.56,taking notes Point number two all the
+n60Dn0UsbEk,333.28,4.88,type of the data in the array should be
+n60Dn0UsbEk,335.319,5.281,same you cannot add you cannot mix and
+n60Dn0UsbEk,338.16,4.039,match data types like okay first element
+n60Dn0UsbEk,340.6,3.2,will be integer second will be float
+n60Dn0UsbEk,342.199,4.0,third will be string then again integer
+n60Dn0UsbEk,343.8,4.04,then again Boolean or whatever no if you
+n60Dn0UsbEk,346.199,3.921,are making an integer array it will
+n60Dn0UsbEk,347.84,3.799,contain integers only if you're making
+n60Dn0UsbEk,350.12,3.4,Boolean array it will contain Boolean
+n60Dn0UsbEk,351.639,3.441,only if you're making an array of string
+n60Dn0UsbEk,353.52,3.799,it will contain string
+n60Dn0UsbEk,355.08,3.839,only okay if you're making an array of
+n60Dn0UsbEk,357.319,3.121,some complex data type like your own
+n60Dn0UsbEk,358.919,3.521,data type which we will do in object
+n60Dn0UsbEk,360.44,4.24,oriented programming in that case it
+n60Dn0UsbEk,362.44,4.199,will be of data type only and where does
+n60Dn0UsbEk,364.68,4.48,that data data type is defined where is
+n60Dn0UsbEk,366.639,6.481,it defined it's defined over
+n60Dn0UsbEk,369.16,7.2,here so this int bracket basically means
+n60Dn0UsbEk,373.12,5.56,RN oos this reference variable is
+n60Dn0UsbEk,376.36,6.119,pointing to an array object that
+n60Dn0UsbEk,378.68,7.12,contains type integer
+n60Dn0UsbEk,382.479,4.961,elements okay so this thing is explained
+n60Dn0UsbEk,385.8,2.92,this thing is explained how this is
+n60Dn0UsbEk,387.44,3.92,pointing to the memory and everything
+n60Dn0UsbEk,388.72,5.0,I'll explain in like a a little bit so
+n60Dn0UsbEk,391.36,4.239,why we need arrays uh that thing is done
+n60Dn0UsbEk,393.72,4.919,and what are arrays that thing is done
+n60Dn0UsbEk,395.599,7.0,syntax is done okay so one more thing I
+n60Dn0UsbEk,398.639,8.28,want to share in syntax is that uh you
+n60Dn0UsbEk,402.599,6.961,know uh how this things actually working
+n60Dn0UsbEk,406.919,5.361,so basically
+n60Dn0UsbEk,409.56,4.639,um this reference variable it's going to
+n60Dn0UsbEk,412.28,3.319,be pointing to this array object so this
+n60Dn0UsbEk,414.199,3.081,right hand side thing that you have over
+n60Dn0UsbEk,415.599,3.521,here it's the object and this is the
+n60Dn0UsbEk,417.28,3.319,reference variable let's dive into it
+n60Dn0UsbEk,419.12,4.16,let's open open this up and look at
+n60Dn0UsbEk,420.599,4.16,every single thing in detail so the
+n60Dn0UsbEk,423.28,4.08,thing that is happening over here is is
+n60Dn0UsbEk,424.759,6.241,something something like
+n60Dn0UsbEk,427.36,7.679,this if I break down this step this is
+n60Dn0UsbEk,431.0,4.039,known as Declaration of
+n60Dn0UsbEk,435.4,9.04,array okay so here what is happening
+n60Dn0UsbEk,438.8,9.2,here what is happening here R is
+n60Dn0UsbEk,444.44,5.319,getting defined in the stack okay it's
+n60Dn0UsbEk,448.0,3.639,just getting defined like hey there's a
+n60Dn0UsbEk,449.759,4.081,r reference variable currently it's not
+n60Dn0UsbEk,451.639,3.201,pointing to anything so we need to point
+n60Dn0UsbEk,453.84,3.759,it to an
+n60Dn0UsbEk,454.84,5.72,object actual memory creation happens
+n60Dn0UsbEk,457.599,5.961,here when I say R is equal to
+n60Dn0UsbEk,460.56,3.0,new
+n60Dn0UsbEk,466.12,8.12,integer this is actual memory creation
+n60Dn0UsbEk,469.479,5.921,actually here object is being created in
+n60Dn0UsbEk,474.24,3.359,the
+n60Dn0UsbEk,475.4,4.519,memory Heap
+n60Dn0UsbEk,477.599,3.841,memory we already mentioned in the few
+n60Dn0UsbEk,479.919,3.441,sessions if you want to see the complete
+n60Dn0UsbEk,481.44,3.439,DSA playlist check out the links in the
+n60Dn0UsbEk,483.36,3.6,description so basically this is just
+n60Dn0UsbEk,484.879,6.121,the Declaration and this is the
+n60Dn0UsbEk,486.96,4.04,initialization basically
+n60Dn0UsbEk,491.639,4.441,initialization here the actual object is
+n60Dn0UsbEk,493.759,5.88,being created in
+n60Dn0UsbEk,496.08,4.839,Heap okay so let's look look into it in
+n60Dn0UsbEk,499.639,3.201,a little bit I'll create an entire
+n60Dn0UsbEk,500.919,3.481,diagram and explain it to you so let's
+n60Dn0UsbEk,502.84,3.16,see how arrays work let's see what are
+n60Dn0UsbEk,504.4,3.759,these indices how we access these
+n60Dn0UsbEk,506.0,3.52,indexes what is this Heap and stack I'm
+n60Dn0UsbEk,508.159,3.641,talking about let's create a nice
+n60Dn0UsbEk,509.52,4.439,diagram and explain this but this is the
+n60Dn0UsbEk,511.8,3.88,syntax to create an array you have to
+n60Dn0UsbEk,513.959,3.601,mention the size over here or you can
+n60Dn0UsbEk,515.68,3.239,directly just write the arrays like this
+n60Dn0UsbEk,517.56,3.2,if you don't mention the size it will
+n60Dn0UsbEk,518.919,4.321,give you
+n60Dn0UsbEk,520.76,4.16,error okay let's look into how these
+n60Dn0UsbEk,523.24,6.039,things are working internally so when I
+n60Dn0UsbEk,524.92,4.359,wrote something like uh you know
+n60Dn0UsbEk,530.16,6.92,in rle numbers or whatever I can just
+n60Dn0UsbEk,534.08,6.84,say int ARR Also let's say int ARR
+n60Dn0UsbEk,537.08,6.84,whatever is equal to new
+n60Dn0UsbEk,540.92,3.0,integer
+n60Dn0UsbEk,544.839,4.641,size this is what data
+n60Dn0UsbEk,549.519,4.44,type this is what reference
+n60Dn0UsbEk,554.2,6.319,variable this thing is what creating the
+n60Dn0UsbEk,557.76,2.759,object in Heap
+n60Dn0UsbEk,567.72,5.559,memory creating the object in Heap
+n60Dn0UsbEk,570.72,4.84,memory okay that is how thing this thing
+n60Dn0UsbEk,573.279,3.921,is working let's talk a little bit more
+n60Dn0UsbEk,575.56,2.88,about like how it's working internally
+n60Dn0UsbEk,577.2,2.52,and how these things are actually being
+n60Dn0UsbEk,578.44,5.0,you know allocated how the memory
+n60Dn0UsbEk,579.72,5.88,management you know Works in Java so I
+n60Dn0UsbEk,583.44,3.72,told you previously the the things that
+n60Dn0UsbEk,585.6,3.52,are on the left hand side of equal to
+n60Dn0UsbEk,587.16,3.88,that is like at runtime that's like a
+n60Dn0UsbEk,589.12,3.839,shortcut to remember this so This
+n60Dn0UsbEk,591.04,3.799,initialization and everything happens at
+n60Dn0UsbEk,592.959,4.641,this declaration and everything like
+n60Dn0UsbEk,594.839,4.12,happens at runtime actual memory object
+n60Dn0UsbEk,597.6,3.88,like the actual object that is being
+n60Dn0UsbEk,598.959,3.521,created in the memory in the Heap memory
+n60Dn0UsbEk,601.48,2.52,and if you want to learn about Heap
+n60Dn0UsbEk,602.48,3.799,memory stack memory we have a separate
+n60Dn0UsbEk,604.0,4.16,video on that already that happens at
+n60Dn0UsbEk,606.279,4.321,runtime so this happened as sorry this
+n60Dn0UsbEk,608.16,7.239,this thing happens at compile time and
+n60Dn0UsbEk,610.6,4.799,this thing happens at run time compile
+n60Dn0UsbEk,618.92,5.12,time the actual object creating in the
+n60Dn0UsbEk,621.88,4.48,Heap happens at
+n60Dn0UsbEk,624.04,6.16,runtime so this is basically known as
+n60Dn0UsbEk,626.36,3.84,dynamic memory allocation
+n60Dn0UsbEk,633.079,4.721,what is dynamic memory allocation at the
+n60Dn0UsbEk,635.2,5.36,runtime memory is allocated that is
+n60Dn0UsbEk,637.8,4.2,dynamic memory allocation okay this
+n60Dn0UsbEk,640.56,3.48,thing happens at compile time this thing
+n60Dn0UsbEk,642.0,4.6,happens at runtime internally it works
+n60Dn0UsbEk,644.04,2.56,something like
+n60Dn0UsbEk,646.639,4.841,this so yeah already talked about like
+n60Dn0UsbEk,649.68,4.44,dynamic memory allocation so assigning
+n60Dn0UsbEk,651.48,6.0,the memory space during the execution
+n60Dn0UsbEk,654.12,4.88,time or like the run time internally how
+n60Dn0UsbEk,657.48,3.359,is it thing how how does it work so
+n60Dn0UsbEk,659.0,2.88,basically you have the stack memory in
+n60Dn0UsbEk,660.839,3.641,which all the function calls and
+n60Dn0UsbEk,661.88,5.079,reference variables go ARR will go over
+n60Dn0UsbEk,664.48,3.68,here and the actual array object
+n60Dn0UsbEk,666.959,7.281,something like
+n60Dn0UsbEk,668.16,8.239,this 3 18 9 2 this will be pointing to
+n60Dn0UsbEk,674.24,2.159,this
+n60Dn0UsbEk,678.16,5.88,object okay so this is the reference
+n60Dn0UsbEk,681.079,4.481,variable and this is the object
+n60Dn0UsbEk,684.04,5.56,basically
+n60Dn0UsbEk,685.56,6.16,okay yep it's recording cool
+n60Dn0UsbEk,689.6,4.359,so whenever you want to get an item from
+n60Dn0UsbEk,691.72,4.4,the array So when you say I want to get
+n60Dn0UsbEk,693.959,5.361,the first item one thing you have to
+n60Dn0UsbEk,696.12,4.959,notice is that the array indexes if we
+n60Dn0UsbEk,699.32,3.92,talk about the indexes if this is like
+n60Dn0UsbEk,701.079,5.88,the stack
+n60Dn0UsbEk,703.24,5.48,memory this is the Heap memory okay we
+n60Dn0UsbEk,706.959,3.961,talked about this in detail Heap memory
+n60Dn0UsbEk,708.72,4.2,stack memory you know jvm manages and
+n60Dn0UsbEk,710.92,3.28,all these things I hope people who are
+n60Dn0UsbEk,712.92,3.24,regularly following the course they are
+n60Dn0UsbEk,714.2,3.24,able to understand very simple stuff we
+n60Dn0UsbEk,716.16,4.2,went into it in detail when we were
+n60Dn0UsbEk,717.44,4.72,doing the Java architecture okay so
+n60Dn0UsbEk,720.36,3.039,array representation internally you can
+n60Dn0UsbEk,722.16,3.799,imagine something like this you know
+n60Dn0UsbEk,723.399,5.12,it's like U somewhat like
+n60Dn0UsbEk,725.959,3.841,this okay a box of uh you know
+n60Dn0UsbEk,728.519,3.841,collection and let's say we are taking
+n60Dn0UsbEk,729.8,6.039,an integer array for example can I
+n60Dn0UsbEk,732.36,3.479,contain anything numbers random
+n60Dn0UsbEk,737.56,6.36,numbers okay so in many other
+n60Dn0UsbEk,740.76,5.0,languages these blocks of memory so this
+n60Dn0UsbEk,743.92,3.88,is a simple memory block another memory
+n60Dn0UsbEk,745.76,5.079,block another memory block in your RAM
+n60Dn0UsbEk,747.8,6.24,or whatever this is code continuously in
+n60Dn0UsbEk,750.839,5.761,cc++ okay so array in cc++ it's like a
+n60Dn0UsbEk,754.04,4.0,continuous memory allocation what do we
+n60Dn0UsbEk,756.6,3.239,mean by continuous memory because in
+n60Dn0UsbEk,758.04,4.599,your RAM you may have some cells like
+n60Dn0UsbEk,759.839,4.56,this okay your RA in your RAM you may
+n60Dn0UsbEk,762.639,3.88,have some cells like this each cell is
+n60Dn0UsbEk,764.399,4.041,going to have an
+n60Dn0UsbEk,766.519,4.601,address okay each cell you're going to
+n60Dn0UsbEk,768.44,5.24,have an address and in the array
+n60Dn0UsbEk,771.12,4.2,basically all the cells of the array are
+n60Dn0UsbEk,773.68,3.959,continuous memory allocations it's not
+n60Dn0UsbEk,775.32,3.68,like first three elements will be here
+n60Dn0UsbEk,777.639,4.121,next three will be over somewhere over
+n60Dn0UsbEk,779.0,4.0,here skipping these two no this is how
+n60Dn0UsbEk,781.76,4.48,it works in
+n60Dn0UsbEk,783.0,5.519,cc++ Java Java says something different
+n60Dn0UsbEk,786.24,4.68,in Java there is no concept of pointers
+n60Dn0UsbEk,788.519,6.721,you cannot get the address or anything
+n60Dn0UsbEk,790.92,5.84,so it totally depends on the jvm you
+n60Dn0UsbEk,795.24,2.88,know whether this is going to be
+n60Dn0UsbEk,796.76,6.519,continuous or
+n60Dn0UsbEk,798.12,10.159,not okay why because of this reason we
+n60Dn0UsbEk,803.279,6.641,know Point number one we know that array
+n60Dn0UsbEk,808.279,2.881,objects
+n60Dn0UsbEk,809.92,3.8,are in
+n60Dn0UsbEk,811.16,3.96,Heap we know this because we know that
+n60Dn0UsbEk,813.72,2.84,objects are created in Heap not just
+n60Dn0UsbEk,815.12,3.44,array objects all the other objects you
+n60Dn0UsbEk,816.56,3.2,know also that we'll be making of like
+n60Dn0UsbEk,818.56,3.0,let's say object oriented programming
+n60Dn0UsbEk,819.76,4.28,and stuff we know that those will be
+n60Dn0UsbEk,821.56,5.839,stored in the Heap section so that is
+n60Dn0UsbEk,824.04,4.76,something we know and uh the second
+n60Dn0UsbEk,827.399,3.88,thing we know is that the if you check
+n60Dn0UsbEk,828.8,4.12,out the JLS which is the Java language
+n60Dn0UsbEk,831.279,3.92,specification where they have mentioned
+n60Dn0UsbEk,832.92,4.68,about the internals and workings of java
+n60Dn0UsbEk,835.199,5.32,in that they have specifically mentioned
+n60Dn0UsbEk,837.6,4.799,that Heap objects are not continuous
+n60Dn0UsbEk,840.519,3.601,okay there is no like confident proof of
+n60Dn0UsbEk,842.399,3.56,this like it may continuous maybe not
+n60Dn0UsbEk,844.12,3.88,continuous whatever they have mentioned
+n60Dn0UsbEk,845.959,4.081,that Heap objects are not continuous you
+n60Dn0UsbEk,848.0,4.079,know what continuous means now okay it
+n60Dn0UsbEk,850.04,4.44,means that the cells memory are like one
+n60Dn0UsbEk,852.079,4.76,by one allocated not like something is
+n60Dn0UsbEk,854.48,3.52,missing in between for the object okay
+n60Dn0UsbEk,856.839,5.281,Point number
+n60Dn0UsbEk,858.0,7.519,two point number two we know
+n60Dn0UsbEk,862.12,3.399,that Heap
+n60Dn0UsbEk,866.32,5.0,objects are not continuous
+n60Dn0UsbEk,869.839,3.321,I believe you know what continuous is
+n60Dn0UsbEk,871.32,3.959,now continuous basically means if this
+n60Dn0UsbEk,873.16,3.76,is your RAM something like this
+n60Dn0UsbEk,875.279,4.041,continuous basically means if this array
+n60Dn0UsbEk,876.92,5.24,is allocated in cc++ it means that it
+n60Dn0UsbEk,879.32,5.319,will be allocated for continuous blocks
+n60Dn0UsbEk,882.16,4.84,like this it will not be like index
+n60Dn0UsbEk,884.639,4.12,number one lies here index another index
+n60Dn0UsbEk,887.0,3.16,lies here another index lies somewhere
+n60Dn0UsbEk,888.759,4.32,over there no it will be continuous
+n60Dn0UsbEk,890.16,6.76,block of memory but Heap objects are not
+n60Dn0UsbEk,893.079,6.88,continuous Java says that okay and the
+n60Dn0UsbEk,896.92,4.8,Heap is the runtime data area from which
+n60Dn0UsbEk,899.959,3.32,the memory for all the classes and
+n60Dn0UsbEk,901.72,3.4,instance of like all the arrays is
+n60Dn0UsbEk,903.279,3.881,allocated we also talked about this
+n60Dn0UsbEk,905.12,4.04,right now dynamic memory allocation when
+n60Dn0UsbEk,907.16,3.72,you program after compiling so basically
+n60Dn0UsbEk,909.16,4.28,the Declaration happens like at compile
+n60Dn0UsbEk,910.88,4.16,time and when it's like uh actually
+n60Dn0UsbEk,913.44,3.839,creating the memory actually assigning
+n60Dn0UsbEk,915.04,4.799,some memory actually creating that array
+n60Dn0UsbEk,917.279,5.081,in the you know Ram or whatever object
+n60Dn0UsbEk,919.839,5.0,memory that happens at runtime dynamic
+n60Dn0UsbEk,922.36,5.599,memory allocation okay Point number
+n60Dn0UsbEk,924.839,6.041,three point number three dynamic memory
+n60Dn0UsbEk,927.959,7.081,allocation
+n60Dn0UsbEk,930.88,5.8,okay so Heap area is not continuous and
+n60Dn0UsbEk,935.04,4.479,we know that array objects are also in
+n60Dn0UsbEk,936.68,8.44,the Heap area
+n60Dn0UsbEk,939.519,5.601,hence array objects in Java may not be
+n60Dn0UsbEk,945.48,3.96,continuous okay even though the
+n60Dn0UsbEk,947.68,4.0,definition of array says it's a
+n60Dn0UsbEk,949.44,5.16,continuous data this is the definition
+n60Dn0UsbEk,951.68,7.56,of array if you Google it but in Java
+n60Dn0UsbEk,954.6,4.64,internally may not be continuous
+n60Dn0UsbEk,959.56,3.6,if someone asks you what might be the
+n60Dn0UsbEk,961.6,5.88,reason this is the reason and you can
+n60Dn0UsbEk,963.16,4.32,just answer them that uh it depends on
+n60Dn0UsbEk,967.839,3.601,jvm why does it depend on jvm for people
+n60Dn0UsbEk,970.319,3.041,who are following the course you will
+n60Dn0UsbEk,971.44,3.639,already know heat memory stack memory
+n60Dn0UsbEk,973.36,4.88,all these things are of you know jvm
+n60Dn0UsbEk,975.079,5.801,only that is the reason it depends on
+n60Dn0UsbEk,978.24,5.88,jvm all
+n60Dn0UsbEk,980.88,4.8,right cool this thing is covered and I
+n60Dn0UsbEk,984.12,2.839,also covered that uh one more thing I
+n60Dn0UsbEk,985.68,2.92,want to share is like the indexes of
+n60Dn0UsbEk,986.959,3.081,arrays so for example if you have an
+n60Dn0UsbEk,988.6,3.599,array like this and you want to get the
+n60Dn0UsbEk,990.04,3.84,first item so basically there is
+n60Dn0UsbEk,992.199,3.481,something called index of an array what
+n60Dn0UsbEk,993.88,4.079,do we mean by index index are just
+n60Dn0UsbEk,995.68,4.839,numbers that basically means it's like
+n60Dn0UsbEk,997.959,4.641,the um position of the array which
+n60Dn0UsbEk,1000.519,3.961,starts from zero so it's going to start
+n60Dn0UsbEk,1002.6,4.28,from zero next one is going to be one
+n60Dn0UsbEk,1004.48,4.76,then two then three then four then five
+n60Dn0UsbEk,1006.88,4.8,then six if there's a reference variable
+n60Dn0UsbEk,1009.24,5.159,ARR that is pointing to this array and
+n60Dn0UsbEk,1011.68,6.0,you try to print you try to print
+n60Dn0UsbEk,1014.399,6.721,something like a RR of
+n60Dn0UsbEk,1017.68,6.04,zero this basically means what element
+n60Dn0UsbEk,1021.12,4.919,is at the zeroth index of this array
+n60Dn0UsbEk,1023.72,5.119,it's going to print you
+n60Dn0UsbEk,1026.039,5.841,three when you print something like a RR
+n60Dn0UsbEk,1028.839,5.12,of two so it's going to print whatever
+n60Dn0UsbEk,1031.88,5.4,is at the second index which is
+n60Dn0UsbEk,1033.959,5.6,19 similar things go goes for updation
+n60Dn0UsbEk,1037.28,3.88,okay so arrays are basically I'll talk
+n60Dn0UsbEk,1039.559,3.961,more about this the mutability behavior
+n60Dn0UsbEk,1041.16,5.36,I'll talk shortly but if you want to
+n60Dn0UsbEk,1043.52,5.84,change something you you say a RR of 3
+n60Dn0UsbEk,1046.52,5.2,is equal to 99 so basically this will be
+n60Dn0UsbEk,1049.36,2.36,changed to
+n60Dn0UsbEk,1053.559,4.12,99 okay so we talked about memory
+n60Dn0UsbEk,1056.24,3.559,management we talked about being
+n60Dn0UsbEk,1057.679,4.201,continuous or not we talked about jvm
+n60Dn0UsbEk,1059.799,3.561,stuff we talked about the syntax in Java
+n60Dn0UsbEk,1061.88,3.799,we talked about what are arrays we
+n60Dn0UsbEk,1063.36,4.319,talked about why arrays we talked about
+n60Dn0UsbEk,1065.679,3.721,uh you know the Declaration so only the
+n60Dn0UsbEk,1067.679,3.641,reference variable is assigned and in
+n60Dn0UsbEk,1069.4,3.639,the initialization using the new keyword
+n60Dn0UsbEk,1071.32,3.16,yeah new keyword key keyword is
+n60Dn0UsbEk,1073.039,3.041,remaining let's talk a little bit more
+n60Dn0UsbEk,1074.48,5.4,about new keyword what is this new
+n60Dn0UsbEk,1076.08,6.44,keyword what is this new keyword
+n60Dn0UsbEk,1079.88,4.6,so new basically just means it is used
+n60Dn0UsbEk,1082.52,6.12,to create an
+n60Dn0UsbEk,1084.48,4.16,object okay new is
+n60Dn0UsbEk,1089.52,3.88,used to create an
+n60Dn0UsbEk,1095.0,5.36,object okay new is used to create an
+n60Dn0UsbEk,1097.76,5.84,object so here if I'm saying new int
+n60Dn0UsbEk,1100.36,6.48,Dash like brackets 5 it will create an
+n60Dn0UsbEk,1103.6,6.0,object in the Heap memory of array size
+n60Dn0UsbEk,1106.84,4.36,five that is what new is
+n60Dn0UsbEk,1109.6,3.76,okay so this thing happens like at
+n60Dn0UsbEk,1111.2,4.4,dynamic memory allocation at runtime
+n60Dn0UsbEk,1113.36,3.64,that is why this new thing is here or
+n60Dn0UsbEk,1115.6,3.4,you can do something like this if you
+n60Dn0UsbEk,1117.0,3.24,are not using new if you're directly
+n60Dn0UsbEk,1119.0,4.76,assigning it something like you know
+n60Dn0UsbEk,1120.24,5.28,like we did previously 2 18 19 12 or
+n60Dn0UsbEk,1123.76,4.36,whatever even though you're not putting
+n60Dn0UsbEk,1125.52,4.96,new over here this is also uh the Java
+n60Dn0UsbEk,1128.12,4.48,internal syntax uh internally it's doing
+n60Dn0UsbEk,1130.48,3.4,the same thing okay internally it's
+n60Dn0UsbEk,1132.6,4.04,doing the same
+n60Dn0UsbEk,1133.88,5.76,thing so new is a keyword that is used
+n60Dn0UsbEk,1136.64,4.919,to create an object okay here it's
+n60Dn0UsbEk,1139.64,3.919,saying create an array object of size
+n60Dn0UsbEk,1141.559,5.521,five we'll create an array object of
+n60Dn0UsbEk,1143.559,5.081,empty size 5 initially when we don't put
+n60Dn0UsbEk,1147.08,3.04,anything inside the array we will see
+n60Dn0UsbEk,1148.64,3.56,what is available over there let's try
+n60Dn0UsbEk,1150.12,4.0,it out okay so we talked about indexes
+n60Dn0UsbEk,1152.2,3.599,so for example here if I have something
+n60Dn0UsbEk,1154.12,3.559,like you know let's say if there's
+n60Dn0UsbEk,1155.799,5.521,initially just five uh elements and
+n60Dn0UsbEk,1157.679,5.081,nothing is over there if I print R of
+n60Dn0UsbEk,1161.32,3.359,what is that the let's say first index
+n60Dn0UsbEk,1162.76,4.72,because it's a size five let's try to
+n60Dn0UsbEk,1164.679,5.801,print this it's going to show zero I
+n60Dn0UsbEk,1167.48,3.0,believe
+n60Dn0UsbEk,1172.159,5.88,zero okay so all the integer values all
+n60Dn0UsbEk,1175.6,4.52,for for an integer array basically by
+n60Dn0UsbEk,1178.039,4.161,default it's just going to have all the
+n60Dn0UsbEk,1180.12,3.919,zero elements okay everything is going
+n60Dn0UsbEk,1182.2,3.839,to be zero in it basically it's going to
+n60Dn0UsbEk,1184.039,5.401,be internally like this if it's five
+n60Dn0UsbEk,1186.039,6.281,size then 0 0 0 0 0
+n60Dn0UsbEk,1189.44,4.84,internally okay uh let's try something
+n60Dn0UsbEk,1192.32,4.0,else let's try making a string array
+n60Dn0UsbEk,1194.28,8.2,something that takes a string I say
+n60Dn0UsbEk,1196.32,9.96,string array AR R I can say new
+n60Dn0UsbEk,1202.48,6.199,string size 4 maybe let's try to print
+n60Dn0UsbEk,1206.28,5.56,what is inside this you know string
+n60Dn0UsbEk,1208.679,3.161,array by
+n60Dn0UsbEk,1217.039,4.241,default
+n60Dn0UsbEk,1218.6,4.84,null okay so this is a separate thing in
+n60Dn0UsbEk,1221.28,3.92,Java null it basically does not like
+n60Dn0UsbEk,1223.44,4.88,really like represent like a database or
+n60Dn0UsbEk,1225.2,4.8,whatever uh null basically means that uh
+n60Dn0UsbEk,1228.32,3.8,it does not you know really have any
+n60Dn0UsbEk,1230.0,4.4,data typee for example it's null for
+n60Dn0UsbEk,1232.12,5.4,example you can compare it with none in
+n60Dn0UsbEk,1234.4,6.32,C++ sorry you can compare it with none
+n60Dn0UsbEk,1237.52,5.399,in uh python python has none here you
+n60Dn0UsbEk,1240.72,3.439,have null basically okay so people who
+n60Dn0UsbEk,1242.919,2.921,might be having some questions about
+n60Dn0UsbEk,1244.159,3.601,what is null K we have never seen null
+n60Dn0UsbEk,1245.84,4.199,before it's not like a keyword or
+n60Dn0UsbEk,1247.76,4.76,anything it's like a special literal
+n60Dn0UsbEk,1250.039,5.681,okay so we talked about literals before
+n60Dn0UsbEk,1252.52,5.44,uh and um it's a it's a special literal
+n60Dn0UsbEk,1255.72,4.24,of a null type so basically you can
+n60Dn0UsbEk,1257.96,4.56,assign it to any particular like you can
+n60Dn0UsbEk,1259.96,4.56,cast it to any particular reference type
+n60Dn0UsbEk,1262.52,3.84,but you can't create a null type okay
+n60Dn0UsbEk,1264.52,3.6,you can't like really uh you know
+n60Dn0UsbEk,1266.36,4.48,declare this variable typ you can't say
+n60Dn0UsbEk,1268.12,5.64,something like this you can't say null a
+n60Dn0UsbEk,1270.84,4.56,is equal to something no you can't you
+n60Dn0UsbEk,1273.76,5.36,can't create it something like this if I
+n60Dn0UsbEk,1275.4,7.04,try no null or whatever no can't do it
+n60Dn0UsbEk,1279.12,5.84,it's like a literal okay it's a literal
+n60Dn0UsbEk,1282.44,5.64,if it's saying par parent or whatever
+n60Dn0UsbEk,1284.96,6.079,you can see it's saying um whatever
+n60Dn0UsbEk,1288.08,4.959,getting giving us errors basically so
+n60Dn0UsbEk,1291.039,4.801,it's just like a special type it's like
+n60Dn0UsbEk,1293.039,5.801,uh you know you can't reference it for
+n60Dn0UsbEk,1295.84,4.12,like in Primitives for example uh so for
+n60Dn0UsbEk,1298.84,2.76,example you can reference it to
+n60Dn0UsbEk,1299.96,4.44,something like uh
+n60Dn0UsbEk,1301.6,5.76,string string a is equal to null you can
+n60Dn0UsbEk,1304.4,6.48,do that a is already defined string Str
+n60Dn0UsbEk,1307.36,6.08,Str is equal to null but int num this
+n60Dn0UsbEk,1310.88,5.6,will give error you cannot assign it to
+n60Dn0UsbEk,1313.44,4.44,any um you cannot assign it to any
+n60Dn0UsbEk,1316.48,3.439,Primitives basically okay you can only
+n60Dn0UsbEk,1317.88,4.159,assign it to non Primitives it's just
+n60Dn0UsbEk,1319.919,4.281,like a special literal that is like you
+n60Dn0UsbEk,1322.039,5.0,know null value can compare it to with
+n60Dn0UsbEk,1324.2,5.16,none in
+n60Dn0UsbEk,1327.039,4.401,Python all right even if you're having
+n60Dn0UsbEk,1329.36,6.04,more conceptions about Kunal what is
+n60Dn0UsbEk,1331.44,5.76,null or whatever then uh basically just
+n60Dn0UsbEk,1335.4,5.0,uh it's uh you know in simple languages
+n60Dn0UsbEk,1337.2,5.599,I can just share that uh any reference
+n60Dn0UsbEk,1340.4,4.72,variable that you have by default it's
+n60Dn0UsbEk,1342.799,5.161,going to have the null type for example
+n60Dn0UsbEk,1345.12,4.919,this is a reference variable R and it is
+n60Dn0UsbEk,1347.96,3.719,not at this line it's not assigned to
+n60Dn0UsbEk,1350.039,4.081,anything so you'll be like hey Kunal
+n60Dn0UsbEk,1351.679,4.6,what is the value of this thing well the
+n60Dn0UsbEk,1354.12,5.159,value of this is by default going to be
+n60Dn0UsbEk,1356.279,4.201,null okay similarly in integer arrays by
+n60Dn0UsbEk,1359.279,3.081,the way we'll talk about how this thing
+n60Dn0UsbEk,1360.48,3.24,works internally basically here there
+n60Dn0UsbEk,1362.36,2.799,are four objects so we'll talk more
+n60Dn0UsbEk,1363.72,3.4,about this internally and why this is
+n60Dn0UsbEk,1365.159,3.161,showing null I'll explain it to you in a
+n60Dn0UsbEk,1367.12,3.439,little bit why this thing is showing
+n60Dn0UsbEk,1368.32,4.239,null why why every particular element of
+n60Dn0UsbEk,1370.559,3.801,this is null we will share about that in
+n60Dn0UsbEk,1372.559,4.561,a minute but just understand that it's
+n60Dn0UsbEk,1374.36,4.84,not a data type or anything it's just
+n60Dn0UsbEk,1377.12,4.48,you know uh it's not an object it's not
+n60Dn0UsbEk,1379.2,5.16,a type it's just a special value which
+n60Dn0UsbEk,1381.6,4.679,can be assigned to any reference type
+n60Dn0UsbEk,1384.36,4.04,and you can type cost null to any type
+n60Dn0UsbEk,1386.279,4.64,as well but you can't do it for
+n60Dn0UsbEk,1388.4,4.519,Primitives okay it say a special value
+n60Dn0UsbEk,1390.919,4.681,which is the by default value of
+n60Dn0UsbEk,1392.919,5.321,reference variables as simple as it gets
+n60Dn0UsbEk,1395.6,4.76,Special Value literal not an object or
+n60Dn0UsbEk,1398.24,4.52,not a data type or whatever special
+n60Dn0UsbEk,1400.36,4.88,value that is the by default value of
+n60Dn0UsbEk,1402.76,4.56,what reference variables point to Let's
+n60Dn0UsbEk,1405.24,4.039,dive into it let's dive into null and
+n60Dn0UsbEk,1407.32,3.64,let's see why why this you know by
+n60Dn0UsbEk,1409.279,3.481,default everything is null over here so
+n60Dn0UsbEk,1410.96,3.199,internally what happens in Java is like
+n60Dn0UsbEk,1412.76,3.32,okay you have Primitives and whatever
+n60Dn0UsbEk,1414.159,5.041,that's fine but what if you have an
+n60Dn0UsbEk,1416.08,5.959,array of objects and not Primitives for
+n60Dn0UsbEk,1419.2,2.839,example if I have a string
+n60Dn0UsbEk,1427.44,7.479,array AR RR is equal to new string let's
+n60Dn0UsbEk,1433.12,4.52,say five
+n60Dn0UsbEk,1434.919,5.521,elements okay internally what happens is
+n60Dn0UsbEk,1437.64,2.8,internal working
+n60Dn0UsbEk,1443.799,5.081,of object arrays not Primitives here you
+n60Dn0UsbEk,1447.24,3.36,can see this is an object type means
+n60Dn0UsbEk,1448.88,3.56,it's not a primitive type string will
+n60Dn0UsbEk,1450.6,3.52,have an object in the Heap memory by the
+n60Dn0UsbEk,1452.44,3.599,way we already talked about this that
+n60Dn0UsbEk,1454.12,3.919,Primitives are actually you know they
+n60Dn0UsbEk,1456.039,3.88,are stored in the stack memory only like
+n60Dn0UsbEk,1458.039,5.681,int car Bo or whatever they are stored
+n60Dn0UsbEk,1459.919,6.041,in the stack memory Primitives and uh
+n60Dn0UsbEk,1463.72,3.92,for example in the first lecture when we
+n60Dn0UsbEk,1465.96,3.64,did like you know stack memory Heap
+n60Dn0UsbEk,1467.64,3.56,memory concept that was specifically I
+n60Dn0UsbEk,1469.6,3.76,mentioned it was about objects and
+n60Dn0UsbEk,1471.2,4.199,references okay for example in Python
+n60Dn0UsbEk,1473.36,5.559,there are no Primitives everything is an
+n60Dn0UsbEk,1475.399,4.801,object so here in Java note this
+n60Dn0UsbEk,1478.919,3.401,Primitives are stored in the stack
+n60Dn0UsbEk,1480.2,3.76,memory only but all the other objects
+n60Dn0UsbEk,1482.32,4.04,that like string type array type your
+n60Dn0UsbEk,1483.96,4.079,own type all these other things you know
+n60Dn0UsbEk,1486.36,3.08,hashmap or whatever that we'll be making
+n60Dn0UsbEk,1488.039,3.601,all these objects or the classes that
+n60Dn0UsbEk,1489.44,4.0,we'll be making they are stored in the
+n60Dn0UsbEk,1491.64,3.88,Heap memory okay we'll do an example of
+n60Dn0UsbEk,1493.44,3.8,that as well internal working looks
+n60Dn0UsbEk,1495.52,5.08,something like this so you have your
+n60Dn0UsbEk,1497.24,6.319,stack memory AR R is available over here
+n60Dn0UsbEk,1500.6,2.959,so this is your stack
+n60Dn0UsbEk,1503.72,6.839,memory stack memory and AR RR is here
+n60Dn0UsbEk,1508.52,6.08,it's pointing to the Heap memory that
+n60Dn0UsbEk,1510.559,5.561,contains the array string it contains
+n60Dn0UsbEk,1514.6,4.76,five
+n60Dn0UsbEk,1516.12,5.96,elements now each particular element
+n60Dn0UsbEk,1519.36,2.72,itself is an
+n60Dn0UsbEk,1522.48,4.079,object and this entire each object will
+n60Dn0UsbEk,1525.2,4.359,be stored in different parts of the
+n60Dn0UsbEk,1526.559,3.0,memory
+n60Dn0UsbEk,1532.08,4.199,okay that's how it works
+n60Dn0UsbEk,1534.159,5.0,internally so each particular thing is
+n60Dn0UsbEk,1536.279,4.601,an object and we know that this is going
+n60Dn0UsbEk,1539.159,3.24,to be another reference variable some
+n60Dn0UsbEk,1540.88,4.2,reference variable here for this might
+n60Dn0UsbEk,1542.399,5.801,be something like ARR
+n60Dn0UsbEk,1545.08,5.24,of0 and since this is just initialized
+n60Dn0UsbEk,1548.2,4.479,it is not you know we have not said a r
+n60Dn0UsbEk,1550.32,5.16,r of0 is equal to let's say let say
+n60Dn0UsbEk,1552.679,5.161,Kunal or three or whatever in in string
+n60Dn0UsbEk,1555.48,6.16,so by default we know all reference
+n60Dn0UsbEk,1557.84,5.319,variables Point To None null so that is
+n60Dn0UsbEk,1561.64,4.919,why it's giving us
+n60Dn0UsbEk,1563.159,5.041,null to sum up each particular object
+n60Dn0UsbEk,1566.559,3.561,that we have over here it's going to be
+n60Dn0UsbEk,1568.2,3.359,in separate areas in the Heap memory
+n60Dn0UsbEk,1570.12,2.679,these are just like reference variables
+n60Dn0UsbEk,1571.559,2.72,over here that are pointing to those
+n60Dn0UsbEk,1572.799,3.88,objects that can be any anywhere in the
+n60Dn0UsbEk,1574.279,4.52,memory and then we have like the so
+n60Dn0UsbEk,1576.679,3.441,these reference variables they may be
+n60Dn0UsbEk,1578.799,2.24,like closely linked together whatever
+n60Dn0UsbEk,1580.12,2.88,when you're talking about like
+n60Dn0UsbEk,1581.039,3.801,continuous memory allocation or whatever
+n60Dn0UsbEk,1583.0,3.44,that is like not a proof in Java like
+n60Dn0UsbEk,1584.84,3.64,okay it's not like Java definitely has
+n60Dn0UsbEk,1586.44,3.68,continuous memory allocation so is
+n60Dn0UsbEk,1588.48,4.6,actually an array of reference variables
+n60Dn0UsbEk,1590.12,4.12,when we doing object okay understand the
+n60Dn0UsbEk,1593.08,3.56,difference between Primitives and
+n60Dn0UsbEk,1594.24,4.52,objects Primitives are int car Boolean
+n60Dn0UsbEk,1596.64,4.6,and your float and
+n60Dn0UsbEk,1598.76,3.96,whatever and non- Primitives are your
+n60Dn0UsbEk,1601.24,2.919,complex data types what are Primitives
+n60Dn0UsbEk,1602.72,3.6,you already talked about it something
+n60Dn0UsbEk,1604.159,4.12,that cannot be broken down string can be
+n60Dn0UsbEk,1606.32,3.599,broken down into characters array can be
+n60Dn0UsbEk,1608.279,3.12,broken down to individual elements
+n60Dn0UsbEk,1609.919,3.441,bigger complex data types can also be
+n60Dn0UsbEk,1611.399,4.52,broken down as we'll see object
+n60Dn0UsbEk,1613.36,4.72,programming so objects are stored in
+n60Dn0UsbEk,1615.919,4.681,Heap memory stack May in Stacks there
+n60Dn0UsbEk,1618.08,4.16,are stored the reference variable we
+n60Dn0UsbEk,1620.6,3.04,point to the heat memory Point number
+n60Dn0UsbEk,1622.24,4.28,one we have discussed that multiple
+n60Dn0UsbEk,1623.64,4.72,times second point if you know each
+n60Dn0UsbEk,1626.52,4.519,particular object if each particular
+n60Dn0UsbEk,1628.36,4.039,element of the uh array is an object
+n60Dn0UsbEk,1631.039,3.401,that it will be like located in some
+n60Dn0UsbEk,1632.399,3.801,other memory and the reference variable
+n60Dn0UsbEk,1634.44,3.16,we be pointing to it's like this array
+n60Dn0UsbEk,1636.2,4.959,is actually just a collection of
+n60Dn0UsbEk,1637.6,5.679,reference variables okay and by default
+n60Dn0UsbEk,1641.159,4.921,for every reference variable if there is
+n60Dn0UsbEk,1643.279,4.52,no value it's null none all right so
+n60Dn0UsbEk,1646.08,4.12,let's look into it like for example
+n60Dn0UsbEk,1647.799,4.521,let's say say we take uh something like
+n60Dn0UsbEk,1650.2,4.24,this so we have this array or uh let's
+n60Dn0UsbEk,1652.32,4.359,take uh the integer one only or let me
+n60Dn0UsbEk,1654.44,4.64,create a new one let me create a new one
+n60Dn0UsbEk,1656.679,6.0,this one looks a little dirty so I can
+n60Dn0UsbEk,1659.08,6.88,say something like uh input so we'll be
+n60Dn0UsbEk,1662.679,5.561,like doing the input thing over here
+n60Dn0UsbEk,1665.96,4.199,public static wi main okay here you can
+n60Dn0UsbEk,1668.24,6.08,see this is also a string array so now
+n60Dn0UsbEk,1670.159,6.481,you know ARS is actually a string array
+n60Dn0UsbEk,1674.32,4.28,okay so let's do something related to
+n60Dn0UsbEk,1676.64,6.0,input let's say I'm saying integer array
+n60Dn0UsbEk,1678.6,5.6,AR r r is equal to new integer of size 5
+n60Dn0UsbEk,1682.64,3.2,okay so if it's starting from zero if
+n60Dn0UsbEk,1684.2,3.68,the index is starting from zero we know
+n60Dn0UsbEk,1685.84,5.679,that the last index value is going to be
+n60Dn0UsbEk,1687.88,10.08,size minus one which is 5 - 1 which is 4
+n60Dn0UsbEk,1691.519,11.801,so I can say a RR of um 0 is equal to 23
+n60Dn0UsbEk,1697.96,8.559,ARR of 1 is equal to 45 and so on and so
+n60Dn0UsbEk,1703.32,7.64,forth so basically if I just
+n60Dn0UsbEk,1706.519,9.321,print AR out of I can say ARR of uh know
+n60Dn0UsbEk,1710.96,9.839,it's very time consuming but anyway 2 3
+n60Dn0UsbEk,1715.84,6.6,and four say 40 something like this
+n60Dn0UsbEk,1720.799,4.561,something like this and something like
+n60Dn0UsbEk,1722.44,6.28,this if I print the array index number
+n60Dn0UsbEk,1725.36,6.36,three it's basically going to print
+n60Dn0UsbEk,1728.72,6.0,me what is that index number three 543
+n60Dn0UsbEk,1731.72,4.559,it's printing me 543 internally it's now
+n60Dn0UsbEk,1734.72,6.24,stored something like
+n60Dn0UsbEk,1736.279,7.681,this you know something like this 23 45
+n60Dn0UsbEk,1740.96,6.8,233 543 and
+n60Dn0UsbEk,1743.96,6.24,3 okay very simple stuff but if the
+n60Dn0UsbEk,1747.76,5.12,"array was like 1,000 size and I I wanted"
+n60Dn0UsbEk,1750.2,5.76,"to fill this 1,000 times this would be"
+n60Dn0UsbEk,1752.88,6.039,very repetitive can't we do it like
+n60Dn0UsbEk,1755.96,6.439,easily we can we can use a for Loop so I
+n60Dn0UsbEk,1758.919,5.88,can say something like uh input using
+n60Dn0UsbEk,1762.399,5.12,for Loops so basically I'm going to say
+n60Dn0UsbEk,1764.799,5.0,for every index I starting from zero
+n60Dn0UsbEk,1767.519,4.441,going till here going to till the length
+n60Dn0UsbEk,1769.799,3.441,of the array here I know that it's five
+n60Dn0UsbEk,1771.96,3.12,I can put less than five over here
+n60Dn0UsbEk,1773.24,5.439,because then it will go for index number
+n60Dn0UsbEk,1775.08,5.12,0 1 2 34 that is what I want to do but
+n60Dn0UsbEk,1778.679,3.961,many times you might not know the size
+n60Dn0UsbEk,1780.2,5.04,of the array so for example you can do
+n60Dn0UsbEk,1782.64,4.8,ar. length so you can see length is an
+n60Dn0UsbEk,1785.24,4.559,integer variable that is
+n60Dn0UsbEk,1787.44,4.16,public for you know in the array class
+n60Dn0UsbEk,1789.799,3.441,we'll learn more about this in object
+n60Dn0UsbEk,1791.6,3.04,programming you can see it's a length
+n60Dn0UsbEk,1793.24,4.0,variable which represents the length of
+n60Dn0UsbEk,1794.64,5.36,the array so here I can just say a r r
+n60Dn0UsbEk,1797.24,5.88,of I is going going to be equal to input
+n60Dn0UsbEk,1800.0,5.2,we can take an input we can say scanner
+n60Dn0UsbEk,1803.12,4.36,n is equal to new
+n60Dn0UsbEk,1805.2,5.64,scanner
+n60Dn0UsbEk,1807.48,5.72,system.in so here I can say in do next
+n60Dn0UsbEk,1810.84,3.8,int so whenever you take a next integer
+n60Dn0UsbEk,1813.2,3.88,it's going to be stored in the AR RR of
+n60Dn0UsbEk,1814.64,4.68,I initially the value will be zero then
+n60Dn0UsbEk,1817.08,3.88,it will print okay a r of0 is equal to
+n60Dn0UsbEk,1819.32,4.239,take the input then the value will be
+n60Dn0UsbEk,1820.96,4.52,one AR R of 1 is equal to take the input
+n60Dn0UsbEk,1823.559,4.96,then so on and so
+n60Dn0UsbEk,1825.48,5.24,forth okay that is
+n60Dn0UsbEk,1828.519,4.561,pretty much about
+n60Dn0UsbEk,1830.72,4.72,it one more thing I want to share is
+n60Dn0UsbEk,1833.08,4.16,that uh you can also print this in the
+n60Dn0UsbEk,1835.44,4.119,same way so you can run the same for
+n60Dn0UsbEk,1837.24,6.559,Loop this time instead of taking an
+n60Dn0UsbEk,1839.559,7.881,input you can just say print AR R
+n60Dn0UsbEk,1843.799,7.961,ofi print AR out of I I can maybe print
+n60Dn0UsbEk,1847.44,6.64,it in a single line let's try to run
+n60Dn0UsbEk,1851.76,4.84,this I know it's asking for five
+n60Dn0UsbEk,1854.08,3.959,elements because AR length is five so
+n60Dn0UsbEk,1856.6,5.76,it's going to ask for five elements like
+n60Dn0UsbEk,1858.039,5.561,let's say 23 3 4 6 57 in the next line
+n60Dn0UsbEk,1862.36,3.48,it is going to run this for Loop to
+n60Dn0UsbEk,1863.6,2.24,print
+n60Dn0UsbEk,1866.159,4.36,it so it ran this for Loop took the
+n60Dn0UsbEk,1868.679,5.24,input then it ran this for Loop and
+n60Dn0UsbEk,1870.519,5.481,every time it just printed it out that's
+n60Dn0UsbEk,1873.919,4.321,it this is showing showing some
+n60Dn0UsbEk,1876.0,4.679,highlight it is called a for each Loop
+n60Dn0UsbEk,1878.24,5.399,so basically another point for you
+n60Dn0UsbEk,1880.679,5.801,all you can definitely just iterate over
+n60Dn0UsbEk,1883.639,4.321,like go through these indexes because
+n60Dn0UsbEk,1886.48,3.679,here you're just using the index to get
+n60Dn0UsbEk,1887.96,4.64,the item you can directly get the item
+n60Dn0UsbEk,1890.159,4.4,as well using an enhanced for Loop
+n60Dn0UsbEk,1892.6,3.959,replaced with enhanced for let's try
+n60Dn0UsbEk,1894.559,4.321,that
+n60Dn0UsbEk,1896.559,4.441,out okay so basically this is the Syntax
+n60Dn0UsbEk,1898.88,8.36,for that
+n60Dn0UsbEk,1901.0,11.6,for data type reference variable in
+n60Dn0UsbEk,1907.24,8.399,Array print that type so basically
+n60Dn0UsbEk,1912.6,7.24,here I'll write it as a comment as well
+n60Dn0UsbEk,1915.639,4.201,here num represent
+n60Dn0UsbEk,1920.279,4.52,element of the
+n60Dn0UsbEk,1922.36,4.96,array so element number one element
+n60Dn0UsbEk,1924.799,4.72,number two element number 3 4 for every
+n60Dn0UsbEk,1927.32,6.76,element in the array print the
+n60Dn0UsbEk,1929.519,6.441,element for every element in Array print
+n60Dn0UsbEk,1934.08,4.479,the element that is what we're doing
+n60Dn0UsbEk,1935.96,6.599,here if I hide
+n60Dn0UsbEk,1938.559,4.0,this this is know as for each
+n60Dn0UsbEk,1944.72,7.439,Loop okay if I type five numbers here
+n60Dn0UsbEk,1949.12,5.24,okay obviously if you type if you try to
+n60Dn0UsbEk,1952.159,4.801,get the answer to more than five numbers
+n60Dn0UsbEk,1954.36,5.12,that will give you an array an error so
+n60Dn0UsbEk,1956.96,5.36,basically if you're saying print ARR of
+n60Dn0UsbEk,1959.48,5.72,let's say the last index is what 0 1 2 3
+n60Dn0UsbEk,1962.32,4.839,4 so if you try to print AR of five this
+n60Dn0UsbEk,1965.2,4.319,will give you error it's saying index
+n60Dn0UsbEk,1967.159,2.36,out of
+n60Dn0UsbEk,1969.799,5.521,bound you know index out of bound the
+n60Dn0UsbEk,1973.2,4.92,last index is index number four because
+n60Dn0UsbEk,1975.32,5.68,the size is specified as five how are
+n60Dn0UsbEk,1978.12,6.559,you printing size uh index 5 index 5
+n60Dn0UsbEk,1981.0,3.679,does not exist error
+n60Dn0UsbEk,1984.919,5.24,so index out of bound
+n60Dn0UsbEk,1988.2,3.839,error same thing if you write some
+n60Dn0UsbEk,1990.159,5.76,negatives or
+n60Dn0UsbEk,1992.039,5.48,whatever okay cool one more very nice
+n60Dn0UsbEk,1995.919,3.921,way in order to print so I showed you
+n60Dn0UsbEk,1997.519,5.361,two ways to print one easy way to print
+n60Dn0UsbEk,1999.84,5.36,is actually do something like this print
+n60Dn0UsbEk,2002.88,5.56,there's an arrays
+n60Dn0UsbEk,2005.2,5.0,class do two string
+n60Dn0UsbEk,2008.44,4.16,and then you just pass the array over
+n60Dn0UsbEk,2010.2,5.12,here array class has a two- string
+n60Dn0UsbEk,2012.6,4.72,method when you give an array into it it
+n60Dn0UsbEk,2015.32,3.959,basically converts it into a string and
+n60Dn0UsbEk,2017.32,4.28,prints that string so you can see it's
+n60Dn0UsbEk,2019.279,5.041,taking an integer array over here and
+n60Dn0UsbEk,2021.6,4.76,you know if the length is uh you know if
+n60Dn0UsbEk,2024.32,3.92,the length is like if the integer is
+n60Dn0UsbEk,2026.36,4.52,array is empty it is returning empty
+n60Dn0UsbEk,2028.24,4.679,curly empty braces if it's null that's
+n60Dn0UsbEk,2030.88,3.56,returning null otherwise it's adding
+n60Dn0UsbEk,2032.919,2.76,it's using string Builder string Builder
+n60Dn0UsbEk,2034.44,3.599,is something we'll talk more about in
+n60Dn0UsbEk,2035.679,3.84,the later sections and here just adding
+n60Dn0UsbEk,2038.039,3.48,comma and everything formatting it for
+n60Dn0UsbEk,2039.519,4.88,us and using a simple for Loop same
+n60Dn0UsbEk,2041.519,5.16,thing that we were doing okay if I try
+n60Dn0UsbEk,2044.399,4.401,to run this it will just without any for
+n60Dn0UsbEk,2046.679,4.4,Loop internally it's using for Loop only
+n60Dn0UsbEk,2048.8,5.72,you can see internally it's using for
+n60Dn0UsbEk,2051.079,5.921,Loop only nothing new over here okay I
+n60Dn0UsbEk,2054.52,4.28,just write five numbers here like 1 2 3
+n60Dn0UsbEk,2057.0,4.32,4 5 it's
+n60Dn0UsbEk,2058.8,5.16,printing it's adding the brackets adding
+n60Dn0UsbEk,2061.32,5.72,comma and everything for us that is true
+n60Dn0UsbEk,2063.96,4.84,adding the brackets adding the comma
+n60Dn0UsbEk,2067.04,4.039,adding the number numbers and
+n60Dn0UsbEk,2068.8,5.119,whatever okay three ways to print and
+n60Dn0UsbEk,2071.079,5.921,this is the best one okay this is very
+n60Dn0UsbEk,2073.919,6.281,nice all righty
+n60Dn0UsbEk,2077.0,4.639,cool now if you want to learn more about
+n60Dn0UsbEk,2080.2,2.919,let's say we talk more about let's say
+n60Dn0UsbEk,2081.639,3.561,we take a string array okay we take a
+n60Dn0UsbEk,2083.119,4.161,string array you know we take an array
+n60Dn0UsbEk,2085.2,5.919,of objects this was like array of
+n60Dn0UsbEk,2087.28,3.839,Primitives okay this is an array of
+n60Dn0UsbEk,2091.159,6.081,Primitives now we do array of
+n60Dn0UsbEk,2094.679,3.641,objects we already did this let say
+n60Dn0UsbEk,2097.24,4.08,string
+n60Dn0UsbEk,2098.32,5.56,Str Str is equal to something like new
+n60Dn0UsbEk,2101.32,5.24,string name sorry not name what am I
+n60Dn0UsbEk,2103.88,6.64,doing let's say four size okay and then
+n60Dn0UsbEk,2106.56,8.12,I can say for i0 I less than uh St str.
+n60Dn0UsbEk,2110.52,5.36,length i++ I can just say is equal to in
+n60Dn0UsbEk,2114.68,4.919,do
+n60Dn0UsbEk,2115.88,8.16,next that's it then I can just print it
+n60Dn0UsbEk,2119.599,9.161,arrays. two string ARR sorry not ARR s
+n60Dn0UsbEk,2124.04,6.6,Str okay let me just hide this thing
+n60Dn0UsbEk,2128.76,4.12,initially you know initially you know
+n60Dn0UsbEk,2130.64,4.199,when I do this thing here the
+n60Dn0UsbEk,2132.88,3.52,declaration has happened here the
+n60Dn0UsbEk,2134.839,3.0,initialization means the dynamic memory
+n60Dn0UsbEk,2136.4,4.8,allocation actually the thing has been
+n60Dn0UsbEk,2137.839,5.201,created in the Heap and by default it's
+n60Dn0UsbEk,2141.2,4.2,going to contain four objects in it
+n60Dn0UsbEk,2143.04,3.64,because the size is four and by default
+n60Dn0UsbEk,2145.4,3.919,it's basically actually containing the
+n60Dn0UsbEk,2146.68,4.52,reference variables to the objects and
+n60Dn0UsbEk,2149.319,4.04,those objects those objects can be
+n60Dn0UsbEk,2151.2,5.28,stored anywhere in the Heap I'll draw a
+n60Dn0UsbEk,2153.359,5.681,diagram of this soon one second when I
+n60Dn0UsbEk,2156.48,7.0,run this let's say I just input four
+n60Dn0UsbEk,2159.04,7.279,strings like a b c d a b c and d it's
+n60Dn0UsbEk,2163.48,2.839,going to print AB BC
+n60Dn0UsbEk,2166.56,3.72,D don't think that this is a character
+n60Dn0UsbEk,2168.88,6.6,this is a string okay this can be a
+n60Dn0UsbEk,2170.28,7.52,string as well you want to do a a BB CC
+n60Dn0UsbEk,2175.48,4.4,DD internally how it's being stored
+n60Dn0UsbEk,2177.8,4.88,let's look into
+n60Dn0UsbEk,2179.88,4.16,it so here you can see on the diagram
+n60Dn0UsbEk,2182.68,4.12,that is what is happening internally
+n60Dn0UsbEk,2184.04,4.799,also basically you have your uh you know
+n60Dn0UsbEk,2186.8,3.519,you have your stack m memory and you
+n60Dn0UsbEk,2188.839,4.76,have your HEAP memory so in the stack
+n60Dn0UsbEk,2190.319,5.681,memory you have something like Str Str
+n60Dn0UsbEk,2193.599,4.961,in the stack memory which is like a
+n60Dn0UsbEk,2196.0,5.24,pointing in the Heap memory Heap memory
+n60Dn0UsbEk,2198.56,5.6,and actually contains a array of size
+n60Dn0UsbEk,2201.24,5.44,four it's going to have four reference
+n60Dn0UsbEk,2204.16,5.52,variables okay some reference variables
+n60Dn0UsbEk,2206.68,5.48,over here there's some object AA over
+n60Dn0UsbEk,2209.68,5.04,here some object BB over here some
+n60Dn0UsbEk,2212.16,4.36,object CC over here some object DD over
+n60Dn0UsbEk,2214.72,3.84,here this is pointing to this this is
+n60Dn0UsbEk,2216.52,4.64,pointing to this
+n60Dn0UsbEk,2218.56,4.279,this is pointing to this one this is
+n60Dn0UsbEk,2221.16,4.04,pointing to this
+n60Dn0UsbEk,2222.839,3.52,one is Shoring reference variables to
+n60Dn0UsbEk,2225.2,2.399,these objects these objects can be
+n60Dn0UsbEk,2226.359,4.0,anywhere in the
+n60Dn0UsbEk,2227.599,4.52,Heap I hope that it is clear and it is
+n60Dn0UsbEk,2230.359,4.561,very simple stuff nothing nothing new
+n60Dn0UsbEk,2232.119,5.641,over here and we have already done this
+n60Dn0UsbEk,2234.92,4.36,many many many many times already done
+n60Dn0UsbEk,2237.76,3.359,object Heap memory and all these things
+n60Dn0UsbEk,2239.28,3.72,we have done so many
+n60Dn0UsbEk,2241.119,4.841,times
+n60Dn0UsbEk,2243.0,5.24,okay cool now let's talk about
+n60Dn0UsbEk,2245.96,4.159,multi-dimensional arrays like 2D arrays
+n60Dn0UsbEk,2248.24,3.76,how 2D arrays work how 2D arrays are
+n60Dn0UsbEk,2250.119,3.48,stored and stuff so we already talked
+n60Dn0UsbEk,2252.0,4.88,about the input we already talked about
+n60Dn0UsbEk,2253.599,5.561,the output in three ways and uh you can
+n60Dn0UsbEk,2256.88,4.52,definitely modify it as well so if I say
+n60Dn0UsbEk,2259.16,4.52,even though it's a b b c d so you can
+n60Dn0UsbEk,2261.4,4.959,say
+n60Dn0UsbEk,2263.68,6.04,modify so I can say let's say
+n60Dn0UsbEk,2266.359,4.841,the first index should be something like
+n60Dn0UsbEk,2269.72,3.72,uh
+n60Dn0UsbEk,2271.2,3.8,Kunal then I print this again so it will
+n60Dn0UsbEk,2273.44,4.04,be changed to
+n60Dn0UsbEk,2275.0,4.56,Kunal directly accessing the element and
+n60Dn0UsbEk,2277.48,4.119,changing it okay so you can definitely
+n60Dn0UsbEk,2279.56,3.12,do that as well this is actually
+n60Dn0UsbEk,2281.599,3.361,directly getting the reference it's
+n60Dn0UsbEk,2282.68,6.96,saying this is the reference variable
+n60Dn0UsbEk,2284.96,6.84,that thing this thing this a this thing
+n60Dn0UsbEk,2289.64,5.959,where that we have over
+n60Dn0UsbEk,2291.8,7.68,here okay this uh a this first star that
+n60Dn0UsbEk,2295.599,6.321,you see this is actually Str Str of zero
+n60Dn0UsbEk,2299.48,6.639,this is Str Str of 1 next one is s Str
+n60Dn0UsbEk,2301.92,5.919,of 2 last one is Str Str of 3 so
+n60Dn0UsbEk,2306.119,3.681,basically you're getting that reference
+n60Dn0UsbEk,2307.839,4.361,variable directly over here and changing
+n60Dn0UsbEk,2309.8,4.24,its value hence the original one will be
+n60Dn0UsbEk,2312.2,4.6,changed very simple stuff we have done
+n60Dn0UsbEk,2314.04,2.76,something before
+n60Dn0UsbEk,2317.24,8.04,also okay if you initially just write a
+n60Dn0UsbEk,2320.4,6.439,a BB CC and uh DD afterwards you can see
+n60Dn0UsbEk,2325.28,4.0,string one is changed to Kunal so
+n60Dn0UsbEk,2326.839,5.081,original string object is changed that
+n60Dn0UsbEk,2329.28,5.28,is true you're changing the original
+n60Dn0UsbEk,2331.92,6.48,object that is what we're doing so
+n60Dn0UsbEk,2334.56,8.2,you're doing something like this
+n60Dn0UsbEk,2338.4,4.36,you're saying change this to
+n60Dn0UsbEk,2343.2,7.48,Kunal that is what you're
+n60Dn0UsbEk,2346.48,4.2,doing okay
+n60Dn0UsbEk,2352.28,4.0,cool let me see if I missed anything or
+n60Dn0UsbEk,2354.52,4.44,not so I believe we covered every like
+n60Dn0UsbEk,2356.28,4.72,the basic stuff over here and with 2D
+n60Dn0UsbEk,2358.96,3.6,arrays I'll explain it to you shortly I
+n60Dn0UsbEk,2361.0,3.72,already already mentioned and stressed
+n60Dn0UsbEk,2362.56,3.2,on a lot of points multiple times we
+n60Dn0UsbEk,2364.72,2.68,talked about how this is working
+n60Dn0UsbEk,2365.76,3.28,internally we talked about how you can
+n60Dn0UsbEk,2367.4,3.84,input it like this and how you can input
+n60Dn0UsbEk,2369.04,4.52,it by a for Loop we talked about memory
+n60Dn0UsbEk,2371.24,3.72,management we talked about Heap and we
+n60Dn0UsbEk,2373.56,3.36,talked about primitive array we talked
+n60Dn0UsbEk,2374.96,3.68,about the other type array like the
+n60Dn0UsbEk,2376.92,3.64,array of objects how that is stored
+n60Dn0UsbEk,2378.64,4.479,internally we talked about arrays. two
+n60Dn0UsbEk,2380.56,5.68,string and how you can modify one more
+n60Dn0UsbEk,2383.119,6.0,thing I want to share is like U we you
+n60Dn0UsbEk,2386.24,4.079,know function example now one more thing
+n60Dn0UsbEk,2389.119,2.761,you know we have we are talking about
+n60Dn0UsbEk,2390.319,4.841,references objects and all these things
+n60Dn0UsbEk,2391.88,4.92,for so many lectures now let's try to
+n60Dn0UsbEk,2395.16,3.28,see how these things behave in functions
+n60Dn0UsbEk,2396.8,3.64,in the previous lecture we did about you
+n60Dn0UsbEk,2398.44,4.56,know we learn about functions and we
+n60Dn0UsbEk,2400.44,4.0,also learned how data types and like
+n60Dn0UsbEk,2403.0,3.48,reference variables are passed into
+n60Dn0UsbEk,2404.44,4.48,functions in Java there's only call by
+n60Dn0UsbEk,2406.48,4.28,value and when we pass an object's
+n60Dn0UsbEk,2408.92,3.72,reference it's actually going to take a
+n60Dn0UsbEk,2410.76,4.4,copy of that reference which is going to
+n60Dn0UsbEk,2412.64,3.92,point to the same object let's try that
+n60Dn0UsbEk,2415.16,3.64,we already did this in the function
+n60Dn0UsbEk,2416.56,3.72,section so we already ran this example
+n60Dn0UsbEk,2418.8,5.2,also in the function section so nothing
+n60Dn0UsbEk,2420.28,6.319,new over here passing in functions let's
+n60Dn0UsbEk,2424.0,3.92,make something like this and then I can
+n60Dn0UsbEk,2426.599,3.401,just say public stat itic void main I
+n60Dn0UsbEk,2427.92,4.64,can create a function over here static
+n60Dn0UsbEk,2430.0,4.64,void change it's taking an integer array
+n60Dn0UsbEk,2432.56,5.039,of let's say AR or whatever and it's
+n60Dn0UsbEk,2434.64,4.8,saying the zero index change it to 99
+n60Dn0UsbEk,2437.599,3.641,let's say I create an original index
+n60Dn0UsbEk,2439.44,6.24,array over here integer array it's
+n60Dn0UsbEk,2441.24,7.8,called nums that takes something like um
+n60Dn0UsbEk,2445.68,6.48,3 4 5 and 12 or whatever I'm saying
+n60Dn0UsbEk,2449.04,6.079,print this so I'm saying print arrays do
+n60Dn0UsbEk,2452.16,5.679,uh two string nums obviously it's going
+n60Dn0UsbEk,2455.119,4.801,to print 3 4 52 but after that I'm
+n60Dn0UsbEk,2457.839,4.921,saying change the value of the zero
+n60Dn0UsbEk,2459.92,5.12,index via this method so just pass this
+n60Dn0UsbEk,2462.76,4.44,nums array in the method what is going
+n60Dn0UsbEk,2465.04,4.319,to happen over here let's look at our
+n60Dn0UsbEk,2467.2,3.879,diagram let us look at the diagram what
+n60Dn0UsbEk,2469.359,3.401,is going to happen over here we have
+n60Dn0UsbEk,2471.079,4.321,done this many many times you might be
+n60Dn0UsbEk,2472.76,4.88,aware of it already now so
+n60Dn0UsbEk,2475.4,5.48,basically initially we have something
+n60Dn0UsbEk,2477.64,6.12,like this so we have
+n60Dn0UsbEk,2480.88,6.76,nums reference variable pointing to an
+n60Dn0UsbEk,2483.76,6.64,object of array like this which is three
+n60Dn0UsbEk,2487.64,4.76,4 5 and 12 then the copy of this
+n60Dn0UsbEk,2490.4,3.36,reference variable is passed in the
+n60Dn0UsbEk,2492.4,3.199,function let's say the name of the
+n60Dn0UsbEk,2493.76,3.04,reference variable in the function what
+n60Dn0UsbEk,2495.599,3.52,is the name of the reference variable in
+n60Dn0UsbEk,2496.8,4.279,the function a r r but it's pointing to
+n60Dn0UsbEk,2499.119,4.281,the same
+n60Dn0UsbEk,2501.079,4.721,object and what am I what am I doing in
+n60Dn0UsbEk,2503.4,7.28,the function in the function I'm doing a
+n60Dn0UsbEk,2505.8,7.76,r r of 0 is equal to 99 means this
+n60Dn0UsbEk,2510.68,5.639,objects zero index should be changed to
+n60Dn0UsbEk,2513.56,5.68,99 isn't now the original value being
+n60Dn0UsbEk,2516.319,2.921,changed
+n60Dn0UsbEk,2519.359,2.801,the original one is also changed right
+n60Dn0UsbEk,2520.92,3.8,because both of these are pointing to
+n60Dn0UsbEk,2522.16,4.919,same object this is known as mutability
+n60Dn0UsbEk,2524.72,5.08,mutable
+n60Dn0UsbEk,2527.079,6.481,Behavior okay so strings are immutable
+n60Dn0UsbEk,2529.8,6.279,in Java and arrays are mutable in Java
+n60Dn0UsbEk,2533.56,5.44,mutable means in simple language you can
+n60Dn0UsbEk,2536.079,5.76,change the object you can change the
+n60Dn0UsbEk,2539.0,5.119,object why are strings strings immutable
+n60Dn0UsbEk,2541.839,4.121,why cannot we not change strings we will
+n60Dn0UsbEk,2544.119,3.601,look that into the string module but if
+n60Dn0UsbEk,2545.96,4.359,I run this it will actually change the
+n60Dn0UsbEk,2547.72,6.2,original array as
+n60Dn0UsbEk,2550.319,5.481,well taada okay now let's talk about 2D
+n60Dn0UsbEk,2553.92,4.12,arrays in Java how do 2D arrays work
+n60Dn0UsbEk,2555.8,5.68,basically 2D arrays you can imagine it
+n60Dn0UsbEk,2558.04,7.64,as a matrix so for example I just
+n60Dn0UsbEk,2561.48,6.76,say multi Dimension array or
+n60Dn0UsbEk,2565.68,3.879,whatever public static white mean so you
+n60Dn0UsbEk,2568.24,2.68,want it to look something like this
+n60Dn0UsbEk,2569.559,5.321,let's say you want it to look something
+n60Dn0UsbEk,2570.92,3.96,like this
+n60Dn0UsbEk,2580.44,3.6,why am I writing the syntax I can just
+n60Dn0UsbEk,2581.72,3.2,directly show you so for 2D arrays
+n60Dn0UsbEk,2584.04,2.2,basically if you're making a two
+n60Dn0UsbEk,2584.92,3.84,dimensional array it should be like a
+n60Dn0UsbEk,2586.24,4.24,matrix sort of a thing for example I can
+n60Dn0UsbEk,2588.76,2.92,just write it directly it can if you
+n60Dn0UsbEk,2590.48,3.48,want to print something like this if you
+n60Dn0UsbEk,2591.68,6.96,want to say create an array that is a
+n60Dn0UsbEk,2593.96,8.04,matrix like this 1 2 3 4 5 6 7 8 or it's
+n60Dn0UsbEk,2598.64,3.36,like too big I can say 1 2
+n60Dn0UsbEk,2602.599,6.48,3 4 5 6
+n60Dn0UsbEk,2605.559,5.961,7 8 9
+n60Dn0UsbEk,2609.079,5.24,so in this case you are going to have
+n60Dn0UsbEk,2611.52,3.96,three rows three columns how this works
+n60Dn0UsbEk,2614.319,2.8,internally and everything we'll look
+n60Dn0UsbEk,2615.48,3.96,later on but let's first look into how
+n60Dn0UsbEk,2617.119,4.601,we are defining this so 1D array is
+n60Dn0UsbEk,2619.44,4.72,defined like this with one bracket 2D
+n60Dn0UsbEk,2621.72,4.96,array is defined with two
+n60Dn0UsbEk,2624.16,5.32,brackets okay and I can say AR RR is
+n60Dn0UsbEk,2626.68,4.919,equal to new
+n60Dn0UsbEk,2629.48,3.68,integer I can pass a size over here
+n60Dn0UsbEk,2631.599,4.52,let's say the number of rows that we are
+n60Dn0UsbEk,2633.16,5.399,going to have is three number of columns
+n60Dn0UsbEk,2636.119,3.801,is not necessary to to specify why we
+n60Dn0UsbEk,2638.559,2.56,will look into it shortly when we
+n60Dn0UsbEk,2639.92,2.919,discuss how this is actually being
+n60Dn0UsbEk,2641.119,4.081,stored in the memory then we will
+n60Dn0UsbEk,2642.839,3.841,discuss about it adding the rows is
+n60Dn0UsbEk,2645.2,3.879,mandatory it's not like you are adding
+n60Dn0UsbEk,2646.68,6.0,The Columns only no this is not
+n60Dn0UsbEk,2649.079,6.361,mandatory the number of rows is
+n60Dn0UsbEk,2652.68,4.56,mandatory this is a syntax here you go
+n60Dn0UsbEk,2655.44,3.679,number of rows here you add number of
+n60Dn0UsbEk,2657.24,5.119,columns you can definitely add number of
+n60Dn0UsbEk,2659.119,3.24,columns as well but it's not
+n60Dn0UsbEk,2662.64,7.08,mandatory okay cool and if you want to
+n60Dn0UsbEk,2666.72,4.72,store it like this like you know in the
+n60Dn0UsbEk,2669.72,3.72,hard like the hard way we were doing it
+n60Dn0UsbEk,2671.44,4.159,like directly if you want to store
+n60Dn0UsbEk,2673.44,3.48,something so you can do you can do
+n60Dn0UsbEk,2675.599,3.121,something
+n60Dn0UsbEk,2676.92,5.439,like
+n60Dn0UsbEk,2678.72,6.0,this sorry not uh this bracket but like
+n60Dn0UsbEk,2682.359,2.361,cuddly
+n60Dn0UsbEk,2685.44,4.159,braces you can store something
+n60Dn0UsbEk,2690.2,7.919,like comma comma comma and then this 1 2
+n60Dn0UsbEk,2694.359,5.561,3 4 5 6
+n60Dn0UsbEk,2698.119,3.0,78 9 things will be much more clear when
+n60Dn0UsbEk,2699.92,3.919,we see how this thing is actually being
+n60Dn0UsbEk,2701.119,5.361,stored in the memory without further Ado
+n60Dn0UsbEk,2703.839,4.401,before we try input output before we try
+n60Dn0UsbEk,2706.48,3.48,you know uh the size and everything
+n60Dn0UsbEk,2708.24,5.2,whatever those things let's see how this
+n60Dn0UsbEk,2709.96,5.72,thing is working internally let's see so
+n60Dn0UsbEk,2713.44,5.0,in cc++ this is also continuous memory
+n60Dn0UsbEk,2715.68,5.12,allocation okay even in 2D arrays it's
+n60Dn0UsbEk,2718.44,4.399,continuous memory allocation in Java
+n60Dn0UsbEk,2720.8,3.72,it's something different so in Java it's
+n60Dn0UsbEk,2722.839,4.72,saying if you have an A array something
+n60Dn0UsbEk,2724.52,5.48,like this that is U you you know it's
+n60Dn0UsbEk,2727.559,5.161,pointing
+n60Dn0UsbEk,2730.0,4.76,to an object and internally it stored
+n60Dn0UsbEk,2732.72,5.0,something like
+n60Dn0UsbEk,2734.76,6.96,this 1 2
+n60Dn0UsbEk,2737.72,4.0,3 4 5
+n60Dn0UsbEk,2741.839,7.52,6 7 8 9 let's understand how this is
+n60Dn0UsbEk,2746.0,5.599,being stored stack memory Heap
+n60Dn0UsbEk,2749.359,5.441,memory understand how this is being
+n60Dn0UsbEk,2751.599,5.841,stored so basically how is this being
+n60Dn0UsbEk,2754.8,4.2,stored every single you know every
+n60Dn0UsbEk,2757.44,6.28,single thing that you have over here in
+n60Dn0UsbEk,2759.0,8.8,terms of um in terms of the uh you know
+n60Dn0UsbEk,2763.72,4.08,arrays so basically you can imagine this
+n60Dn0UsbEk,2770.079,4.121,as an array of
+n60Dn0UsbEk,2776.48,4.76,arrays
+n60Dn0UsbEk,2778.16,5.679,meaning the zeroth index is an array
+n60Dn0UsbEk,2781.24,4.56,itself the first index is an array
+n60Dn0UsbEk,2783.839,4.881,itself the second index is an array
+n60Dn0UsbEk,2785.8,4.96,itself array of arrays you can imagine
+n60Dn0UsbEk,2788.72,4.119,it something like
+n60Dn0UsbEk,2790.76,4.04,this okay that is how it's like actually
+n60Dn0UsbEk,2792.839,3.52,stored in the memory in the memory how
+n60Dn0UsbEk,2794.8,3.72,it's stored in the Heap
+n60Dn0UsbEk,2796.359,4.96,section basically it stored something
+n60Dn0UsbEk,2798.52,6.44,like this so if you have array like this
+n60Dn0UsbEk,2801.319,5.361,stored in the Heap memory like this this
+n60Dn0UsbEk,2804.96,4.24,is the main array that is the outside
+n60Dn0UsbEk,2806.68,3.6,array and internally it has three
+n60Dn0UsbEk,2809.2,3.84,internal
+n60Dn0UsbEk,2810.28,4.52,arrays this can be in some other part of
+n60Dn0UsbEk,2813.04,3.12,the Heap this will be in some other part
+n60Dn0UsbEk,2814.8,4.319,of the Heap this will be some other part
+n60Dn0UsbEk,2816.16,6.24,of the Heap same thing like we discussed
+n60Dn0UsbEk,2819.119,4.841,previously individual ones are basically
+n60Dn0UsbEk,2822.4,3.64,you know just like the references to
+n60Dn0UsbEk,2823.96,4.72,this individual arrays so this will be
+n60Dn0UsbEk,2826.04,5.12,individual array like 1 2 3 this will be
+n60Dn0UsbEk,2828.68,4.52,individual array 4 5 6 this will be
+n60Dn0UsbEk,2831.16,4.36,individual array 78
+n60Dn0UsbEk,2833.2,4.48,9 these are like going to be references
+n60Dn0UsbEk,2835.52,3.72,to these arrays that's how it's stored
+n60Dn0UsbEk,2837.68,3.56,internally even if you want to do 3D
+n60Dn0UsbEk,2839.24,4.079,arrays that will add just one more
+n60Dn0UsbEk,2841.24,4.359,Dimension to it you can make 3D arrays
+n60Dn0UsbEk,2843.319,4.28,as well you cannot visualize after 3D
+n60Dn0UsbEk,2845.599,3.52,arrays if you're working with
+n60Dn0UsbEk,2847.599,4.161,higher Dimensions than that then use
+n60Dn0UsbEk,2849.119,4.401,Python and numpy and stuff but you can
+n60Dn0UsbEk,2851.76,3.24,visualize still 3D arrays you can do 3D
+n60Dn0UsbEk,2853.52,3.4,arrays in Java as well you can do more
+n60Dn0UsbEk,2855.0,4.16,than that as well but it's hard to
+n60Dn0UsbEk,2856.92,4.56,visualize after three dimensions so
+n60Dn0UsbEk,2859.16,4.64,basically each particular index is
+n60Dn0UsbEk,2861.48,4.079,itself an array and that is in some
+n60Dn0UsbEk,2863.8,6.279,other memory location in the
+n60Dn0UsbEk,2865.559,7.52,Heap so when you take a RR of let's say
+n60Dn0UsbEk,2870.079,7.04,1 it's going to give you what this will
+n60Dn0UsbEk,2873.079,4.04,give you 456
+n60Dn0UsbEk,2877.599,5.96,and when you do the index of this itself
+n60Dn0UsbEk,2880.599,5.96,so when you do a RR of
+n60Dn0UsbEk,2883.559,6.121,1 comma zero so it's going to say okay
+n60Dn0UsbEk,2886.559,5.681,arrr one is what the first index of this
+n60Dn0UsbEk,2889.68,5.36,2D array first index of this 2D array
+n60Dn0UsbEk,2892.24,4.319,contains an in an array itself and then
+n60Dn0UsbEk,2895.04,4.96,it's asking what is the zeroth index of
+n60Dn0UsbEk,2896.559,3.441,that four this will give you
+n60Dn0UsbEk,2901.04,5.279,four okay I hope this thing is clear and
+n60Dn0UsbEk,2903.96,4.2,it's very simple stuff next thing I want
+n60Dn0UsbEk,2906.319,3.601,to mention that since these are
+n60Dn0UsbEk,2908.16,3.52,individual now you know I mentioned I
+n60Dn0UsbEk,2909.92,4.28,will explain why column size is not
+n60Dn0UsbEk,2911.68,4.32,necessary column size is not necessary
+n60Dn0UsbEk,2914.2,4.44,because how many number of arrays do you
+n60Dn0UsbEk,2916.0,4.079,want to have that thing should be there
+n60Dn0UsbEk,2918.64,3.6,because that that way the you know Heap
+n60Dn0UsbEk,2920.079,5.28,memory and everything will be created
+n60Dn0UsbEk,2922.24,5.2,but for individual columns this column
+n60Dn0UsbEk,2925.359,5.881,has three this this row has three column
+n60Dn0UsbEk,2927.44,6.28,this is Row one this is row two this is
+n60Dn0UsbEk,2931.24,4.359,Row three this has three columns this
+n60Dn0UsbEk,2933.72,4.44,has three column this has three column
+n60Dn0UsbEk,2935.599,4.601,it can definitely have have variable
+n60Dn0UsbEk,2938.16,5.56,number of columns the size of the
+n60Dn0UsbEk,2940.2,4.96,individual rows does not matter it can
+n60Dn0UsbEk,2943.72,4.24,also be something like this your array
+n60Dn0UsbEk,2945.16,2.8,can be something like
+n60Dn0UsbEk,2948.92,8.919,this 1 2
+n60Dn0UsbEk,2951.4,10.04,3 4 5 6 7 8 9 it can be something like
+n60Dn0UsbEk,2957.839,3.601,this as well let try it out let's try it
+n60Dn0UsbEk,2962.64,6.56,out let us try this
+n60Dn0UsbEk,2965.44,7.359,out so so I can say something like 1 2 3
+n60Dn0UsbEk,2969.2,6.2,4 5 6 7 8
+n60Dn0UsbEk,2972.799,5.201,9 isn't it
+n60Dn0UsbEk,2975.4,5.159,good individual size of array can vary
+n60Dn0UsbEk,2978.0,5.44,as well because each array itself is a
+n60Dn0UsbEk,2980.559,4.601,different object that is why it is not
+n60Dn0UsbEk,2983.44,5.6,necessary it will not give me error if I
+n60Dn0UsbEk,2985.16,3.88,don't add a this thing over
+n60Dn0UsbEk,2990.319,4.76,here the number of column so number of
+n60Dn0UsbEk,2993.2,3.639,rows is three number of column in the
+n60Dn0UsbEk,2995.079,3.361,first one is three number of column in
+n60Dn0UsbEk,2996.839,6.161,the second one is two number of column
+n60Dn0UsbEk,2998.44,4.56,in the third third array is 1 2 3 4
+n60Dn0UsbEk,3003.24,5.599,4 okay that is how it's stored inside
+n60Dn0UsbEk,3006.079,4.48,the memory so individual can ones can
+n60Dn0UsbEk,3008.839,3.28,have the different size now let's look
+n60Dn0UsbEk,3010.559,4.201,at the very basic stuff which is known
+n60Dn0UsbEk,3012.119,4.281,as input and output so I can say first
+n60Dn0UsbEk,3014.76,4.12,let's look into
+n60Dn0UsbEk,3016.4,9.28,input how are we going to take the
+n60Dn0UsbEk,3018.88,6.8,input for input I'm going to say that um
+n60Dn0UsbEk,3028.92,5.159,zeroth
+n60Dn0UsbEk,3031.119,6.321,index first
+n60Dn0UsbEk,3034.079,7.24,index second
+n60Dn0UsbEk,3037.44,6.399,index okay so when I say for example AR
+n60Dn0UsbEk,3041.319,7.441,rr2d
+n60Dn0UsbEk,3043.839,4.921,of 2 this will give
+n60Dn0UsbEk,3048.96,3.0,me
+n60Dn0UsbEk,3053.799,5.76,6789 when I do ARR of 2D of two of zero
+n60Dn0UsbEk,3057.64,6.04,this will give me
+n60Dn0UsbEk,3059.559,6.28,six okay so how do we input we will run
+n60Dn0UsbEk,3063.68,5.84,a for Loop for every index we will say
+n60Dn0UsbEk,3065.839,5.441,Okay first fill this particular array
+n60Dn0UsbEk,3069.52,3.76,then fill this particular array then
+n60Dn0UsbEk,3071.28,4.24,fill this particular
+n60Dn0UsbEk,3073.28,5.24,array we are doing the same thing that
+n60Dn0UsbEk,3075.52,4.96,we were doing over here
+n60Dn0UsbEk,3078.52,4.72,input this
+n60Dn0UsbEk,3080.48,6.16,thing we are saying take this entire
+n60Dn0UsbEk,3083.24,7.44,input this is an input for one array we
+n60Dn0UsbEk,3086.64,6.6,need to do the same thing for individual
+n60Dn0UsbEk,3090.68,5.08,arrays we need to do this multiple times
+n60Dn0UsbEk,3093.24,2.52,let me take the
+n60Dn0UsbEk,3099.96,6.52,scanner okay so we need to do this thing
+n60Dn0UsbEk,3104.0,5.52,ARR I can just hide it over here I can
+n60Dn0UsbEk,3106.48,3.04,make this ARR for
+n60Dn0UsbEk,3111.96,5.879,example
+n60Dn0UsbEk,3114.04,6.079,okay so this is something we need to do
+n60Dn0UsbEk,3117.839,5.841,so basically we need to do this thing
+n60Dn0UsbEk,3120.119,5.641,for every index of my original array at
+n60Dn0UsbEk,3123.68,4.36,zero index it's going to have hey at
+n60Dn0UsbEk,3125.76,4.2,zero index I have this particular array
+n60Dn0UsbEk,3128.04,3.68,please fill this out initially let's say
+n60Dn0UsbEk,3129.96,4.8,we have 3 comma 3 so initially let's say
+n60Dn0UsbEk,3131.72,4.68,we have 3 comma 3 so I have something
+n60Dn0UsbEk,3134.76,7.559,like uh
+n60Dn0UsbEk,3136.4,9.719,int ARR is equal to new int 3 comma
+n60Dn0UsbEk,3142.319,6.52,3 so here I'm going to say for every row
+n60Dn0UsbEk,3146.119,2.72,so I can you can say
+n60Dn0UsbEk,3150.359,4.881,basically for every row what is the
+n60Dn0UsbEk,3153.24,4.24,length of the row by the way this is
+n60Dn0UsbEk,3155.24,4.119,another important point the length of
+n60Dn0UsbEk,3157.48,3.96,the array when you do when you print the
+n60Dn0UsbEk,3159.359,4.801,length of the array array dot length
+n60Dn0UsbEk,3161.44,5.04,this will actually give me number of
+n60Dn0UsbEk,3164.16,5.32,rows so even if this was something like
+n60Dn0UsbEk,3166.48,5.76,3A 4 this will print me
+n60Dn0UsbEk,3169.48,6.68,three Okay
+n60Dn0UsbEk,3172.24,5.64,cool so here I can just say 3 comma 2
+n60Dn0UsbEk,3176.16,5.28,for now
+n60Dn0UsbEk,3177.88,6.439,so here I can say ARR do length number
+n60Dn0UsbEk,3181.44,7.919,of rows and for every
+n60Dn0UsbEk,3184.319,7.641,Row for each column in every row I want
+n60Dn0UsbEk,3189.359,4.161,to take the input again another for Loop
+n60Dn0UsbEk,3191.96,3.0,this time for every column I will
+n60Dn0UsbEk,3193.52,4.48,explain this with the diagram as well
+n60Dn0UsbEk,3194.96,6.24,don't worry column zero this time column
+n60Dn0UsbEk,3198.0,4.839,will be till where this will be column
+n60Dn0UsbEk,3201.2,3.44,this will be having let's say size of
+n60Dn0UsbEk,3202.839,3.321,three this will be having size of two
+n60Dn0UsbEk,3204.64,3.28,this will having size of four even
+n60Dn0UsbEk,3206.16,3.84,though in this in this case every column
+n60Dn0UsbEk,3207.92,5.32,has a size of two but the size of the
+n60Dn0UsbEk,3210.0,6.28,column is varying for every every
+n60Dn0UsbEk,3213.24,4.879,particular index of the array let's say
+n60Dn0UsbEk,3216.28,3.64,the array at zeroth index have a size of
+n60Dn0UsbEk,3218.119,4.361,three array of the first index have a
+n60Dn0UsbEk,3219.92,4.48,size of two so here we are going to say
+n60Dn0UsbEk,3222.48,5.079,every array at that
+n60Dn0UsbEk,3224.4,5.8,index every array at each at that Row
+n60Dn0UsbEk,3227.559,2.641,the length of that
+n60Dn0UsbEk,3230.599,6.72,array every array at that Row the length
+n60Dn0UsbEk,3233.359,5.521,of that array that is what we want
+n60Dn0UsbEk,3237.319,4.081,okay we will run this we will run this
+n60Dn0UsbEk,3238.88,3.76,don't worry I will completely run this
+n60Dn0UsbEk,3241.4,7.0,and then I can
+n60Dn0UsbEk,3242.64,8.52,say a RR of row and column is equal to
+n60Dn0UsbEk,3248.4,2.76,in. next
+n60Dn0UsbEk,3252.96,4.0,int okay let's try to run this let's try
+n60Dn0UsbEk,3255.52,2.36,to run this let's try to see how this is
+n60Dn0UsbEk,3256.96,2.879,working
+n60Dn0UsbEk,3257.88,4.56,internally let us try to see how this
+n60Dn0UsbEk,3259.839,2.601,thing is working
+n60Dn0UsbEk,3264.119,4.521,internally so we have two things over
+n60Dn0UsbEk,3266.2,5.48,here I am saying that initially it's a
+n60Dn0UsbEk,3268.64,6.28,empty array of 3A 2 so basically 3A 2
+n60Dn0UsbEk,3271.68,3.24,means we have empty array like
+n60Dn0UsbEk,3284.96,9.68,this index 0 1 2 0 and 1 these are my
+n60Dn0UsbEk,3291.599,5.281,rows these are my
+n60Dn0UsbEk,3294.64,3.679,columns okay
+n60Dn0UsbEk,3296.88,5.28,so what am I doing in the for Loop in
+n60Dn0UsbEk,3298.319,6.28,the for Loop I'm saying that um
+n60Dn0UsbEk,3302.16,5.36,for row is equal to
+n60Dn0UsbEk,3304.599,7.601,0 row should be less than the you know
+n60Dn0UsbEk,3307.52,7.64,length which is equal to three and row
+n60Dn0UsbEk,3312.2,6.24,++ then for every column in that row now
+n60Dn0UsbEk,3315.16,5.04,we are taking every row here we take
+n60Dn0UsbEk,3318.44,4.28,every
+n60Dn0UsbEk,3320.2,3.839,row and we know that every row itself is
+n60Dn0UsbEk,3322.72,3.599,an array of size
+n60Dn0UsbEk,3324.039,3.961,two we know every row itself is an array
+n60Dn0UsbEk,3326.319,5.48,aray of size two so we will iterate on
+n60Dn0UsbEk,3328.0,6.44,this array now so we will say for every
+n60Dn0UsbEk,3331.799,5.121,column starting from
+n60Dn0UsbEk,3334.44,5.04,zero column should be less than here
+n60Dn0UsbEk,3336.92,7.56,less than two column
+n60Dn0UsbEk,3339.48,9.16,Plus+ take the input at array of row
+n60Dn0UsbEk,3344.48,7.76,comma column is equal to
+n60Dn0UsbEk,3348.64,6.56,input that's it program
+n60Dn0UsbEk,3352.24,5.079,finish let's try to dry run this so
+n60Dn0UsbEk,3355.2,4.32,initially my row value is going to be
+n60Dn0UsbEk,3357.319,5.72,zero then it's going to say okay here
+n60Dn0UsbEk,3359.52,5.76,row value is zero for for row value zero
+n60Dn0UsbEk,3363.039,3.841,try to run this entire for Loop it will
+n60Dn0UsbEk,3365.28,4.72,run this entire for Loop for row is
+n60Dn0UsbEk,3366.88,5.64,equal to Z so row is equal to0 right now
+n60Dn0UsbEk,3370.0,4.599,row and column let's say row is equal to
+n60Dn0UsbEk,3372.52,4.16,0 and now column is equal to 0 so I'm
+n60Dn0UsbEk,3374.599,3.841,going to say okay column is equal to0 is
+n60Dn0UsbEk,3376.68,3.679,column 0 less than 2 it's going to be
+n60Dn0UsbEk,3378.44,5.76,say yes it is then just it's going to
+n60Dn0UsbEk,3380.359,5.76,say add array of row comma column means
+n60Dn0UsbEk,3384.2,4.2,array of 0 comma 0 take the input for
+n60Dn0UsbEk,3386.119,3.68,that I add something 23 over here then
+n60Dn0UsbEk,3388.4,4.199,it will come out of this for Loop it
+n60Dn0UsbEk,3389.799,4.161,will in increment the column by one then
+n60Dn0UsbEk,3392.599,2.641,it's going to be like is 1 less than two
+n60Dn0UsbEk,3393.96,4.0,it's going to be like yes it is okay
+n60Dn0UsbEk,3395.24,4.92,then 0a 1 should be another input 0a 1
+n60Dn0UsbEk,3397.96,5.32,another input let's say 18 value will be
+n60Dn0UsbEk,3400.16,4.84,two is 2 less than 2 no it's not okay
+n60Dn0UsbEk,3403.28,4.279,come out of this for Loop when I come
+n60Dn0UsbEk,3405.0,6.88,out of this for Loop this Loop is now
+n60Dn0UsbEk,3407.559,5.841,ran once so for zero it will now be
+n60Dn0UsbEk,3411.88,3.6,coming out of the for Loop this outside
+n60Dn0UsbEk,3413.4,3.439,for Loop will run again row Plus+ this
+n60Dn0UsbEk,3415.48,3.24,will be one now
+n60Dn0UsbEk,3416.839,4.2,when I do this one now it's going to
+n60Dn0UsbEk,3418.72,4.639,take for this particular row call will
+n60Dn0UsbEk,3421.039,3.841,be again be zero because this ROP will
+n60Dn0UsbEk,3423.359,3.081,this Loop will run again from the start
+n60Dn0UsbEk,3424.88,3.36,we already talked about the scoping and
+n60Dn0UsbEk,3426.44,3.639,everything in previous lectures so again
+n60Dn0UsbEk,3428.24,3.319,call Will initialize to zero then it's
+n60Dn0UsbEk,3430.079,4.801,going to say is 0 less than 2 it's going
+n60Dn0UsbEk,3431.559,6.641,to say yes it is okay then uh row comma
+n60Dn0UsbEk,3434.88,5.84,column means 1 comma 0 take the input 1
+n60Dn0UsbEk,3438.2,5.119,comma 0 take the input as 9 or whatever
+n60Dn0UsbEk,3440.72,4.639,and then increment the value call + one
+n60Dn0UsbEk,3443.319,4.76,will be one then okay is 1 less than two
+n60Dn0UsbEk,3445.359,5.841,yes it is so 1A 1 is again input let's
+n60Dn0UsbEk,3448.079,5.361,say 27 value is equal to 2 and then it's
+n60Dn0UsbEk,3451.2,3.8,going to say hey is 2 less than 2 it's
+n60Dn0UsbEk,3453.44,3.52,going to be like no it's not okay then
+n60Dn0UsbEk,3455.0,4.359,come out of this for Loop this for Loop
+n60Dn0UsbEk,3456.96,4.72,for one is over row Plus+ row will now
+n60Dn0UsbEk,3459.359,4.121,become two then it's going to check is 2
+n60Dn0UsbEk,3461.68,3.399,less than three yes it is okay then go
+n60Dn0UsbEk,3463.48,3.359,inside the for loop again the for Loop
+n60Dn0UsbEk,3465.079,3.601,will be initialized again call is equal
+n60Dn0UsbEk,3466.839,4.321,to Z will be initialized okay let me
+n60Dn0UsbEk,3468.68,5.639,zoom in like a little bit so that you
+n60Dn0UsbEk,3471.16,3.159,can see
+n60Dn0UsbEk,3479.52,4.0,okay and again it will be initialized so
+n60Dn0UsbEk,3481.0,5.2,it's going to say okay call of 2 comma 0
+n60Dn0UsbEk,3483.52,5.36,is input so 2 comma 0 is input let's say
+n60Dn0UsbEk,3486.2,5.639,37 33 or 37 whatever that's it's going
+n60Dn0UsbEk,3488.88,6.76,to like okay + 1 is 1 less than 2 yes it
+n60Dn0UsbEk,3491.839,3.801,is call of 2 comma 1 can be
+n60Dn0UsbEk,3495.68,5.8,something 2 comma 1 again input 2A 1
+n60Dn0UsbEk,3498.799,4.24,again input let's say 8 then it's going
+n60Dn0UsbEk,3501.48,3.879,to be two it's going to be like hey is 2
+n60Dn0UsbEk,3503.039,4.721,less than two like no it's not then it's
+n60Dn0UsbEk,3505.359,4.68,going to move move out of this value
+n60Dn0UsbEk,3507.76,3.48,three is 3 less than three no it's not
+n60Dn0UsbEk,3510.039,4.601,program
+n60Dn0UsbEk,3511.24,3.4,over array is
+n60Dn0UsbEk,3515.079,7.921,filled so in simple language outer for
+n60Dn0UsbEk,3519.039,7.04,loop it's iterating each row for every
+n60Dn0UsbEk,3523.0,4.599,row I iterating every column using
+n60Dn0UsbEk,3526.079,4.28,another for
+n60Dn0UsbEk,3527.599,4.72,Loop so we already understood how to
+n60Dn0UsbEk,3530.359,5.0,take input in a onedimensional array in
+n60Dn0UsbEk,3532.319,5.72,a 1D array I am doing that same thing
+n60Dn0UsbEk,3535.359,2.68,for every row
+n60Dn0UsbEk,3540.599,4.801,okay so here I was basically saying this
+n60Dn0UsbEk,3543.079,5.881,two instead of this I was just saying
+n60Dn0UsbEk,3545.4,5.76,array of row do
+n60Dn0UsbEk,3548.96,4.839,length imagine it was something like
+n60Dn0UsbEk,3551.16,4.439,this okay let me just uh yeah array of
+n60Dn0UsbEk,3553.799,3.081,row dot length so imagine if it was
+n60Dn0UsbEk,3555.599,3.2,something like this if my array was
+n60Dn0UsbEk,3556.88,4.12,something like this let's say is the
+n60Dn0UsbEk,3558.799,4.721,outside like array first one contains
+n60Dn0UsbEk,3561.0,4.64,let's say three elements second one
+n60Dn0UsbEk,3563.52,4.24,contains only two elements third one
+n60Dn0UsbEk,3565.64,4.36,contains like four
+n60Dn0UsbEk,3567.76,3.839,elements so here for the outside for
+n60Dn0UsbEk,3570.0,5.92,Loop it will be like
+n60Dn0UsbEk,3571.599,7.801,for row is equal to 0 row is less than
+n60Dn0UsbEk,3575.92,5.08,three row Plus+ now for every column
+n60Dn0UsbEk,3579.4,6.32,what is it going to do column is equal
+n60Dn0UsbEk,3581.0,7.319,to zero column is less than what 3 2 or
+n60Dn0UsbEk,3585.72,7.839,four size of the
+n60Dn0UsbEk,3588.319,8.161,row size of row column Plus+
+n60Dn0UsbEk,3593.559,4.24,input that's it
+n60Dn0UsbEk,3596.48,3.28,for example when you run row for the
+n60Dn0UsbEk,3597.799,4.8,very first
+n60Dn0UsbEk,3599.76,5.279,time zero column will be zero column is
+n60Dn0UsbEk,3602.599,5.561,going to be less than size of the row
+n60Dn0UsbEk,3605.039,8.481,what is size
+n60Dn0UsbEk,3608.16,8.28,of array of 0o 3 hence this will go till
+n60Dn0UsbEk,3613.52,5.519,three 0 1
+n60Dn0UsbEk,3616.44,7.52,2 then it will run again for I is equal
+n60Dn0UsbEk,3619.039,6.121,to 1 what is the size of array of one
+n60Dn0UsbEk,3623.96,3.639,actually equal to two so it will
+n60Dn0UsbEk,3625.16,4.199,actually go till less than two means
+n60Dn0UsbEk,3627.599,4.921,zero and
+n60Dn0UsbEk,3629.359,6.0,one okay very simple stuff that is the
+n60Dn0UsbEk,3632.52,5.16,reason we are using this thing this is
+n60Dn0UsbEk,3635.359,4.72,the reason is actually saying individual
+n60Dn0UsbEk,3637.68,4.919,size of the row only we need that many
+n60Dn0UsbEk,3640.079,4.321,amount of columns obviously if first row
+n60Dn0UsbEk,3642.599,4.2,has three columns take input of three
+n60Dn0UsbEk,3644.4,4.32,columns if second row has two columns
+n60Dn0UsbEk,3646.799,4.601,run the for Loop for the columns twice
+n60Dn0UsbEk,3648.72,4.76,only if third row has four columns run
+n60Dn0UsbEk,3651.4,6.52,the for Loop four times for
+n60Dn0UsbEk,3653.48,6.28,input okay cool
+n60Dn0UsbEk,3657.92,5.04,so that is what we are doing over here
+n60Dn0UsbEk,3659.76,5.359,and um let me now also you know show
+n60Dn0UsbEk,3662.96,4.76,this thing in
+n60Dn0UsbEk,3665.119,5.72,action so basically how do we print this
+n60Dn0UsbEk,3667.72,4.639,do the copy instead of taking an input
+n60Dn0UsbEk,3670.839,4.561,now we can take the
+n60Dn0UsbEk,3672.359,7.841,output so instead of taking the
+n60Dn0UsbEk,3675.4,4.8,input just say print this
+n60Dn0UsbEk,3683.88,5.919,thing print this thing
+n60Dn0UsbEk,3686.92,5.04,after every column is being printed
+n60Dn0UsbEk,3689.799,4.8,after every row is printed so this is
+n60Dn0UsbEk,3691.96,4.56,iterating over every Row for first row
+n60Dn0UsbEk,3694.599,3.841,it's going to say okay print the first
+n60Dn0UsbEk,3696.52,4.24,line for second row print the second
+n60Dn0UsbEk,3698.44,5.48,line so my question to you is when the
+n60Dn0UsbEk,3700.76,6.039,first line has been printed let's try to
+n60Dn0UsbEk,3703.92,2.879,run this first
+n60Dn0UsbEk,3707.0,6.16,okay let's try to run this first so I
+n60Dn0UsbEk,3709.88,7.959,say I can input something like 1 2 3 4
+n60Dn0UsbEk,3713.16,4.679,5 5 6 7 8 9
+n60Dn0UsbEk,3719.4,3.6,basically it was taking just 3 comma 2
+n60Dn0UsbEk,3721.359,3.561,so it's taking six only so that's why
+n60Dn0UsbEk,3723.0,5.039,it's printing six but let's say I I make
+n60Dn0UsbEk,3724.92,4.56,an array of 3 comma 3 like the 3 comma 3
+n60Dn0UsbEk,3728.039,3.04,is nine elements so I can just input
+n60Dn0UsbEk,3729.48,3.76,nine elements over here it will
+n60Dn0UsbEk,3731.079,6.081,definitely print all the N elements 1 2
+n60Dn0UsbEk,3733.24,6.96,3 4 5 6 7 8 9 why is it not printing in
+n60Dn0UsbEk,3737.16,5.48,a matrix form because you did not add a
+n60Dn0UsbEk,3740.2,4.76,new line over here after printing every
+n60Dn0UsbEk,3742.64,3.8,single row should you not print a new
+n60Dn0UsbEk,3744.96,3.56,line
+n60Dn0UsbEk,3746.44,4.0,print row number one then print new line
+n60Dn0UsbEk,3748.52,3.0,row number two print another line now it
+n60Dn0UsbEk,3750.44,3.96,will look much
+n60Dn0UsbEk,3751.52,7.44,better let's
+n60Dn0UsbEk,3754.4,7.08,see 1 2 3 4 5 6 7 8 9 now it's looking
+n60Dn0UsbEk,3758.96,4.319,like a matrix print row number one when
+n60Dn0UsbEk,3761.48,3.52,it comes out of this for Loop and it
+n60Dn0UsbEk,3763.279,5.361,prints the entire like you know this row
+n60Dn0UsbEk,3765.0,8.039,it comes to the new line new line new
+n60Dn0UsbEk,3768.64,7.24,line okay we also saw that uh you can
+n60Dn0UsbEk,3773.039,4.641,use arrays. two string so can't you do
+n60Dn0UsbEk,3775.88,4.08,something like
+n60Dn0UsbEk,3777.68,5.399,this another way to print this can be
+n60Dn0UsbEk,3779.96,5.079,first of all enhanced for Loop you know
+n60Dn0UsbEk,3783.079,3.24,here basically enhanced for loop it's
+n60Dn0UsbEk,3785.039,3.441,very simple we'll talk more about that
+n60Dn0UsbEk,3786.319,4.48,later but here what you can do is
+n60Dn0UsbEk,3788.48,5.359,actually we can replace this
+n60Dn0UsbEk,3790.799,6.721,with arrays. two
+n60Dn0UsbEk,3793.839,3.681,string what do we need to
+n60Dn0UsbEk,3797.92,5.119,pass every individual array array of
+n60Dn0UsbEk,3804.319,3.441,row that's it
+n60Dn0UsbEk,3809.279,4.361,because this is actually printing just
+n60Dn0UsbEk,3811.16,5.159,this entire internal for Loop is same as
+n60Dn0UsbEk,3813.64,4.12,this thing right same as this thing so
+n60Dn0UsbEk,3816.319,3.641,if I'm able to replace a single thing
+n60Dn0UsbEk,3817.76,4.0,with a you know arrays. two string why
+n60Dn0UsbEk,3819.96,4.079,can't I do this with the other one it's
+n60Dn0UsbEk,3821.76,2.279,run
+n60Dn0UsbEk,3826.48,6.079,this 3 4 5 6 7 8
+n60Dn0UsbEk,3829.92,5.199,9 so for every line it's running the
+n60Dn0UsbEk,3832.559,4.641,arrays. two string because every single
+n60Dn0UsbEk,3835.119,4.521,individual element of the outside array
+n60Dn0UsbEk,3837.2,5.04,is an array itself this thing is an
+n60Dn0UsbEk,3839.64,5.08,array itself AR RR of 1 ARR of zero a RR
+n60Dn0UsbEk,3842.24,5.039,of two array itself we discussed about
+n60Dn0UsbEk,3844.72,5.2,it a lot of times and if we want to
+n60Dn0UsbEk,3847.279,4.241,replace it with an enhanced for Loop so
+n60Dn0UsbEk,3849.92,4.399,basically
+n60Dn0UsbEk,3851.52,4.279,for if I want to iterate over this array
+n60Dn0UsbEk,3854.319,4.321,the outside array if I want to iterate
+n60Dn0UsbEk,3855.799,4.56,over this outside array what is the type
+n60Dn0UsbEk,3858.64,3.6,what is the data type of every element
+n60Dn0UsbEk,3860.359,5.601,you tell me I mentioned it again and
+n60Dn0UsbEk,3862.24,6.68,again in the ARR array every element
+n60Dn0UsbEk,3865.96,5.48,itself is an array and we put the data
+n60Dn0UsbEk,3868.92,4.8,type over here previously we were saying
+n60Dn0UsbEk,3871.44,4.56,every
+n60Dn0UsbEk,3873.72,4.8,element where is the enhanced for Loop
+n60Dn0UsbEk,3876.0,4.72,yeah so here the data type comes data
+n60Dn0UsbEk,3878.52,4.68,type basically means in this array what
+n60Dn0UsbEk,3880.72,4.079,is the type of data of every element in
+n60Dn0UsbEk,3883.2,5.68,this case it was integer in this case it
+n60Dn0UsbEk,3884.799,8.48,is an array itself array
+n60Dn0UsbEk,3888.88,8.76,itself a for every array in
+n60Dn0UsbEk,3893.279,4.361,ARR just print this array
+n60Dn0UsbEk,3901.88,5.84,how simple is
+n60Dn0UsbEk,3904.0,3.72,that enhanced for
+n60Dn0UsbEk,3907.88,3.719,Loop going to do the same
+n60Dn0UsbEk,3915.079,5.0,thing just the data type will come over
+n60Dn0UsbEk,3917.64,4.88,here okay so example if you have
+n60Dn0UsbEk,3920.079,4.801,something like uh you know this string
+n60Dn0UsbEk,3922.52,4.64,thing so you can do for what is the type
+n60Dn0UsbEk,3924.88,4.88,of data type of every single element in
+n60Dn0UsbEk,3927.16,5.199,the string it's of a string data type so
+n60Dn0UsbEk,3929.76,6.88,for string element or whatever name you
+n60Dn0UsbEk,3932.359,7.321,can give inside the array print. element
+n60Dn0UsbEk,3936.64,6.919,iterating just for enhanced for
+n60Dn0UsbEk,3939.68,5.56,Loop okay and in this case for the
+n60Dn0UsbEk,3943.559,4.121,outside array the main array every
+n60Dn0UsbEk,3945.24,4.16,single element itself is an array that's
+n60Dn0UsbEk,3947.68,3.399,why we're saying okay the data type of
+n60Dn0UsbEk,3949.4,4.24,every single element in this array
+n60Dn0UsbEk,3951.079,2.561,itself is an
+n60Dn0UsbEk,3954.2,7.119,array so we did the input and we did the
+n60Dn0UsbEk,3957.799,5.48,output as well that is pretty much about
+n60Dn0UsbEk,3961.319,4.96,arrays it's more than enough for you to
+n60Dn0UsbEk,3963.279,4.52,get started and I think I will be I will
+n60Dn0UsbEk,3966.279,3.481,be doing separate lectures on like the
+n60Dn0UsbEk,3967.799,4.641,questions part so after this we will be
+n60Dn0UsbEk,3969.76,5.0,doing searching sorting and then we will
+n60Dn0UsbEk,3972.44,5.0,be doing uh interview questions so there
+n60Dn0UsbEk,3974.76,4.359,will be just a single video after every
+n60Dn0UsbEk,3977.44,3.639,topic in we will in which we will only
+n60Dn0UsbEk,3979.119,3.601,do questions so that in the future if
+n60Dn0UsbEk,3981.079,3.361,you want to learn Concepts you can watch
+n60Dn0UsbEk,3982.72,3.04,this video if you want to learn about
+n60Dn0UsbEk,3984.44,2.679,questions you can watch the question
+n60Dn0UsbEk,3985.76,3.44,video we'll be doing questions to
+n60Dn0UsbEk,3987.119,4.44,sliding window tw- pointer method
+n60Dn0UsbEk,3989.2,4.8,subarray questions you know binary
+n60Dn0UsbEk,3991.559,4.401,search cyclic sort you know sorting and
+n60Dn0UsbEk,3994.0,3.4,bubble sort quick sort whatever and all
+n60Dn0UsbEk,3995.96,3.28,these things we'll be doing all the
+n60Dn0UsbEk,3997.4,3.639,questions we'll be doing as well we're
+n60Dn0UsbEk,3999.24,3.72,doing binary search on that we'll be
+n60Dn0UsbEk,4001.039,4.121,doing tons of questions we do modified
+n60Dn0UsbEk,4002.96,3.399,binary search rotated binary so many
+n60Dn0UsbEk,4005.16,2.399,things make sure you like share and
+n60Dn0UsbEk,4006.359,3.68,subscribe and check out the links in the
+n60Dn0UsbEk,4007.559,4.201,description below before we move on to
+n60Dn0UsbEk,4010.039,3.56,the next topic I can also share with you
+n60Dn0UsbEk,4011.76,3.839,the thing I was mentioning about like
+n60Dn0UsbEk,4013.599,3.601,why are we doing this thing ARF Road
+n60Dn0UsbEk,4015.599,3.96,length why are we taking individual
+n60Dn0UsbEk,4017.2,4.96,length only because it might be the case
+n60Dn0UsbEk,4019.559,5.0,that you are trying to you know print an
+n60Dn0UsbEk,4022.16,3.959,array like this let's
+n60Dn0UsbEk,4024.559,4.04,say
+n60Dn0UsbEk,4026.119,5.2,column
+n60Dn0UsbEk,4028.599,5.041,no fixed size okay let's say the column
+n60Dn0UsbEk,4031.319,5.76,is not a fixed size so I can say my
+n60Dn0UsbEk,4033.64,8.04,array is equal to something like
+n60Dn0UsbEk,4037.079,8.96,this 1 2 3
+n60Dn0UsbEk,4041.68,4.359,4 5 6
+n60Dn0UsbEk,4048.119,3.601,78
+n60Dn0UsbEk,4049.359,4.0,9 what if I want to print this I can
+n60Dn0UsbEk,4051.72,3.04,just say if I from traditional way for
+n60Dn0UsbEk,4053.359,3.72,using a for loop I want to print this I
+n60Dn0UsbEk,4054.76,4.96,can say okay I know that there are ARR
+n60Dn0UsbEk,4057.079,4.96,do length number of rows I know
+n60Dn0UsbEk,4059.72,4.639,that I know there are AR of length
+n60Dn0UsbEk,4062.039,2.32,number of
+n60Dn0UsbEk,4065.079,4.401,rows but how many columns are there in
+n60Dn0UsbEk,4067.64,4.08,the first one there are four so I can
+n60Dn0UsbEk,4069.48,4.28,say for every
+n60Dn0UsbEk,4071.72,4.44,column what is this going to be less
+n60Dn0UsbEk,4073.76,5.359,than is it going to be less than 4 3 2
+n60Dn0UsbEk,4076.16,4.56,or 1 or what no it's actually going to
+n60Dn0UsbEk,4079.119,3.601,be less than what is the size of that
+n60Dn0UsbEk,4080.72,3.879,particular level what is the size of
+n60Dn0UsbEk,4082.72,3.28,that row size of the first row is going
+n60Dn0UsbEk,4084.599,3.321,to be or second row or third row is
+n60Dn0UsbEk,4086.0,5.279,going to
+n60Dn0UsbEk,4087.92,6.08,be array of the the the what is the
+n60Dn0UsbEk,4091.279,4.761,array at that particular row so for if
+n60Dn0UsbEk,4094.0,5.96,the value of row is zero then AR R out
+n60Dn0UsbEk,4096.04,6.119,of Z is going to give me four do
+n60Dn0UsbEk,4099.96,6.839,length
+n60Dn0UsbEk,4102.159,7.841,print ARR of row
+n60Dn0UsbEk,4106.799,5.281,comma column I can add a nice over here
+n60Dn0UsbEk,4110.0,3.88,and then I can add a new line over here
+n60Dn0UsbEk,4112.08,4.48,this is the reason we were saying array
+n60Dn0UsbEk,4113.88,2.68,of row.
+n60Dn0UsbEk,4118.92,4.839,length printing it very
+n60Dn0UsbEk,4121.679,4.281,nicely first the value of row will be
+n60Dn0UsbEk,4123.759,6.56,zero then this for Loop is going to run
+n60Dn0UsbEk,4125.96,7.199,till the size of the array at zero row
+n60Dn0UsbEk,4130.319,4.801,which is four so it will be actually for
+n60Dn0UsbEk,4133.159,3.401,first time it will be four second time
+n60Dn0UsbEk,4135.12,3.719,it will be will be less than two so it
+n60Dn0UsbEk,4136.56,3.56,will only be for 0 and 1 running twice
+n60Dn0UsbEk,4138.839,4.88,then it will be three so it will only
+n60Dn0UsbEk,4140.12,5.36,run for column 0 1 and
+n60Dn0UsbEk,4143.719,4.04,two okay that is the reason we're
+n60Dn0UsbEk,4145.48,4.239,putting this over here now let's look
+n60Dn0UsbEk,4147.759,3.721,into array list now what is an array
+n60Dn0UsbEk,4149.719,3.56,list before we jump into what is an
+n60Dn0UsbEk,4151.48,4.44,array list let's let's consider why we
+n60Dn0UsbEk,4153.279,6.841,need an array list so basically the idea
+n60Dn0UsbEk,4155.92,5.879,is that um here arrays are a fixed size
+n60Dn0UsbEk,4160.12,3.8,okay we know this is size five we have
+n60Dn0UsbEk,4161.799,4.04,to give a size but what if you don't
+n60Dn0UsbEk,4163.92,4.2,know what how much size you need need
+n60Dn0UsbEk,4165.839,5.161,what if you don't know that what will
+n60Dn0UsbEk,4168.12,5.28,you do then you just want that hey Java
+n60Dn0UsbEk,4171.0,5.08,please handle the size for me and let me
+n60Dn0UsbEk,4173.4,4.68,input any number of elements that I want
+n60Dn0UsbEk,4176.08,4.04,if this is your problem statement then
+n60Dn0UsbEk,4178.08,5.36,you can use something known as an array
+n60Dn0UsbEk,4180.12,6.4,list if you have done C++ it is similar
+n60Dn0UsbEk,4183.44,4.759,to vectors in C++ so a list is actually
+n60Dn0UsbEk,4186.52,4.04,a part of the collection framework which
+n60Dn0UsbEk,4188.199,4.721,we'll do in more detail when we do like
+n60Dn0UsbEk,4190.56,4.88,the you know object oriented programming
+n60Dn0UsbEk,4192.92,5.04,and it's it's in the java. u. package so
+n60Dn0UsbEk,4195.44,2.52,basically if I
+n60Dn0UsbEk,4198.84,6.12,create array list
+n60Dn0UsbEk,4202.96,3.48,example basically when you don't know
+n60Dn0UsbEk,4204.96,3.44,how much size you want and we will also
+n60Dn0UsbEk,4206.44,4.04,see how this is working internally you
+n60Dn0UsbEk,4208.4,3.799,you might be having questions hey Kunal
+n60Dn0UsbEk,4210.48,3.16,how is it like you know that you're not
+n60Dn0UsbEk,4212.199,3.681,specifying any size and it's doing
+n60Dn0UsbEk,4213.64,4.84,automatically all these things and uh
+n60Dn0UsbEk,4215.88,6.359,taking as many inputs as it
+n60Dn0UsbEk,4218.48,7.92,likes look at the syntax first syntax is
+n60Dn0UsbEk,4222.239,6.041,basically like this array list
+n60Dn0UsbEk,4226.4,3.16,data type so it can be integer let's say
+n60Dn0UsbEk,4228.28,4.64,I want to create an array list of
+n60Dn0UsbEk,4229.56,4.84,integers I can say list is equal to new
+n60Dn0UsbEk,4232.92,4.84,object so I'm creating a new object of
+n60Dn0UsbEk,4234.4,5.56,this new array list this is the
+n60Dn0UsbEk,4237.76,2.919,syntax you can also write the data type
+n60Dn0UsbEk,4239.96,3.12,over
+n60Dn0UsbEk,4240.679,4.441,here but it's not
+n60Dn0UsbEk,4243.08,4.32,mandatory similarly for one more thing I
+n60Dn0UsbEk,4245.12,4.2,wanted to share was in the integer type
+n60Dn0UsbEk,4247.4,4.0,for C people they can you can do
+n60Dn0UsbEk,4249.32,3.64,something like this as well this is also
+n60Dn0UsbEk,4251.4,3.96,valid but it's not like the Java way to
+n60Dn0UsbEk,4252.96,4.32,do it this is much more clean okay
+n60Dn0UsbEk,4255.36,3.359,putting the braces after the variable
+n60Dn0UsbEk,4257.28,2.64,name is also fine but this is looking
+n60Dn0UsbEk,4258.719,4.761,much more
+n60Dn0UsbEk,4259.92,5.84,nicer okay so in Array list example
+n60Dn0UsbEk,4263.48,4.4,basically here this is a syntax AR list
+n60Dn0UsbEk,4265.76,4.04,is a class you can see here it's a class
+n60Dn0UsbEk,4267.88,5.4,because it starts with a capital letter
+n60Dn0UsbEk,4269.8,5.16,it does it extends abstra we'll turn up
+n60Dn0UsbEk,4273.28,3.439,in object programming we we'll look into
+n60Dn0UsbEk,4274.96,4.68,what is extends we'll look into what is
+n60Dn0UsbEk,4276.719,4.52,implements we will also look deep into
+n60Dn0UsbEk,4279.64,3.32,you know what interfaces are and what is
+n60Dn0UsbEk,4281.239,3.44,this list and what is this serial and
+n60Dn0UsbEk,4282.96,4.36,whatever do not worry about it for now
+n60Dn0UsbEk,4284.679,4.601,it is just a class just focus on that
+n60Dn0UsbEk,4287.32,4.12,okay so it's in the collection framework
+n60Dn0UsbEk,4289.28,4.8,and here I mentioned in the java.util
+n60Dn0UsbEk,4291.44,4.68,you have the you have the array list and
+n60Dn0UsbEk,4294.08,3.24,it's it's in the like the util package
+n60Dn0UsbEk,4296.12,3.039,part of the collection framework you can
+n60Dn0UsbEk,4297.32,4.28,see over here this class is a member of
+n60Dn0UsbEk,4299.159,3.961,the Java collection framework so there
+n60Dn0UsbEk,4301.6,2.76,are like list link list and Vector
+n60Dn0UsbEk,4303.12,2.72,whatever things that we are doing they
+n60Dn0UsbEk,4304.36,3.319,have provided these so basically what is
+n60Dn0UsbEk,4305.84,3.799,collection framework in simple terms in
+n60Dn0UsbEk,4307.679,3.721,C++ you might have heard people say like
+n60Dn0UsbEk,4309.639,3.921,hey with competed programming we have
+n60Dn0UsbEk,4311.4,3.239,all these things defined already we have
+n60Dn0UsbEk,4313.56,3.36,all the data shares and everything
+n60Dn0UsbEk,4314.639,4.08,written by yes written for us by some
+n60Dn0UsbEk,4316.92,3.239,people already we can just use this use
+n60Dn0UsbEk,4318.719,3.721,this in computer programming to make our
+n60Dn0UsbEk,4320.159,3.761,things you know make our lives easier
+n60Dn0UsbEk,4322.44,3.6,similarly similarly there's a collection
+n60Dn0UsbEk,4323.92,3.759,framework all the other amazing data
+n60Dn0UsbEk,4326.04,4.84,structures like you know link list
+n60Dn0UsbEk,4327.679,7.52,Stacks you know like your uh um what is
+n60Dn0UsbEk,4330.88,7.799,it U uh hash maps maps sets and all
+n60Dn0UsbEk,4335.199,4.601,these other things uh Java provides the
+n60Dn0UsbEk,4338.679,2.921,implementation for this in the
+n60Dn0UsbEk,4339.8,3.16,collection framework so we will be using
+n60Dn0UsbEk,4341.6,2.96,collection framework we will also be
+n60Dn0UsbEk,4342.96,3.84,writing the entire data structure from
+n60Dn0UsbEk,4344.56,4.28,scratch as well whenever we when in the
+n60Dn0UsbEk,4346.8,4.48,future we'll be doing data structures
+n60Dn0UsbEk,4348.84,4.96,okay that's the collection framework and
+n60Dn0UsbEk,4351.28,5.72,one of the classes that are a part of it
+n60Dn0UsbEk,4353.8,4.76,is known as the ARR list class okay so
+n60Dn0UsbEk,4357.0,3.4,this is slower than like the standard
+n60Dn0UsbEk,4358.56,3.639,array you can input anything you like as
+n60Dn0UsbEk,4360.4,3.279,many things as you want in it if you
+n60Dn0UsbEk,4362.199,2.801,want to give an initial this is
+n60Dn0UsbEk,4363.679,4.161,basically a Constructor which will look
+n60Dn0UsbEk,4365.0,5.239,more into you know when we do uh
+n60Dn0UsbEk,4367.84,3.68,basically the object programming uh so
+n60Dn0UsbEk,4370.239,3.081,we look into Constructor here you can
+n60Dn0UsbEk,4371.52,4.159,pass the default size I can say let's
+n60Dn0UsbEk,4373.32,5.08,say 10 so initial capacity
+n60Dn0UsbEk,4375.679,3.761,10 okay for this how this thing is
+n60Dn0UsbEk,4378.4,3.0,working so there are two things you
+n60Dn0UsbEk,4379.44,4.36,might be confused with right now first
+n60Dn0UsbEk,4381.4,4.0,let's look into how we can use this then
+n60Dn0UsbEk,4383.8,4.28,we will look into how this is working
+n60Dn0UsbEk,4385.4,4.799,internally Kunal how are you making sure
+n60Dn0UsbEk,4388.08,5.52,that this will never be full that we
+n60Dn0UsbEk,4390.199,4.721,will also consider after this okay so
+n60Dn0UsbEk,4393.6,4.16,let's answer the first question first
+n60Dn0UsbEk,4394.92,6.319,like how do we actually work with it so
+n60Dn0UsbEk,4397.76,5.919,basically uh here when you're adding the
+n60Dn0UsbEk,4401.239,4.44,type okay this has something to do with
+n60Dn0UsbEk,4403.679,3.401,Java object programming with like the
+n60Dn0UsbEk,4405.679,3.601,interfaces and stuff and like the
+n60Dn0UsbEk,4407.08,4.92,generics we have a generic as a separate
+n60Dn0UsbEk,4409.28,4.359,we have generics as a separate topic so
+n60Dn0UsbEk,4412.0,3.8,for now just understand what we are
+n60Dn0UsbEk,4413.639,4.281,doing how we are doing it we will do it
+n60Dn0UsbEk,4415.8,3.6,in generics in object Unity programming
+n60Dn0UsbEk,4417.92,3.279,I know I say this a lot that we will do
+n60Dn0UsbEk,4419.4,3.68,it in object programming trust me if you
+n60Dn0UsbEk,4421.199,3.801,see the syllabus generics is available
+n60Dn0UsbEk,4423.08,4.76,over there so basically generics is just
+n60Dn0UsbEk,4425.0,5.04,saying what is the type of data that you
+n60Dn0UsbEk,4427.84,3.64,can store in this list object in this
+n60Dn0UsbEk,4430.04,2.92,list object it's saying you can only
+n60Dn0UsbEk,4431.48,3.239,store let's say integer if I just write
+n60Dn0UsbEk,4432.96,3.92,string over here then you can store
+n60Dn0UsbEk,4434.719,3.96,string over here you can definitely not
+n60Dn0UsbEk,4436.88,3.68,write it as well it's like totally fine
+n60Dn0UsbEk,4438.679,5.081,you can just skip this as well that is
+n60Dn0UsbEk,4440.56,5.84,not good practice okay this is not good
+n60Dn0UsbEk,4443.76,4.919,practice okay good practice is actually
+n60Dn0UsbEk,4446.4,4.839,write some data type that you're using
+n60Dn0UsbEk,4448.679,4.48,so here you cannot pass Primitives you
+n60Dn0UsbEk,4451.239,3.201,have to pass the rapper classes we
+n60Dn0UsbEk,4453.159,3.201,talked about rapper classes already
+n60Dn0UsbEk,4454.44,3.96,initially but in detail we will talk
+n60Dn0UsbEk,4456.36,3.68,about it in objectoriented programming
+n60Dn0UsbEk,4458.4,5.04,so it's like the rapper class for the
+n60Dn0UsbEk,4460.04,6.0,primitive data type int okay so you
+n60Dn0UsbEk,4463.44,4.68,cannot use the generic stuff like the
+n60Dn0UsbEk,4466.04,4.32,specifying the type of the array list
+n60Dn0UsbEk,4468.12,4.0,you cannot use in you can't use it like
+n60Dn0UsbEk,4470.36,4.52,this you cannot add Primitives over here
+n60Dn0UsbEk,4472.12,3.88,you have to add rapper classes has it
+n60Dn0UsbEk,4474.88,2.92,has something to do with object
+n60Dn0UsbEk,4476.0,3.88,programming we will consider that later
+n60Dn0UsbEk,4477.8,4.04,on in the Constructor Constructor is
+n60Dn0UsbEk,4479.88,3.16,basically saying that all the initial
+n60Dn0UsbEk,4481.84,3.839,values that you want to Define
+n60Dn0UsbEk,4483.04,4.119,specifically for this object in that you
+n60Dn0UsbEk,4485.679,3.0,can add it in a Constructor so this is
+n60Dn0UsbEk,4487.159,3.361,basically a Constructor being called
+n60Dn0UsbEk,4488.679,3.441,forget forget about me saying
+n60Dn0UsbEk,4490.52,3.4,Constructor forget Constructor from your
+n60Dn0UsbEk,4492.12,4.0,mind don't worry about it we will cover
+n60Dn0UsbEk,4493.92,3.719,it in detail in object programming for
+n60Dn0UsbEk,4496.12,4.0,now just imagine that a new object is
+n60Dn0UsbEk,4497.639,3.641,being created of type AR list and this
+n60Dn0UsbEk,4500.12,4.519,is a reference variable which is
+n60Dn0UsbEk,4501.28,5.64,pointing to this okay that is
+n60Dn0UsbEk,4504.639,5.04,it all right let's see how we can add
+n60Dn0UsbEk,4506.92,6.52,stuff into it so we can say list dot so
+n60Dn0UsbEk,4509.679,5.681,this list object has a method called add
+n60Dn0UsbEk,4513.44,4.32,so it's saying add I can add something
+n60Dn0UsbEk,4515.36,4.359,like uh an integer to it like right now
+n60Dn0UsbEk,4517.76,7.32,I can add something like
+n60Dn0UsbEk,4519.719,7.681,67 okay I can add something like um
+n60Dn0UsbEk,4525.08,4.88,as many things that I
+n60Dn0UsbEk,4527.4,5.239,want I can do it again and again I can
+n60Dn0UsbEk,4529.96,8.64,say add something
+n60Dn0UsbEk,4532.639,7.361,like this add this add this add this add
+n60Dn0UsbEk,4538.6,3.28,this whatever you want to add as many
+n60Dn0UsbEk,4540.0,4.12,things as you want to add no initial
+n60Dn0UsbEk,4541.88,3.72,sizes specified if you're saying hey
+n60Dn0UsbEk,4544.12,4.88,Kunal you have specified 10 over here
+n60Dn0UsbEk,4545.6,5.36,okay does not matter hello add as many
+n60Dn0UsbEk,4549.0,4.719,one as ADD as many as you
+n60Dn0UsbEk,4550.96,5.36,want let's try to print
+n60Dn0UsbEk,4553.719,4.201,it by you can directly print list
+n60Dn0UsbEk,4556.32,3.96,because when we were doing arrays. two
+n60Dn0UsbEk,4557.92,4.759,string whenever you print a complex
+n60Dn0UsbEk,4560.28,4.8,object basically we will go in depth of
+n60Dn0UsbEk,4562.679,4.281,two string as well in object Ed
+n60Dn0UsbEk,4565.08,3.4,programming I know I say this a lot how
+n60Dn0UsbEk,4566.96,3.36,two string is working how these things
+n60Dn0UsbEk,4568.48,4.199,are working why are we doing two string
+n60Dn0UsbEk,4570.32,4.16,how can we write our own two string
+n60Dn0UsbEk,4572.679,4.0,everything will be covered in object
+n60Dn0UsbEk,4574.48,4.759,programming this internally calls its
+n60Dn0UsbEk,4576.679,4.241,own two string as well okay so don't
+n60Dn0UsbEk,4579.239,4.321,worry about this again internally it's
+n60Dn0UsbEk,4580.92,4.0,saying value of and it's again calling
+n60Dn0UsbEk,4583.56,2.84,the two string method over here of any
+n60Dn0UsbEk,4584.92,2.96,any object that you pass over here
+n60Dn0UsbEk,4586.4,2.92,object class we will look into detail
+n60Dn0UsbEk,4587.88,4.6,every class you know inherits the object
+n60Dn0UsbEk,4589.32,6.359,class it's like the main top level class
+n60Dn0UsbEk,4592.48,5.36,okay so we'll talk more about that
+n60Dn0UsbEk,4595.679,5.601,later okay so if I print this you can
+n60Dn0UsbEk,4597.84,6.44,see it will be able to add all these
+n60Dn0UsbEk,4601.28,5.32,items so many all the items are added
+n60Dn0UsbEk,4604.28,4.48,you you are like hey Kunal you said the
+n60Dn0UsbEk,4606.6,4.76,capacity is initially 10 how are you
+n60Dn0UsbEk,4608.76,5.08,adding more than 10 items let's see how
+n60Dn0UsbEk,4611.36,4.72,this thing works
+n60Dn0UsbEk,4613.84,3.96,internally so it is very simple let me
+n60Dn0UsbEk,4616.08,3.72,just first show you some more functions
+n60Dn0UsbEk,4617.8,4.6,and stuff so maybe I can show you
+n60Dn0UsbEk,4619.8,3.399,something just just just uh I did like
+n60Dn0UsbEk,4622.4,4.2,too
+n60Dn0UsbEk,4623.199,7.361,many I'll just uh remove these quite a
+n60Dn0UsbEk,4626.6,3.96,few just to make things
+n60Dn0UsbEk,4630.84,4.0,simpler Okay add as many as you want I
+n60Dn0UsbEk,4633.199,3.721,can let's say initial capacity five or
+n60Dn0UsbEk,4634.84,3.839,whatever does not matter uh you can
+n60Dn0UsbEk,4636.92,3.719,print the list and you can also update
+n60Dn0UsbEk,4638.679,4.48,something okay so adding is done so you
+n60Dn0UsbEk,4640.639,4.681,can do list dot when you do dot you will
+n60Dn0UsbEk,4643.159,3.921,see all the functions you can apply on
+n60Dn0UsbEk,4645.32,3.6,this list object or of this reference
+n60Dn0UsbEk,4647.08,3.76,variable if you want to create it at to
+n60Dn0UsbEk,4648.92,5.48,an array you can use two array if you
+n60Dn0UsbEk,4650.84,6.2,want to add all the numbers from some
+n60Dn0UsbEk,4654.4,4.36,other array you can do that if you want
+n60Dn0UsbEk,4657.04,3.88,to check if something is available if
+n60Dn0UsbEk,4658.76,4.919,you say does this
+n60Dn0UsbEk,4660.92,5.56,contain
+n60Dn0UsbEk,4663.679,7.921,654 so if I
+n60Dn0UsbEk,4666.48,7.4,say s out list do contains 654 does it
+n60Dn0UsbEk,4671.6,5.24,contain 6 654 yes it does it will give
+n60Dn0UsbEk,4673.88,5.12,me true
+n60Dn0UsbEk,4676.84,5.2,true if I write something that it does
+n60Dn0UsbEk,4679.0,3.04,not contain it will give me
+n60Dn0UsbEk,4683.48,4.88,false okay false other thing you can do
+n60Dn0UsbEk,4686.48,6.04,is actually change some items so I can
+n60Dn0UsbEk,4688.36,8.44,say list do update or whatever change
+n60Dn0UsbEk,4692.52,7.719,or set basically yeah this
+n60Dn0UsbEk,4696.8,7.28,start replace I believe
+n60Dn0UsbEk,4700.239,5.521,uh not replace all list do set yeah so
+n60Dn0UsbEk,4704.08,5.159,if I want to check I I want to say set
+n60Dn0UsbEk,4705.76,5.399,the zeroth index to 99 for example now
+n60Dn0UsbEk,4709.239,6.721,if I print this zero index will be
+n60Dn0UsbEk,4711.159,9.0,changed to 99 let's print it over
+n60Dn0UsbEk,4715.96,4.199,here so you can update stuff as
+n60Dn0UsbEk,4722.52,4.159,well
+n60Dn0UsbEk,4724.239,4.0,99 so many things you can do okay you
+n60Dn0UsbEk,4726.679,3.921,can remove stuff from it as well you can
+n60Dn0UsbEk,4728.239,4.721,be something like hey um let's say I
+n60Dn0UsbEk,4730.6,5.72,want to remove the index number two so I
+n60Dn0UsbEk,4732.96,6.16,can say remove uh index number two or
+n60Dn0UsbEk,4736.32,5.72,whatever what is index number two 654
+n60Dn0UsbEk,4739.12,2.92,654 will be
+n60Dn0UsbEk,4744.6,5.639,removed
+n60Dn0UsbEk,4747.48,5.239,gone very simple very simple
+n60Dn0UsbEk,4750.239,4.841,stuff okay similarly you can iterate
+n60Dn0UsbEk,4752.719,4.401,upon it as well you can say if I take
+n60Dn0UsbEk,4755.08,3.72,the input it can be done now in the same
+n60Dn0UsbEk,4757.12,3.64,way like we were doing previously so I
+n60Dn0UsbEk,4758.8,7.48,can say for I is equal to z i is less
+n60Dn0UsbEk,4760.76,8.2,than let's say um 5 I ++ you can say
+n60Dn0UsbEk,4766.28,2.68,list.
+n60Dn0UsbEk,4769.719,8.201,add something like uh in do next in I
+n60Dn0UsbEk,4774.04,3.88,can create in so I can say
+n60Dn0UsbEk,4778.48,5.96,scanner in is equal to new scanner
+n60Dn0UsbEk,4782.159,5.04,system do
+n60Dn0UsbEk,4784.44,5.08,in okay let me let me just hide this
+n60Dn0UsbEk,4787.199,5.321,thing let me hide all of these things
+n60Dn0UsbEk,4789.52,5.52,I'm just taking the input like
+n60Dn0UsbEk,4792.52,4.719,this and for the print part you can just
+n60Dn0UsbEk,4795.04,3.679,do simply like this but you can also do
+n60Dn0UsbEk,4797.239,5.48,something like
+n60Dn0UsbEk,4798.719,7.48,this I can just say s out by the way if
+n60Dn0UsbEk,4802.719,7.161,you get if you want to get an item so
+n60Dn0UsbEk,4806.199,5.881,basically get item at any index for that
+n60Dn0UsbEk,4809.88,3.88,you can't do something like this like we
+n60Dn0UsbEk,4812.08,5.079,were doing previously you have to do
+n60Dn0UsbEk,4813.76,5.56,something like list. get then you have
+n60Dn0UsbEk,4817.159,5.801,to pass an index over here
+n60Dn0UsbEk,4819.32,3.64,I try to run
+n60Dn0UsbEk,4823.639,8.6,this going to add five
+n60Dn0UsbEk,4827.0,7.76,items say 1 2 3 4 5 1 2 3 4 5
+n60Dn0UsbEk,4832.239,7.0,print so here here you will pass the
+n60Dn0UsbEk,4834.76,8.6,index okay pass index
+n60Dn0UsbEk,4839.239,8.241,here list of
+n60Dn0UsbEk,4843.36,7.92,index syntax will not work
+n60Dn0UsbEk,4847.48,3.8,here okay
+n60Dn0UsbEk,4851.4,6.48,cool so that looks good and we have done
+n60Dn0UsbEk,4855.08,4.599,like iteration output and stuff as well
+n60Dn0UsbEk,4857.88,3.88,let's see how this thing works like uh
+n60Dn0UsbEk,4859.679,4.201,you know internally and how is it
+n60Dn0UsbEk,4861.76,3.76,maintaining the uh thing that we
+n60Dn0UsbEk,4863.88,3.44,mentioned like so many things you can
+n60Dn0UsbEk,4865.52,4.28,add in it it will never be full let's
+n60Dn0UsbEk,4867.32,4.56,see how it works with that so let's see
+n60Dn0UsbEk,4869.8,4.96,how it works like you know internally
+n60Dn0UsbEk,4871.88,4.4,how the um you know array list things is
+n60Dn0UsbEk,4874.76,2.68,working internally so when in arrays we
+n60Dn0UsbEk,4876.28,3.24,were talking about like list of
+n60Dn0UsbEk,4877.44,4.12,references stuff like when when we have
+n60Dn0UsbEk,4879.52,4.0,an array of objects it's actually you
+n60Dn0UsbEk,4881.56,3.36,know we talked about this previously if
+n60Dn0UsbEk,4883.52,3.32,you have an array of object with an
+n60Dn0UsbEk,4884.92,3.08,example of let's say the string one so
+n60Dn0UsbEk,4886.84,3.2,you were saying this is actually if you
+n60Dn0UsbEk,4888.0,4.84,have an array of object then you have
+n60Dn0UsbEk,4890.04,5.24,like a array like this over here in the
+n60Dn0UsbEk,4892.84,4.2,stack you have the uh pointer and like
+n60Dn0UsbEk,4895.28,3.84,the sorry the reference variable here
+n60Dn0UsbEk,4897.04,3.52,you have the array of the object each
+n60Dn0UsbEk,4899.12,3.039,object here itself is like you know a
+n60Dn0UsbEk,4900.56,3.599,reference variable pointing to like the
+n60Dn0UsbEk,4902.159,4.56,individual
+n60Dn0UsbEk,4904.159,4.121,objects in Array list since we mentioned
+n60Dn0UsbEk,4906.719,3.52,not every single element can be a
+n60Dn0UsbEk,4908.28,3.2,primitive because it does not allow it
+n60Dn0UsbEk,4910.239,3.0,why it does not allow it we look into
+n60Dn0UsbEk,4911.48,3.239,object red programming but it's the
+n60Dn0UsbEk,4913.239,4.4,similar concept that is being followed
+n60Dn0UsbEk,4914.719,5.321,here okay internally it's similar to
+n60Dn0UsbEk,4917.639,3.801,what how arrays work so I don't think
+n60Dn0UsbEk,4920.04,3.28,there's a need to explain how these
+n60Dn0UsbEk,4921.44,4.04,things is working because it's exactly
+n60Dn0UsbEk,4923.32,4.56,the same as array but the real question
+n60Dn0UsbEk,4925.48,4.08,is how is it saying that no size is
+n60Dn0UsbEk,4927.88,3.24,required you're providing let's say some
+n60Dn0UsbEk,4929.56,4.4,initial size 10 but you are able to
+n60Dn0UsbEk,4931.12,6.44,input 100 you know thousand elements how
+n60Dn0UsbEk,4933.96,7.16,is that happening why is this size not
+n60Dn0UsbEk,4937.56,7.679,fixed in reality in actual this is what
+n60Dn0UsbEk,4941.12,7.2,happens size is actually fixed okay
+n60Dn0UsbEk,4945.239,5.4,Point number one size is actually fix
+n60Dn0UsbEk,4948.32,2.319,fixed
+n60Dn0UsbEk,4952.48,6.159,only size is fixed
+n60Dn0UsbEk,4956.25,4.63,[Music]
+n60Dn0UsbEk,4958.639,5.321,internally so internally the size is
+n60Dn0UsbEk,4960.88,5.92,fixed but what happens it's when when
+n60Dn0UsbEk,4963.96,5.239,your array list fills to a particular
+n60Dn0UsbEk,4966.8,4.48,amount let's say for example I'm not
+n60Dn0UsbEk,4969.199,3.721,saying this is what happens in Java for
+n60Dn0UsbEk,4971.28,5.16,example let's say your array fills by
+n60Dn0UsbEk,4972.92,3.52,50% let's say
+n60Dn0UsbEk,4977.0,5.88,array
+n60Dn0UsbEk,4978.84,4.04,list fills by some
+n60Dn0UsbEk,4983.52,3.4,amount then then what will happen this
+n60Dn0UsbEk,4985.76,5.36,is what will
+n60Dn0UsbEk,4986.92,6.759,happen it will create a new
+n60Dn0UsbEk,4991.12,6.16,list new array
+n60Dn0UsbEk,4993.679,5.641,list of let's say maybe double the size
+n60Dn0UsbEk,4997.28,4.919,again I'm not sure we would have to
+n60Dn0UsbEk,4999.32,3.879,check of double the size a new Mt list
+n60Dn0UsbEk,5002.199,4.241,is
+n60Dn0UsbEk,5003.199,8.0,created or old elements that were in the
+n60Dn0UsbEk,5006.44,4.759,old list are copied in the new
+n60Dn0UsbEk,5013.76,3.64,list old one is
+n60Dn0UsbEk,5018.0,5.239,deleted this is what happens let's say
+n60Dn0UsbEk,5020.8,5.439,initially your array list had a size of
+n60Dn0UsbEk,5023.239,4.761,uh three so when you input an element or
+n60Dn0UsbEk,5026.239,3.321,four when you input an element one it
+n60Dn0UsbEk,5028.0,3.04,will come over here when you input
+n60Dn0UsbEk,5029.56,3.24,element two it will come over here when
+n60Dn0UsbEk,5031.04,3.24,you input another element like nine it
+n60Dn0UsbEk,5032.8,3.879,will come over here then it will be like
+n60Dn0UsbEk,5034.28,4.04,okay at least 50% is full then when you
+n60Dn0UsbEk,5036.679,2.841,try to input an element again it will do
+n60Dn0UsbEk,5038.32,2.319,something like this it will it will
+n60Dn0UsbEk,5039.52,4.36,double the
+n60Dn0UsbEk,5040.639,5.361,size it will copy these elements over
+n60Dn0UsbEk,5043.88,3.72,here then it will input your another
+n60Dn0UsbEk,5046.0,4.199,element that you want to add let's say
+n60Dn0UsbEk,5047.6,4.48,18 or whatever when this is also half
+n60Dn0UsbEk,5050.199,5.04,full it will double the size of this
+n60Dn0UsbEk,5052.08,5.639,again we will go into details of this
+n60Dn0UsbEk,5055.239,5.201,why this is constant space Sorry time
+n60Dn0UsbEk,5057.719,5.52,complexity amortized time complexity is
+n60Dn0UsbEk,5060.44,4.199,this means this particular point is for
+n60Dn0UsbEk,5063.239,3.161,people who already know about time
+n60Dn0UsbEk,5064.639,4.161,complexity if you don't know about time
+n60Dn0UsbEk,5066.4,3.72,complexity skip this right now we will
+n60Dn0UsbEk,5068.8,2.56,cover this in detail we will do the
+n60Dn0UsbEk,5070.12,4.0,entire derivation and everything why
+n60Dn0UsbEk,5071.36,4.56,this is on an average constant time
+n60Dn0UsbEk,5074.12,4.16,complexity and don't worry about what is
+n60Dn0UsbEk,5075.92,4.52,this wigo don't worry what is constant
+n60Dn0UsbEk,5078.28,4.72,don't even worry what is time complexity
+n60Dn0UsbEk,5080.44,4.32,we will cover it in very very detail but
+n60Dn0UsbEk,5083.0,3.719,this is just point for people who might
+n60Dn0UsbEk,5084.76,4.479,be asking questions like hey Kunal if
+n60Dn0UsbEk,5086.719,4.52,it's like doubling the entire array and
+n60Dn0UsbEk,5089.239,3.241,you know taking o of end time and
+n60Dn0UsbEk,5091.239,3.641,everything how you can you make sure
+n60Dn0UsbEk,5092.48,5.199,it's so I know I know
+n60Dn0UsbEk,5094.88,4.72,try to Google a little bit but if you
+n60Dn0UsbEk,5097.679,4.56,want the answer from me we will cover it
+n60Dn0UsbEk,5099.6,5.68,in the space and time complexity session
+n60Dn0UsbEk,5102.239,5.161,okay that is how it works internally
+n60Dn0UsbEk,5105.28,4.359,let's see how actually it works in Java
+n60Dn0UsbEk,5107.4,4.56,internally so basically if I say initial
+n60Dn0UsbEk,5109.639,3.48,size is equal to 10 that basically means
+n60Dn0UsbEk,5111.96,4.239,like
+n60Dn0UsbEk,5113.119,5.761,um you know that
+n60Dn0UsbEk,5116.199,4.241,um after the capacity is full or
+n60Dn0UsbEk,5118.88,3.64,whatever it will then double it or
+n60Dn0UsbEk,5120.44,3.759,whatever yeah basically half full or
+n60Dn0UsbEk,5122.52,2.32,whatever let's see how it actually does
+n60Dn0UsbEk,5124.199,4.96,it
+n60Dn0UsbEk,5124.84,4.319,it would have to Deep dive into
+n60Dn0UsbEk,5131.56,4.04,it how is the aray list
+n60Dn0UsbEk,5137.679,4.801,working it's creating a copy
+n60Dn0UsbEk,5159.56,4.559,Construction in the order they returned
+n60Dn0UsbEk,5162.08,4.4,from
+n60Dn0UsbEk,5164.119,4.361,iterator there was some place where it
+n60Dn0UsbEk,5166.48,4.36,was doing
+n60Dn0UsbEk,5168.48,4.92,some is to Ure that hold at least the
+n60Dn0UsbEk,5170.84,5.44,number of minimum capacity that's true
+n60Dn0UsbEk,5173.4,6.759,that's true yeah increasing the capacity
+n60Dn0UsbEk,5176.28,9.08,over here here we go so this is a right
+n60Dn0UsbEk,5180.159,5.201,shift operator uh it's actually
+n60Dn0UsbEk,5186.0,5.56,old capacity and then minimum growth is
+n60Dn0UsbEk,5188.6,5.0,minimum capacity minus old
+n60Dn0UsbEk,5191.56,3.04,capacity increase the capacity ensure
+n60Dn0UsbEk,5193.6,3.96,that hold at least the number of
+n60Dn0UsbEk,5194.6,7.84,elements by minimum capacity
+n60Dn0UsbEk,5197.56,7.4,okay so here it's saying uh size + one
+n60Dn0UsbEk,5202.44,4.0,grow by one I'm pretty sure it's not
+n60Dn0UsbEk,5204.96,5.4,growing it by one because that is not
+n60Dn0UsbEk,5206.44,3.92,very efficient
+n60Dn0UsbEk,5229.159,5.241,I am pretty sure it's like doubling it
+n60Dn0UsbEk,5231.04,3.36,but I can't find the code for
+n60Dn0UsbEk,5235.8,5.12,that see some hash code and stuff
+n60Dn0UsbEk,5247.76,5.2,yeah so it's actually adding a new
+n60Dn0UsbEk,5251.52,4.08,capacity in the grow function so
+n60Dn0UsbEk,5252.96,5.04,basically grow is just uh taking the old
+n60Dn0UsbEk,5255.6,4.559,capacity and creating a new capacity of
+n60Dn0UsbEk,5258.0,4.32,the new length uh which is equal to
+n60Dn0UsbEk,5260.159,5.921,taking what this is taking basically old
+n60Dn0UsbEk,5262.32,6.08,length minimum growth and uh some pref
+n60Dn0UsbEk,5266.08,5.0,growth what is
+n60Dn0UsbEk,5268.4,5.52,that this is preferred growth of the
+n60Dn0UsbEk,5271.08,4.92,array length okay that is what it's
+n60Dn0UsbEk,5273.92,4.319,doing
+n60Dn0UsbEk,5276.0,2.239,all
+n60Dn0UsbEk,5278.92,4.0,right it does throw out of memory error
+n60Dn0UsbEk,5281.52,3.92,like when the required array is too
+n60Dn0UsbEk,5282.92,3.92,large so it's taking the maximum of the
+n60Dn0UsbEk,5285.44,4.16,minimum growth and preferred growth and
+n60Dn0UsbEk,5286.84,4.04,taking the old length and doing it
+n60Dn0UsbEk,5289.6,4.28,somewhat like
+n60Dn0UsbEk,5290.88,3.0,that
+n60Dn0UsbEk,5295.32,3.48,okay so where is
+n60Dn0UsbEk,5299.52,5.639,it grow so basically it's staying new
+n60Dn0UsbEk,5302.88,3.64,capacity is equal to exactly what I said
+n60Dn0UsbEk,5305.159,4.401,it's doing
+n60Dn0UsbEk,5306.52,4.8,that so it's basically making a new
+n60Dn0UsbEk,5309.56,3.84,capacity we they actually have a formula
+n60Dn0UsbEk,5311.32,4.24,for a new capacity so it's a little bit
+n60Dn0UsbEk,5313.4,4.44,complex so it's saying the new capacity
+n60Dn0UsbEk,5315.56,4.52,is equal to uh there's a function new
+n60Dn0UsbEk,5317.84,3.839,length that Returns the new capacity and
+n60Dn0UsbEk,5320.08,4.28,whatever I said like they taking a copy
+n60Dn0UsbEk,5321.679,5.881,of that and adding it into the new
+n60Dn0UsbEk,5324.36,4.799,capacity that's what they are doing that
+n60Dn0UsbEk,5327.56,2.92,is fine but uh if you want to see
+n60Dn0UsbEk,5329.159,3.52,actually how they are taking the new
+n60Dn0UsbEk,5330.48,4.04,capacity saying the new length is equal
+n60Dn0UsbEk,5332.679,4.281,to maximum of the minimum growth and the
+n60Dn0UsbEk,5334.52,6.719,preferred growth plus the old
+n60Dn0UsbEk,5336.96,5.679,length okay that makes sense sound good
+n60Dn0UsbEk,5341.239,3.761,and it's not like you can you know
+n60Dn0UsbEk,5342.639,3.641,definitely increases to hmas as you want
+n60Dn0UsbEk,5345.0,3.92,obviously if you don't have the memory
+n60Dn0UsbEk,5346.28,4.72,for that then it will not be
+n60Dn0UsbEk,5348.92,3.44,happening okay but don't worry much
+n60Dn0UsbEk,5351.0,3.32,about it they have provided this
+n60Dn0UsbEk,5352.36,3.24,abstraction for a reason don't be like
+n60Dn0UsbEk,5354.32,3.16,hey Kunal we don't understand what you
+n60Dn0UsbEk,5355.6,3.32,are you know searching in this file no
+n60Dn0UsbEk,5357.48,2.96,this is just an arist that Java people
+n60Dn0UsbEk,5358.92,3.44,have provided us and I was just
+n60Dn0UsbEk,5360.44,4.0,searching for a code like how it's
+n60Dn0UsbEk,5362.36,4.359,actually doubling or whatever it's doing
+n60Dn0UsbEk,5364.44,5.799,uh it's having some own formula that is
+n60Dn0UsbEk,5366.719,4.681,how it's actually doing it that is you
+n60Dn0UsbEk,5370.239,2.761,know how this thing is working
+n60Dn0UsbEk,5371.4,4.08,internally the size is being changed
+n60Dn0UsbEk,5373.0,4.08,when a particular capacity reaches you
+n60Dn0UsbEk,5375.48,4.8,can see you having some preferred
+n60Dn0UsbEk,5377.08,4.28,capacity or whatever that was it about
+n60Dn0UsbEk,5380.28,2.839,okay you can also create like
+n60Dn0UsbEk,5381.36,5.6,multi-dimensional array list so I can
+n60Dn0UsbEk,5383.119,6.401,create multi array list or whatever
+n60Dn0UsbEk,5386.96,4.0,class whatever name so here it's
+n60Dn0UsbEk,5389.52,3.28,previously it was integer of integer
+n60Dn0UsbEk,5390.96,3.719,array integer array of integer array
+n60Dn0UsbEk,5392.8,5.68,this will be array list of array list so
+n60Dn0UsbEk,5394.679,7.361,array list of array list of type integer
+n60Dn0UsbEk,5398.48,3.56,of type integer nothing
+n60Dn0UsbEk,5402.52,6.52,new I know by default uh know for every
+n60Dn0UsbEk,5406.56,5.159,reference value is null so if I try to
+n60Dn0UsbEk,5409.04,5.56,print this so I will try to apply a for
+n60Dn0UsbEk,5411.719,7.281,each Loop for every you know or not a
+n60Dn0UsbEk,5414.6,6.88,for each Loop uh I just do for
+n60Dn0UsbEk,5419.0,4.679,um
+n60Dn0UsbEk,5421.48,4.44,int initially it's going to be empty
+n60Dn0UsbEk,5423.679,4.321,right so I would have to initialize it
+n60Dn0UsbEk,5425.92,4.84,first of all so how do we initialize
+n60Dn0UsbEk,5428.0,5.719,this thing so I can say add uh let's say
+n60Dn0UsbEk,5430.76,7.76,add three lists inside
+n60Dn0UsbEk,5433.719,6.92,this so I can say list. add new array
+n60Dn0UsbEk,5438.52,4.32,list
+n60Dn0UsbEk,5440.639,5.0,initialized so now three lists have been
+n60Dn0UsbEk,5442.84,7.16,added if I want to now add elements into
+n60Dn0UsbEk,5445.639,4.361,it so this is like the initialization
+n60Dn0UsbEk,5450.199,5.081,part obviously if you don't initialize
+n60Dn0UsbEk,5453.28,4.439,obviously by default the value of every
+n60Dn0UsbEk,5455.28,4.8,single index is going to be null none
+n60Dn0UsbEk,5457.719,4.041,sorry null so if you don't initialize
+n60Dn0UsbEk,5460.08,3.8,this it will give you error for example
+n60Dn0UsbEk,5461.76,3.64,if I say for the first because
+n60Dn0UsbEk,5463.88,3.44,previously also you were initializing
+n60Dn0UsbEk,5465.4,4.839,right here also you were initializing in
+n60Dn0UsbEk,5467.32,4.879,2D array in the multi-dimensional array
+n60Dn0UsbEk,5470.239,3.88,you are initializing over here same
+n60Dn0UsbEk,5472.199,3.321,thing we are doing over here so you're
+n60Dn0UsbEk,5474.119,5.281,saying for
+n60Dn0UsbEk,5475.52,7.0,three for uh this is also three I can
+n60Dn0UsbEk,5479.4,8.04,say list. get get the array list at the
+n60Dn0UsbEk,5482.52,7.24,index I and add something to it in do
+n60Dn0UsbEk,5487.44,2.32,next
+n60Dn0UsbEk,5490.119,8.56,int I can take scanner over here scanner
+n60Dn0UsbEk,5494.76,6.08,in is equal to new scanner
+n60Dn0UsbEk,5498.679,5.721,system.in and then if I just print it
+n60Dn0UsbEk,5500.84,5.92,out I can say print out list see what it
+n60Dn0UsbEk,5504.4,4.839,just see what this will print so if I
+n60Dn0UsbEk,5506.76,6.08,run this it will give me some input 1 2
+n60Dn0UsbEk,5509.239,5.641,3 4 5 6 7 8 9 just printing out 1 2 3 4
+n60Dn0UsbEk,5512.84,3.76,5 6 7 8 9
+n60Dn0UsbEk,5514.88,4.68,so even multi-dimensional arrays can be
+n60Dn0UsbEk,5516.6,5.88,printed similarly with print Len
+n60Dn0UsbEk,5519.56,6.52,multi-dimensional array lists okay if I
+n60Dn0UsbEk,5522.48,6.719,don't add it over here I will get uh
+n60Dn0UsbEk,5526.08,6.36,error why will I get error very simple
+n60Dn0UsbEk,5529.199,5.361,because it is saying hey list. get I
+n60Dn0UsbEk,5532.44,5.88,means get the list at the index number
+n60Dn0UsbEk,5534.56,6.119,zero what list this is empty what list
+n60Dn0UsbEk,5538.32,3.56,are you talking about this are the list
+n60Dn0UsbEk,5540.679,4.201,that we am talking about I have to
+n60Dn0UsbEk,5541.88,6.16,actually add some lists over here
+n60Dn0UsbEk,5544.88,5.279,okay so what I'm saying is that for
+n60Dn0UsbEk,5548.04,4.0,multi-dimensional array lists for
+n60Dn0UsbEk,5550.159,4.321,example if you have something like
+n60Dn0UsbEk,5552.04,4.48,this it's important so you know you have
+n60Dn0UsbEk,5554.48,5.0,like AR list of AR list initially it's
+n60Dn0UsbEk,5556.52,4.44,empty null null null null null you
+n60Dn0UsbEk,5559.48,4.6,actually have to add some array list
+n60Dn0UsbEk,5560.96,7.56,over here this will another array list
+n60Dn0UsbEk,5564.08,4.44,another array list another array
+n60Dn0UsbEk,5570.679,5.161,list let me zoom out a little bit for
+n60Dn0UsbEk,5572.88,2.96,you all
+n60Dn0UsbEk,5576.44,5.36,like
+n60Dn0UsbEk,5578.52,6.04,this okay so these are the things that
+n60Dn0UsbEk,5581.8,4.76,were not created
+n60Dn0UsbEk,5584.56,4.48,and this is the reason we were getting
+n60Dn0UsbEk,5586.56,5.32,an error like you haven't even created
+n60Dn0UsbEk,5589.04,4.76,any lists over here what do you mean
+n60Dn0UsbEk,5591.88,4.08,what do you mean add what do you mean
+n60Dn0UsbEk,5593.8,4.2,get the first list there are no lists
+n60Dn0UsbEk,5595.96,3.96,over here that is why you have to create
+n60Dn0UsbEk,5598.0,4.159,individual lists because individual
+n60Dn0UsbEk,5599.92,3.88,objects okay now let's do a few
+n60Dn0UsbEk,5602.159,4.04,questions so let's say we did the
+n60Dn0UsbEk,5603.8,4.64,obviously we did the uh passing in
+n60Dn0UsbEk,5606.199,5.201,functions one we can do a swap one so
+n60Dn0UsbEk,5608.44,5.64,basically we can do swap so here I can
+n60Dn0UsbEk,5611.4,6.44,say public static void meain integer
+n60Dn0UsbEk,5614.08,6.44,array is equal to new integer or I can
+n60Dn0UsbEk,5617.84,8.879,just add directly I can
+n60Dn0UsbEk,5620.52,8.88,say 1 3 23 9 18 random numbers I can
+n60Dn0UsbEk,5626.719,4.52,create swap it's going to take the array
+n60Dn0UsbEk,5629.4,4.12,it's going to take two indexes let's say
+n60Dn0UsbEk,5631.239,5.201,I take index number one as one index
+n60Dn0UsbEk,5633.52,6.8,number two as
+n60Dn0UsbEk,5636.44,3.88,three okay what does swap
+n60Dn0UsbEk,5640.76,5.52,do does not return anything it will just
+n60Dn0UsbEk,5643.159,6.841,swap so here I will pass the array here
+n60Dn0UsbEk,5646.28,6.359,I will pass the index number index one
+n60Dn0UsbEk,5650.0,5.28,here I will pass index two the idea is
+n60Dn0UsbEk,5652.639,4.441,just to swap this swap the indexes at
+n60Dn0UsbEk,5655.28,5.2,these two places we already know the
+n60Dn0UsbEk,5657.08,5.0,code for swap temp is equal to array of
+n60Dn0UsbEk,5660.48,3.679,index
+n60Dn0UsbEk,5662.08,5.76,one array of this is something we have
+n60Dn0UsbEk,5664.159,6.08,done many times already array of index 2
+n60Dn0UsbEk,5667.84,5.0,array of index 2 is equal to array of
+n60Dn0UsbEk,5670.239,5.361,index sorry
+n60Dn0UsbEk,5672.84,4.839,temp very simple stuff now if I try to
+n60Dn0UsbEk,5675.6,4.68,print this array it will be swapped what
+n60Dn0UsbEk,5677.679,3.56,is it very simple nothing nothing in
+n60Dn0UsbEk,5680.28,3.64,this
+n60Dn0UsbEk,5681.239,3.92,question very simple question literally
+n60Dn0UsbEk,5683.92,4.6,nothing in this
+n60Dn0UsbEk,5685.159,5.121,question one and three will be swapped
+n60Dn0UsbEk,5688.52,3.52,one 9 comes over here three goes over
+n60Dn0UsbEk,5690.28,3.8,here index number one and index number
+n60Dn0UsbEk,5692.04,3.36,three is swapped if you want to the
+n60Dn0UsbEk,5694.08,3.48,first two
+n60Dn0UsbEk,5695.4,4.56,indexes 0 and
+n60Dn0UsbEk,5697.56,4.84,1 or the zero and the last index
+n60Dn0UsbEk,5699.96,5.52,basically let's say four 18 will come
+n60Dn0UsbEk,5702.4,5.279,here one will go at the last what is it
+n60Dn0UsbEk,5705.48,4.04,nothing we already talked about this
+n60Dn0UsbEk,5707.679,5.281,over here passing in functions same
+n60Dn0UsbEk,5709.52,5.08,thing is happening over here nothing
+n60Dn0UsbEk,5712.96,4.759,new
+n60Dn0UsbEk,5714.6,4.639,okay very simple stuff you can do
+n60Dn0UsbEk,5717.719,4.361,another import another simple question
+n60Dn0UsbEk,5719.239,6.121,like maximum item
+n60Dn0UsbEk,5722.08,6.48,okay public starting void
+n60Dn0UsbEk,5725.36,4.839,meain you can say integer I can just
+n60Dn0UsbEk,5728.56,4.4,copy paste from
+n60Dn0UsbEk,5730.199,5.561,here I'll just copy paste from here
+n60Dn0UsbEk,5732.96,7.279,basically find the maximum item in this
+n60Dn0UsbEk,5735.76,8.6,so I can say print the maximum
+n60Dn0UsbEk,5740.239,6.48,item in ARR let's create a function for
+n60Dn0UsbEk,5744.36,4.879,this so it's just going to return the
+n60Dn0UsbEk,5746.719,5.121,integer value of the maximum item how am
+n60Dn0UsbEk,5749.239,5.041,I going to print the maximum item let's
+n60Dn0UsbEk,5751.84,6.16,say I just assume that
+n60Dn0UsbEk,5754.28,6.0,um if we have 132 and9 let's say we take
+n60Dn0UsbEk,5758.0,6.84,it uh you know let's say we do
+n60Dn0UsbEk,5760.28,4.56,the code for this over
+n60Dn0UsbEk,5764.88,9.359,here so we have something like 13 4 and
+n60Dn0UsbEk,5768.04,7.88,1 13 we have 1 comma 3A 23 comma 9A 8 I
+n60Dn0UsbEk,5774.239,4.201,can just iterate upon this array I can
+n60Dn0UsbEk,5775.92,4.719,just go one by one I can say let's say I
+n60Dn0UsbEk,5778.44,4.4,assume that this is the maximum
+n60Dn0UsbEk,5780.639,4.281,item let's say I assume this is the
+n60Dn0UsbEk,5782.84,4.04,maximum item let's say I say maximum
+n60Dn0UsbEk,5784.92,3.36,item I assume is the first element then
+n60Dn0UsbEk,5786.88,2.64,it will compare with the next element is
+n60Dn0UsbEk,5788.28,3.0,three greater than one it's going to be
+n60Dn0UsbEk,5789.52,4.04,like yes it is update the maximum item
+n60Dn0UsbEk,5791.28,4.12,to three then the next element is 23
+n60Dn0UsbEk,5793.56,5.079,greater than 3 yes update the maximum
+n60Dn0UsbEk,5795.4,5.68,item to 23 is 9 greater than 23 no it's
+n60Dn0UsbEk,5798.639,5.281,not move forward is 18 greater than 23
+n60Dn0UsbEk,5801.08,5.0,no it's not move forward end of the loop
+n60Dn0UsbEk,5803.92,4.6,23 is your answer is there anything in
+n60Dn0UsbEk,5806.08,4.44,this question there is nothing in this
+n60Dn0UsbEk,5808.52,4.0,question another question can be find
+n60Dn0UsbEk,5810.52,4.32,the maximum item in the
+n60Dn0UsbEk,5812.52,4.88,range so basically here I'm running the
+n60Dn0UsbEk,5814.84,4.72,loop from zero to last if I'm asking
+n60Dn0UsbEk,5817.4,3.88,what is the maximum item between index
+n60Dn0UsbEk,5819.56,3.079,number one and three then I'm just going
+n60Dn0UsbEk,5821.28,2.16,to run the loop from index number one
+n60Dn0UsbEk,5822.639,5.56,and
+n60Dn0UsbEk,5823.44,7.56,three very simple let's try it
+n60Dn0UsbEk,5828.199,5.361,out let us try this
+n60Dn0UsbEk,5831.0,4.84,out first let's try to find the maximum
+n60Dn0UsbEk,5833.56,5.8,item overall so I can say something like
+n60Dn0UsbEk,5835.84,7.359,uh from 0 till last for I is equal to 0
+n60Dn0UsbEk,5839.36,6.08,I is less than uh array do length I ++ I
+n60Dn0UsbEk,5843.199,6.281,can say let's assume that the maximum
+n60Dn0UsbEk,5845.44,8.96,item is equal to ARR of zero okay I here
+n60Dn0UsbEk,5849.48,6.56,I say imagine that array is not empty
+n60Dn0UsbEk,5854.4,5.52,okay if it is empty you can do something
+n60Dn0UsbEk,5856.04,6.76,like uh integer do Min value or Max Min
+n60Dn0UsbEk,5859.92,4.48,value here okay so you can take some
+n60Dn0UsbEk,5862.8,3.24,random value basically and compare that
+n60Dn0UsbEk,5864.4,3.56,with it let's say I'm taking the first
+n60Dn0UsbEk,5866.04,6.44,element then I'm checking it from the
+n60Dn0UsbEk,5867.96,6.08,other elements I'm saying hey if um max
+n60Dn0UsbEk,5872.48,3.119,value
+n60Dn0UsbEk,5874.04,5.44,if the current value if the current
+n60Dn0UsbEk,5875.599,7.281,value array of I is greater than the max
+n60Dn0UsbEk,5879.48,5.759,value then my max value is equal to
+n60Dn0UsbEk,5882.88,5.6,array of I in the end I just return the
+n60Dn0UsbEk,5885.239,7.721,max value what is it is there anything
+n60Dn0UsbEk,5888.48,4.48,in this question it should return me
+n60Dn0UsbEk,5894.52,7.56,23 23 let's say I want to get a maximum
+n60Dn0UsbEk,5899.04,4.639,value in a Range so I want it in a Range
+n60Dn0UsbEk,5902.08,4.24,then I can create another function I can
+n60Dn0UsbEk,5903.679,5.201,just copy this I can create another
+n60Dn0UsbEk,5906.32,2.56,function
+n60Dn0UsbEk,5909.0,5.04,max range I can pass the range over here
+n60Dn0UsbEk,5911.96,4.44,int start and int
+n60Dn0UsbEk,5914.04,5.36,end now basically I'm going to say
+n60Dn0UsbEk,5916.4,5.759,assume that the start one is no and then
+n60Dn0UsbEk,5919.4,5.04,you can say start from the
+n60Dn0UsbEk,5922.159,6.0,start go till the
+n60Dn0UsbEk,5924.44,6.159,end nothing new that is it don't even
+n60Dn0UsbEk,5928.159,5.52,have to run this it's very simple if I
+n60Dn0UsbEk,5930.599,5.881,try to run this you can say Max Max max
+n60Dn0UsbEk,5933.679,6.721,range from let's
+n60Dn0UsbEk,5936.48,7.4,say index number one till index number
+n60Dn0UsbEk,5940.4,3.48,three it should give me
+n60Dn0UsbEk,5945.76,3.0,23
+n60Dn0UsbEk,5949.679,3.92,23 if I had two over here then it should
+n60Dn0UsbEk,5952.119,3.6,give me
+n60Dn0UsbEk,5953.599,3.961,nine between this and this which is the
+n60Dn0UsbEk,5955.719,3.841,largest number nine so it's giving me
+n60Dn0UsbEk,5957.56,3.599,nine okay work with the edge cases
+n60Dn0UsbEk,5959.56,3.4,yourself like when the array is null or
+n60Dn0UsbEk,5961.159,2.721,empty or whatever you can just add a if
+n60Dn0UsbEk,5962.96,1.8,condition for that
+n60Dn0UsbEk,5963.88,5.319,for
+n60Dn0UsbEk,5964.76,9.64,yourself work on edge cases
+n60Dn0UsbEk,5969.199,6.48,here like array being null or whatever
+n60Dn0UsbEk,5974.4,3.799,okay so for example some edge cases you
+n60Dn0UsbEk,5975.679,6.601,can add over here is if end is greater
+n60Dn0UsbEk,5978.199,6.161,than start so here you can just say
+n60Dn0UsbEk,5982.28,5.359,return minus
+n60Dn0UsbEk,5984.36,7.48,one okay then you can say something like
+n60Dn0UsbEk,5987.639,7.361,uh if AR RR is equal to equal to
+n60Dn0UsbEk,5991.84,6.6,null return minus one something like
+n60Dn0UsbEk,5995.0,6.32,that edge cases basically here you can
+n60Dn0UsbEk,5998.44,6.239,say if the array is empty so you can say
+n60Dn0UsbEk,6001.32,6.0,if ar. length is equal to equal to zero
+n60Dn0UsbEk,6004.679,4.52,if the array is empty just say return
+n60Dn0UsbEk,6007.32,4.64,minus
+n60Dn0UsbEk,6009.199,3.601,one very simple adding the edge cases
+n60Dn0UsbEk,6011.96,3.719,over
+n60Dn0UsbEk,6012.8,4.879,here okay okay now using the swap
+n60Dn0UsbEk,6015.679,3.601,function that we made we can actually
+n60Dn0UsbEk,6017.679,3.601,make uh we can actually reverse the
+n60Dn0UsbEk,6019.28,6.04,array now for example if I want to
+n60Dn0UsbEk,6021.28,4.04,reverse this array okay so I can say
+n60Dn0UsbEk,6025.4,6.239,static void reverse this array I'll just
+n60Dn0UsbEk,6028.92,5.08,pass an array over
+n60Dn0UsbEk,6031.639,4.04,here now I want to reverse this array
+n60Dn0UsbEk,6034.0,3.0,how can we do this we are going to use
+n60Dn0UsbEk,6035.679,3.0,this swap function so basically what
+n60Dn0UsbEk,6037.0,4.44,we're going to do is we're going to have
+n60Dn0UsbEk,6038.679,4.56,a start and end okay and we are just
+n60Dn0UsbEk,6041.44,2.96,going to swap these two let's see how we
+n60Dn0UsbEk,6043.239,3.44,are going to do
+n60Dn0UsbEk,6044.4,4.52,this so if you if basically you want to
+n60Dn0UsbEk,6046.679,3.681,reverse an array so how can you do it so
+n60Dn0UsbEk,6048.92,6.44,if you have this array only if you have
+n60Dn0UsbEk,6050.36,8.48,something like 1 3 23 9 and 18 have a
+n60Dn0UsbEk,6055.36,5.759,start here and end here swap these two
+n60Dn0UsbEk,6058.84,5.759,then move start ahead by one end below
+n60Dn0UsbEk,6061.119,6.681,by one swap these two move start
+n60Dn0UsbEk,6064.599,4.881,here end here swap these only so this is
+n60Dn0UsbEk,6067.8,3.399,just a single element it will be swapped
+n60Dn0UsbEk,6069.48,6.36,if you take an odd number of elements
+n60Dn0UsbEk,6071.199,7.801,like 1 2 5 9 7 sorry even number of
+n60Dn0UsbEk,6075.84,6.2,elements 8 or whatever start here end
+n60Dn0UsbEk,6079.0,5.52,here swap these two numbers after that
+n60Dn0UsbEk,6082.04,4.4,it will be like 8 comma one start will
+n60Dn0UsbEk,6084.52,4.079,come here end will come over here swap
+n60Dn0UsbEk,6086.44,4.159,these two numbers s will come over here
+n60Dn0UsbEk,6088.599,4.281,two will come over here start will come
+n60Dn0UsbEk,6090.599,4.08,over here end will come over here so it
+n60Dn0UsbEk,6092.88,4.799,will be like swap these two numbers so
+n60Dn0UsbEk,6094.679,4.48,this will be 9 and five end will come
+n60Dn0UsbEk,6097.679,3.401,over here start will come over here
+n60Dn0UsbEk,6099.159,4.201,basically just decrementing end by one
+n60Dn0UsbEk,6101.08,6.039,incrementing start by one our Loop will
+n60Dn0UsbEk,6103.36,6.12,end when start becomes greater than
+n60Dn0UsbEk,6107.119,4.08,end now you can't swap it because start
+n60Dn0UsbEk,6109.48,3.48,is now greater than end and obviously
+n60Dn0UsbEk,6111.199,2.561,this is done this is my answer reverse
+n60Dn0UsbEk,6112.96,4.239,of the
+n60Dn0UsbEk,6113.76,7.32,array very simple stuff oh notice you
+n60Dn0UsbEk,6117.199,8.321,were not able to see so let me just
+n60Dn0UsbEk,6121.08,7.44,uh here reversing the array starting
+n60Dn0UsbEk,6125.52,6.199,ending swapping start + one end minus
+n60Dn0UsbEk,6128.52,5.44,one swap start + one end minus one swap
+n60Dn0UsbEk,6131.719,5.121,start + one end minus one start becomes
+n60Dn0UsbEk,6133.96,4.56,greater than end Loop over okay let's
+n60Dn0UsbEk,6136.84,3.68,try to code this okay so here I can
+n60Dn0UsbEk,6138.52,7.0,maybe take my start and end Al so I can
+n60Dn0UsbEk,6140.52,6.92,say in start is going to be equal to 0
+n60Dn0UsbEk,6145.52,5.84,in end is going to be equal to what
+n60Dn0UsbEk,6147.44,7.239,array dot length for example but uh
+n60Dn0UsbEk,6151.36,6.12,since here we are taking the uh you know
+n60Dn0UsbEk,6154.679,4.201,uh index value so array do length will
+n60Dn0UsbEk,6157.48,3.4,give me index out of bound what is the
+n60Dn0UsbEk,6158.88,3.48,last index going to be of end what is
+n60Dn0UsbEk,6160.88,2.719,the end index going to be in the array
+n60Dn0UsbEk,6162.36,2.96,it's actually going to be array length
+n60Dn0UsbEk,6163.599,3.56,minus one if the length of the array is
+n60Dn0UsbEk,6165.32,3.56,five last index is four that is what
+n60Dn0UsbEk,6167.159,3.881,we're doing over here what is the
+n60Dn0UsbEk,6168.88,7.279,condition for our while loop breaking
+n60Dn0UsbEk,6171.04,7.32,while start is actually less than and
+n60Dn0UsbEk,6176.159,5.881,swap so basically I can just call the
+n60Dn0UsbEk,6178.36,6.839,swap swap function I can say array index
+n60Dn0UsbEk,6182.04,6.28,one is start and end just swap these two
+n60Dn0UsbEk,6185.199,6.0,then just do start Plus+ and end minus
+n60Dn0UsbEk,6188.32,6.96,minus with the code that we wrote uh we
+n60Dn0UsbEk,6191.199,6.761,can see that this this works both for um
+n60Dn0UsbEk,6195.28,6.2,you know even number arrays and odd
+n60Dn0UsbEk,6197.96,8.279,number arrays as well let's try this
+n60Dn0UsbEk,6201.48,4.759,out let's say we do do something like
+n60Dn0UsbEk,6207.239,7.681,uh sorry not s I'm just going to say
+n60Dn0UsbEk,6211.36,5.92,reverse my array now when I print this
+n60Dn0UsbEk,6214.92,2.36,it should be
+n60Dn0UsbEk,6218.599,3.921,reversed so it's starting from the first
+n60Dn0UsbEk,6220.84,6.24,one then from the second see it's
+n60Dn0UsbEk,6222.52,6.159,reverse 18923 31 18923 31 I add even
+n60Dn0UsbEk,6227.08,4.599,number of elements that will also be
+n60Dn0UsbEk,6228.679,3.0,reversed
+n60Dn0UsbEk,6233.239,6.96,56 18 9 23 31 this is known as two-
+n60Dn0UsbEk,6237.719,4.241,pointer method we using two pointers
+n60Dn0UsbEk,6240.199,3.361,right pointer one over here pointer two
+n60Dn0UsbEk,6241.96,2.6,over here this was just an introduction
+n60Dn0UsbEk,6243.56,2.639,if you check out the link in the
+n60Dn0UsbEk,6244.56,3.72,description of the syllabus we have two
+n60Dn0UsbEk,6246.199,3.601,pointer methods separately we will doing
+n60Dn0UsbEk,6248.28,4.12,much more easy to you know lead code
+n60Dn0UsbEk,6249.8,4.48,hard level questions in such uh
+n60Dn0UsbEk,6252.4,4.839,particular patterns shortly in this
+n60Dn0UsbEk,6254.28,4.48,particular segment only of the arrays
+n60Dn0UsbEk,6257.239,3.841,let's look into what we are going to do
+n60Dn0UsbEk,6258.76,3.919,next in the future videos so I believe
+n60Dn0UsbEk,6261.08,3.68,that was it for this uh session we did
+n60Dn0UsbEk,6262.679,3.801,some like basic stuff we mostly focused
+n60Dn0UsbEk,6264.76,4.16,on like the theory part we did all the
+n60Dn0UsbEk,6266.48,4.159,examples and everything we saw now the
+n60Dn0UsbEk,6268.92,3.56,next thing is we're going to be doing
+n60Dn0UsbEk,6270.639,3.361,some questions in a separate session
+n60Dn0UsbEk,6272.48,3.88,that session will be Pro purely
+n60Dn0UsbEk,6274.0,5.04,dedicated to questions only rotation of
+n60Dn0UsbEk,6276.36,5.56,an array you know uh Armstrong of an
+n60Dn0UsbEk,6279.04,4.079,array like uh palindromic array and uh
+n60Dn0UsbEk,6281.92,3.679,then we'll do some other questions
+n60Dn0UsbEk,6283.119,4.641,related to sliding window two pointer
+n60Dn0UsbEk,6285.599,3.881,we'll do so many questions in a separate
+n60Dn0UsbEk,6287.76,3.6,session just because it's easier for you
+n60Dn0UsbEk,6289.48,3.84,to manage for example in the future if
+n60Dn0UsbEk,6291.36,3.56,you want to learn about the theory of it
+n60Dn0UsbEk,6293.32,3.0,you can watch this session if you want
+n60Dn0UsbEk,6294.92,2.96,to practice some question you can watch
+n60Dn0UsbEk,6296.32,3.359,the question session I think this is a
+n60Dn0UsbEk,6297.88,3.52,very nice format that we are going to
+n60Dn0UsbEk,6299.679,2.881,follow so in the next session we are
+n60Dn0UsbEk,6301.4,3.12,going to be learning about sorting
+n60Dn0UsbEk,6302.56,3.32,techniques and we we going to be reading
+n60Dn0UsbEk,6304.52,3.04,so many questions related to sorting
+n60Dn0UsbEk,6305.88,3.52,techniques and we'll be doing a separate
+n60Dn0UsbEk,6307.56,3.48,session after the Sorting techniques
+n60Dn0UsbEk,6309.4,3.719,which is called we'll be doing sorting
+n60Dn0UsbEk,6311.04,3.72,and searching after this and algorithms
+n60Dn0UsbEk,6313.119,3.361,based on that after that we'll be doing
+n60Dn0UsbEk,6314.76,4.8,questions on like arrays questions on
+n60Dn0UsbEk,6316.48,4.32,searching questions on sorting and uh
+n60Dn0UsbEk,6319.56,2.76,questions on searching and sorting we'll
+n60Dn0UsbEk,6320.8,2.839,be doing in the searching and sorting
+n60Dn0UsbEk,6322.32,3.16,sessions only
+n60Dn0UsbEk,6323.639,3.321,um but the questions on the arrays and
+n60Dn0UsbEk,6325.48,3.52,the questions on like more arrays like
+n60Dn0UsbEk,6326.96,5.36,patterns like sliding window two-pointer
+n60Dn0UsbEk,6329.0,5.36,method um using multiple for loops and
+n60Dn0UsbEk,6332.32,3.96,other questions related to you know your
+n60Dn0UsbEk,6334.36,3.4,sub array questions all of those we'll
+n60Dn0UsbEk,6336.28,3.919,be doing as well in this particular
+n60Dn0UsbEk,6337.76,3.32,module of arrays only thanks a lot for
+n60Dn0UsbEk,6340.199,2.121,watching make sure you like share and
+n60Dn0UsbEk,6341.08,2.84,subscribe and check out the links in the
+n60Dn0UsbEk,6342.32,5.48,description and I will see you in the
+n60Dn0UsbEk,6343.92,3.88,next one bye
+n60Dn0UsbEk,6350.92,2.96,[Music]
