@@ -1,3 +1,4 @@
+
 # SmartDoc: AI-Powered Contextual Knowledge Assistant
 
 A Streamlit application that uses RAG (Retrieval-Augmented Generation) to answer questions about YouTube video transcripts, comments, and uploaded documents (PDF, TXT, CSV, MD).
@@ -34,3 +35,5 @@ Or use the explicit Python path:
 ```bash
 & C:\Users\Suveer\Desktop\Smart_Doc\.venv\Scripts\python.exe -m streamlit run app.py
 ```
+# SmartDoc
+
